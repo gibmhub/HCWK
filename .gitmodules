@@ -1,0 +1,6 @@
+[submodule "VIWebFramework"]
+	path = VIWebFramework
+	url = https://github.com/knly/VIWebFramework
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twbs/bootstrap
