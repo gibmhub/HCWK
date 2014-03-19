@@ -10,9 +10,8 @@
 			<?=$pagemap->main_title.' | '.$current_page->title?>
 		</title>
 	
-	
   		<!-- Stylesheets -->
-  		<link rel="stylesheet" href="<?=$pagemap->root_url?>style/style.min.css" type="text/css" />
+  		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,69 +20,62 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	    
+	    <!-- jQuery -->
+	    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+		
+	    <!-- Bootstrap Plugins :: Include all compiled plugins (below), or include individual files as needed :: //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js -->
+	    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 		<!-- Countdown -->
-		<!--<link rel="stylesheet" href="<?=$pagemap->root_url?>jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />
-		<script type="text/javascript" src="<?=$pagemap->root_url?>jQuery-Countdown/countdown/jquery.countdown.js"></script>-->
+		<link rel="stylesheet" href="js/jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />
+		<script type="text/javascript" src="js/jQuery-Countdown/countdown/jquery.countdown.js"></script>
+		<script type="text/javascript" src="js/min/custom-ck.js"></script>
 
-  </head>
-  <body>    
+	</head>
+	<body>
 
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+	<div id="brand">
+	
+		<div class="brand-constrained-wrapper">
+			<p id="brand-constrained-left">grenz</p>
+		</div>
+
+		<div id="brand-head">
+			26. Heidelberger Symposium <strong>//</strong> 8.–10. Mai 2014
+		</div>
+
+		<div class="brand-constrained-wrapper">
+			<p id="brand-constrained-right">zenlos</p>
+		</div>
+
+	</div>
+
+	<nav id="mainnav" role="navigation">
+			
+		<div id="toggle-wrapper">
+			
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-wrapper">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+		</div>
+		
+        <div id="navbar-wrapper" class="collapse navbar-collapse">
+			<?php
+				echo $main_navi->htmlRepresentation('navbar', $pagemap, False);
+			?>
+		</div>
+		
+	</nav>
+
+    <div id="main">
+        <div id="sidebar">
+    		<?php
+        		include('sidebar.php');
+    		?>
         </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <?php
-    					foreach ($main_navi->allElements() as $page) {
-    						echo '<li class="';
-    						if ($pagemap->isCurrentPage($page)) {
-    							echo 'active';
-    						}
-    						if (count($page->childPages)>0) {
-    							echo ' dropdown';
-    						}
-    						echo '"><a';
-    						if (count($page->childPages)>0) {
-    							echo ' class="dropdown-toggle" data-toggle="dropdown"';
-    						}
-    						echo ' href="'.$pagemap->getUrlForPage($page).'">'.$page->title;
-    						if (count($page->childPages)>0) {
-    						  echo ' <b class="caret"></b>';
-    						}
-    						echo '</a>';
-    						if (count($page->childPages)>0) {
-        						echo '<ul class="dropdown-menu">';
-        						foreach ($page->childPages as $child) {
-            						echo '<li';
-            						if ($pagemap->isCurrentPage($child)) {
-            							echo ' class="active"';
-            						}
-            						echo '><a href="'.$pagemap->getUrlForPage($child).'">'.$child->title.'</a></li>';
-            					}
-            					echo '</ul>';
-            				}
-    						
-    						echo '</li>';
-    					}
-    				?>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-      
-      
-    <div class="container-fluid">
-      <div class="wrapper">
-        <div class="sidebar"></div>
-        <div class="main">
+        <div id="content">
+			<h1><?=$current_page->title?></h1>

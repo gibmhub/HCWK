@@ -4,3 +4,9 @@
 [submodule "bootstrap"]
 	path = bootstrap
 	url = https://github.com/twbs/bootstrap
+[submodule "components/bootstrap"]
+	path = components/bootstrap
+	url = https://github.com/twbs/bootstrap
+[submodule "js/jQuery-Countdown"]
+	path = js/jQuery-Countdown
+	url = https://github.com/martinaglv/jQuery-Countdown

@@ -1,0 +1,151 @@
+/*
+	Compile with less:
+	$ lessc -x less/style.less > css/style.css
+*/
+
+
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@import "variables.less";
+@import "countdown.less";
+
+
+h1, h2, h3, h4, h5, h6 {
+//	font-family: @font-family-brand;
+	background-color: @color-highlight;
+	color: @color-brand;
+	font-weight: normal;
+	padding: 15px;
+}
+
+strong, .strong {
+	color: @color-highlight;
+}
+
+p {
+	.text-justify;
+}
+
+
+#brand {
+
+	.make-row();
+
+	@brand-height: 100px;
+
+	line-height: @brand-height;
+
+	background-color: @color-brand;
+	color: white;
+		
+	.brand-constrained-wrapper {
+		.make-sm-column(3);
+		height: @brand-height;
+		font-family: @font-family-brand;
+		font-size: 60px;
+		background-color: black;
+		color: @color-brand;
+		position: relative;
+		overflow: hidden;
+		#brand-constrained-left {
+			position: absolute;			
+			right: -19px;
+		}
+		#brand-constrained-right {
+			position: absolute;			
+			left: -19px;
+		}
+	}
+
+	#brand-head {
+		.make-sm-column(6);
+		text-align: center;
+//		background-image: repeating-linear-gradient(-45deg, white 0px, white 1px, transparent 1px, transparent 50px, white 50px);
+//		font-size: @brand-height;
+//		height: @brand-height;
+	}
+
+}
+
+
+#mainnav {	
+	#toggle-wrapper {
+		
+		.container-fluid;
+		
+		button.navbar-toggle {
+			background-color: white;
+			.icon-bar {
+				background-color: black;
+			}
+		}
+		
+	}	
+	
+	#navbar-wrapper {		
+		padding: 0;
+		
+		.navbar {
+			.nav;
+			.navbar-nav;
+			.nav-justified;
+			
+			border: none;
+			border-radius: 0;
+			margin: 0;
+
+			background-color: white;
+
+			a {
+				color: black;
+			
+				&:hover, &:focus, &:active {
+					color: @color-brand;
+					background-color: white !important;
+				}
+			}
+		}
+	}
+	
+}
+
+
+#main {
+	
+	.container-fluid;
+	clear: both;
+	
+	#sidebar {
+		
+		.make-sm-column(3);
+
+		#brand-logo {
+			width: 100%;
+			background-image: url('../Resources/Design/logo.png');
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			background-color: inherit;
+			color: inherit;
+		}
+		
+	}
+
+	#content {
+		
+		.make-sm-column(9);
+		
+	}
+	
+}
+
+
+#footer {
+	
+	.container-fluid;
+	
+	
+	
+}

@@ -1,0 +1,30 @@
+#countdown {
+    &.countdownHolder {
+    	width: 100%;
+    	margin: 0 auto;
+    	font: inherit;
+    }
+    .digit {
+    	background-color: inherit;
+    	border: none;
+    	color: inherit;
+    }
+    .digit.static{
+    	box-shadow: none;
+    	background-image: none;
+    }
+    .countDiv:before {
+    	background-color: inherit;
+    	border: none;
+    	box-shadow: none;
+    	content:':';
+    	top: 0;
+    }
+    .countDiv:after {
+        display: none;
+    }
+
+    .countSeconds, .countDiv2 {
+        display: none;
+    }
+}
