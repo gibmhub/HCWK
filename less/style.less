@@ -26,15 +26,16 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-//	font-family: @font-family-brand;
+	font-family: @font-family-brand;
 /*	background-color: @color-highlight;
 	color: @color-brand;
 	font-weight: normal;
 	padding: 15px;*/
+//	color: black;
 }
 h1, h2 {
 	&:before {
-		.bars-pseudo();		
+//		.bars-pseudo();		
 	}
 }
 
@@ -99,6 +100,33 @@ p {
 
 
 #mainnav {
+
+	background-color: black;
+	color: @color-brand;
+
+	#brand-constrained-right {
+		.pull-right;
+	}
+	#brand-constrained-left {
+		.pull-left;
+	}
+	.brand-constrained-wrapper {
+		width: 200px;
+		height: @navbar-height;
+		font-family: @font-family-brand;
+		font-size: 60px;
+		line-height: @navbar-height*0.9;
+		position: relative;
+		overflow: hidden;
+		#brand-constrained-inner-right {
+			position: absolute;			
+			right: -19px;
+		}
+		#brand-constrained-inner-left {
+			position: absolute;			
+			left: -19px;
+		}
+	}
 	
 	#toggle-wrapper {
 		
@@ -119,20 +147,17 @@ p {
 		.navbar {
 			.nav;
 			.navbar-nav;
-			.nav-justified;
+			.navbar-static-top;
+//			.nav-justified;
 			
 			border: none;
-			border-radius: 0;
-			margin: 0;
-
-			background-color: white;
 
 			a {
-				color: black;
-				.text-center;
+				color: @color-brand;
+//				.text-center;;
 			}
 			a:hover, a:focus, a:active, .active > a {
-				color: @color-brand;
+				color: black;
 				background-color: white !important;
 			}
 
@@ -142,6 +167,7 @@ p {
 			.dropdown-menu {
 			    margin-top: 0px;
 				width: 100%;
+				min-width: 0;
 				border: none;
 				border-radius: 0;
 				box-shadow: none;
@@ -182,19 +208,7 @@ p {
 	#content {
 		
 		.make-sm-column(9);
-		
-		p {
-/*			&:after {
-				.bars-pseudo();
-				display: block;
-				.text-center;
-			}*/
-		}
-		
-		a:before, a:after {
-			.bars-pseudo();
-		}
-		
+
 	}
 	
 }
