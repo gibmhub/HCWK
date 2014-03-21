@@ -1856,11 +1856,187 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/content\/home.php": {
+	"\/content\/content_archiv.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/content\/home.php",
+		"inputAbbreviatedPath": "\/content\/content_archiv.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_designwettbewerb.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_designwettbewerb.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_hcwk.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_hcwk.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_home.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_home.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_impressum.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_impressum.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_kontakt.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_kontakt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_kuratoren.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_kuratoren.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_mitmachen.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_mitmachen.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_placeholder.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_placeholder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_programm.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_programm.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_referenten.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_referenten.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_schirmherr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_schirmherr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_spenden.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_spenden.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_symposium.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_symposium.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_team.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_team.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_tickets.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_tickets.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_uebernachten.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_uebernachten.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/content_veranstaltungsort.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/content_veranstaltungsort.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/data_news_items.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/data_news_items.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/data_referenten.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/data_referenten.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/data_sponsoren.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/data_sponsoren.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/data_team.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/data_team.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/data_vortraege.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/data_vortraege.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},

@@ -1,0 +1,2 @@
+<h2>Finanzielle Unterstützung bieten</h2>
+<p>Zur Verwirklichung des Symposiums sind wir als gemeinnütziger Verein auf finanzielle Unterstützung angewiesen, um die durch die Veranstaltung anfallenden Kosten von etwa 38.000 € zu decken. Als anerkanntem gemeinnützigen Verein ist es dem HCWK möglich, Spendenbescheinigungen auszustellen. Ferner können wir als Dank für die Unterstützung verschiedene Möglichkeiten zur publikumswirksamen Präsentation anbieten. Für <a href="mailto:info@hcwk.de">Rückfragen</a> stehen wir Ihnen gerne zur Verfügung.</p>

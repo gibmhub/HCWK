@@ -16,9 +16,6 @@
 </div>
 
 <?php
-    
-    echo '<h3>Tage bis zum Symposium</h3>';
-    echo '<div id="countdown"></div>';
 
 	if (!in_array('submenu', $sidebar_exclude, false)) {
     	if (count($current_page->childPages)>0) {
@@ -27,7 +24,7 @@
         	$parentPage = $current_page->parentPage;
     	}
     	if (isset($parentPage)&&count($parentPage->childPages)>0) {
-            echo '<h2>'.$parentPage->title.'</h2>';
+            echo '<h3>'.$parentPage->title.'</h3>';
     		echo '<ul class="submenu text" id="'.$page->id.'">';
     		foreach ($parentPage->childPages as $child) {
     			echo '<li class="page_item';
@@ -41,7 +38,7 @@
 	}
 	
 	if (!in_array('news', $sidebar_exclude, false)) {
-        include_once('../web/news_items.php');
+        include_once('content/data_news_items.php');
 
         echo '<h3>Aktuell</h3>';
         echo '<ul id="sidebar_news" class="text">';
@@ -73,8 +70,8 @@
 
 	if (false&&!in_array('rnd_referent', $sidebar_exclude, false)) {
 
-	    include_once('data_referenten.php');
-	    include_once('data_vortraege.php');
+	    include_once('content/data_referenten.php');
+	    include_once('content/data_vortraege.php');
 	    $referenten = Referent::allReferenten();
 	    $referent = $referenten[array_rand($referenten)];
 

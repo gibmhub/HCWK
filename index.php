@@ -11,7 +11,7 @@
 
 	require('header.php');
 
-	require('../web/content_'.$current_page->file);
+	include('content/content_'.$current_page->file);
 
 	require('footer.php');    
 

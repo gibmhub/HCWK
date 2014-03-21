@@ -34,21 +34,21 @@
 	</head>
 	<body>
 
-	<div id="brand">
+	<div id="brand-wrapper"><div id="brand">
 	
 		<div class="brand-constrained-wrapper">
-			<p id="brand-constrained-left">grenz</p>
+			<div id="brand-constrained-left">zenlos</div>
 		</div>
 
 		<div id="brand-head">
-			26. Heidelberger Symposium <strong>//</strong> 8.–10. Mai 2014
+			26. Heidelberger Symposium <span class="bars">//</span> 8.–10. Mai 2014</br><div id="countdown-wrapper"><div id="countdown"></div></div>
 		</div>
 
 		<div class="brand-constrained-wrapper">
-			<p id="brand-constrained-right">zenlos</p>
+			<p id="brand-constrained-right">grenz</p>
 		</div>
 
-	</div>
+	</div></div>
 
 	<nav id="mainnav" role="navigation">
 			
