@@ -1,14 +1,33 @@
 @color-brand:			#009FEE;
 @brand-primary:         @color-brand;
-@color-text:			white;
-@color-highlight:		black;
 
-@body-bg:               @color-brand;
+@body-bg:               white;
 
-@text-color:            @color-text;
-@link-color:            @color-text;
+@text-color:            black;
+@link-color:            black;
 
 @font-family-brand:		Futura;
 @font-family-base:		Didot;
 
-@navbar-height:			80px;
+@navbar-height:			60px;
+
+.colors-dark() {
+	@color-bg: black;
+	@color-text: @color-brand;
+	@color-highlight: white;
+}
+.colors-dark-inverted() {
+	@color-bg: @color-brand;
+	@color-text: black;
+	@color-highlight: white;
+}
+.colors-light() {
+	@color-bg: white;
+	@color-text: black;
+	@color-highlight: @color-brand;
+}
+.colors-brand() {
+	@color-bg: @color-brand;
+	@color-text: white;
+	@color-highlight: black;
+}

@@ -7,11 +7,11 @@
     
     $current_page = $pagemap->currentPage();
         
-    //$pagemap->checkURL();
+//    $pagemap->checkURL();
 
 	require('header.php');
 
-	include('content/content_'.$current_page->file);
+	include('content/'.$current_page->file);
 
 	require('footer.php');    
 

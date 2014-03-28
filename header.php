@@ -11,7 +11,7 @@
 		</title>
 	
   		<!-- Stylesheets -->
-  		<link rel="stylesheet" href="css/style.css" type="text/css" />
+  		<link rel="stylesheet" href="/css/style.css" type="text/css" />
 
 	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,54 +21,74 @@
 	    <![endif]-->
 	    
 	    <!-- jQuery -->
-	    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+	    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 		
 	    <!-- Bootstrap Plugins :: Include all compiled plugins (below), or include individual files as needed :: //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js -->
-	    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <!-- jqBootstrapValidation -->
+	    <script src="/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
 
 		<!-- Countdown -->
-		<link rel="stylesheet" href="js/jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />
-		<script type="text/javascript" src="js/jQuery-Countdown/countdown/jquery.countdown.js"></script>
-		<script type="text/javascript" src="js/min/custom-ck.js"></script>
+		<link rel="stylesheet" href="/js/jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />
+		<script type="text/javascript" src="/js/jQuery-Countdown/countdown/jquery.countdown.js"></script>
+		
+		<!-- Google Analytics -->
+		<script>
+	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	        ga('create', 'UA-45791086-1', 'heidelberger-symposium.de');
+	        ga('send', 'pageview');
+	    </script>
+
+		
+		<!-- Custom -->
+		<script type="text/javascript" src="/js/min/custom-ck.js"></script>
 
 	</head>
+	
+	<?php
+		if (isset($current_page->options['noframe'])&&$current_page->options['noframe']==true) {
+	?>
+	
 	<body>
-
-	<nav id="mainnav" role="navigation">
-			
-		<div id="toggle-wrapper">
-			
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-wrapper">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			
+		<div id="banner">	
+			<div class="container-fluid"><div class="row">
+				<div class="hand hand-left"></div>
+				<div class="logo"></div>
+				<div class="hand hand-right"></div>
+			</div></div>
 		</div>
 
-		<div id="brand-constrained-left" class="brand-constrained-wrapper">
-			<div id="brand-constrained-inner-left">zenlos</div>
-		</div>
-
-		<div id="brand-constrained-right" class="brand-constrained-wrapper">
-			<p id="brand-constrained-inner-right">grenz</p>
-		</div>
-
+	<?php
+			include('mainnav.php');			
+	?>
+		<div id="main">
+			
+	<?php
+	
+		} else {
+			
+			echo '<body class="mainnav-shift">';
 		
-        <div id="navbar-wrapper" class="collapse navbar-collapse">
-			<?php
-				echo $main_navi->htmlRepresentation('navbar', $pagemap, False);
-			?>
-		</div>
-		
-	</nav>
-
-    <div id="main">
-        <div id="sidebar">
-    		<?php
-        		include('sidebar.php');
-    		?>
-        </div>
-        <div id="content">
-			<h1><?=$current_page->title?></h1>
+			include('mainnav.php');
+	?>
+	
+		    <div id="main">
+		    	<div class="row">
+			    	<div id="sidebar">
+			    		<?php
+			    			include('sidebar.php');
+			    		?>
+			    	</div>
+			        <div class="content sidebar-complement">
+			        	<?php
+			        		if ($current_page->options['hide_title']!=true) {
+				        		echo '<h1>'.$current_page->title.'</h1>';
+			        		}
+			        	?>
+					
+	<?php
+		}
+	?>

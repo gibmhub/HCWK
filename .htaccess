@@ -2,17 +2,19 @@ Order Allow,Deny
 Allow from all
 Deny from none
 
-#ErrorDocument 404 http://www.heidelberger-symposium.de/404
+ErrorDocument 404 http://www.heidelberger-symposium.de/404
 
-RewriteEngine Off
-RewriteBase /
+RewriteEngine On
 
-RewriteCond %{HTTP_HOST} !^www.heidelberger-symposium.de$ [NC]
-RewriteRule ^(.*) http://www.heidelberger-symposium.de/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^www.heidelberger-symposium.de$ [NC]
+#RewriteRule ^(.*) http://www.heidelberger-symposium.de/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} -f
 #RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule  .?  -  [S=2]
+RewriteRule  .?  -  [S=2,L]
 
+RewriteRule ^referent/([a-z0-9-]+)/?$ referenten/#$1 [QSA,NC,L]
+RewriteRule ^vortrag/([a-z0-9-]+)/?$ index.php?p=vortrag&id=$1 [QSA,NC,L]
+RewriteRule ^news/([a-z0-9-]+)/?$ index.php?p=news-item&id=$1 [QSA,NC,L]
 RewriteRule ^([a-z0-9-]+)/?$ index.php?p=$1 [QSA,NC,L]
 RewriteRule ^(.*) index.php [QSA,L]
