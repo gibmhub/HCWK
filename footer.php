@@ -59,7 +59,7 @@
 			</div>
 					
 			<div id="copyright">
-				&copy; 2013 HCWK | <a href="<?=$pagemap->getUrlForPage($pagemap->pageWithID('impressum'))?>"><?=$pagemap->pageWithID('impressum')->title?></a>
+				&copy; 2013 HCWK | <a href="/impressum">Impressum</a>
 			</div>
 		</div>
 	</div>

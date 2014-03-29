@@ -1,6 +1,6 @@
 <?php
 	
-	require_once('data/data_structures.php');
+	require_once('data/data-structures.php');
 
 	/*
 	$vortrag = Vortrag::get('__vortrag_id__');

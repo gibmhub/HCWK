@@ -12,7 +12,7 @@
 	
 		<div class="col-sm-4">
 			<?php
-		        include_once('data/news_items.php');
+		        include_once('data/news-items.php');
 
 		        echo '<h3><a href="/news">Aktuell</a></h3>';
 		        echo $news_manager->getNewsBox(5);

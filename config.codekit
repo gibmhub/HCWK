@@ -2269,15 +2269,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/content\/content_splash.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/content\/content_splash.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/content\/grenzenlos.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2458,20 +2449,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/data\/data_structures.php": {
+	"\/data\/data-structures.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/data_structures.php",
+		"inputAbbreviatedPath": "\/data\/data-structures.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/data\/news_items.php": {
+	"\/data\/news-items.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/news_items.php",
+		"inputAbbreviatedPath": "\/data\/news-items.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2539,159 +2530,126 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/Content\/22symposium.png": {
+	"\/img\/brand\/hand-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18479,
+		"inputAbbreviatedPath": "\/img\/brand\/hand-left.png",
+		"outputAbbreviatedPath": "\/img\/brand\/hand-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brand\/hand-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23627,
+		"inputAbbreviatedPath": "\/img\/brand\/hand-right.png",
+		"outputAbbreviatedPath": "\/img\/brand\/hand-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brand\/logo-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156190,
+		"inputAbbreviatedPath": "\/img\/brand\/logo-dark.png",
+		"outputAbbreviatedPath": "\/img\/brand\/logo-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brand\/logo-light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156190,
+		"inputAbbreviatedPath": "\/img\/brand\/logo-light.png",
+		"outputAbbreviatedPath": "\/img\/brand\/logo-light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content\/22symposium.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 221602,
-		"inputAbbreviatedPath": "\/img\/Content\/22symposium.png",
-		"outputAbbreviatedPath": "\/img\/Content\/22symposium.png",
+		"inputAbbreviatedPath": "\/img\/content\/22symposium.png",
+		"outputAbbreviatedPath": "\/img\/content\/22symposium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/23Symposium.png": {
+	"\/img\/content\/23Symposium.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20782,
-		"inputAbbreviatedPath": "\/img\/Content\/23Symposium.png",
-		"outputAbbreviatedPath": "\/img\/Content\/23Symposium.png",
+		"inputAbbreviatedPath": "\/img\/content\/23Symposium.png",
+		"outputAbbreviatedPath": "\/img\/content\/23Symposium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/24Symposium.png": {
+	"\/img\/content\/24Symposium.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 187082,
-		"inputAbbreviatedPath": "\/img\/Content\/24Symposium.png",
-		"outputAbbreviatedPath": "\/img\/Content\/24Symposium.png",
+		"inputAbbreviatedPath": "\/img\/content\/24Symposium.png",
+		"outputAbbreviatedPath": "\/img\/content\/24Symposium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/25Symposium.png": {
+	"\/img\/content\/25Symposium.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 152640,
-		"inputAbbreviatedPath": "\/img\/Content\/25Symposium.png",
-		"outputAbbreviatedPath": "\/img\/Content\/25Symposium.png",
+		"inputAbbreviatedPath": "\/img\/content\/25Symposium.png",
+		"outputAbbreviatedPath": "\/img\/content\/25Symposium.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/plasberg.png": {
+	"\/img\/content\/plasberg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 377356,
-		"inputAbbreviatedPath": "\/img\/Content\/plasberg.png",
-		"outputAbbreviatedPath": "\/img\/Content\/plasberg.png",
+		"inputAbbreviatedPath": "\/img\/content\/plasberg.png",
+		"outputAbbreviatedPath": "\/img\/content\/plasberg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/Preisverleihung.jpg": {
+	"\/img\/content\/Preisverleihung.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 78820,
-		"inputAbbreviatedPath": "\/img\/Content\/Preisverleihung.jpg",
-		"outputAbbreviatedPath": "\/img\/Content\/Preisverleihung.jpg",
+		"inputAbbreviatedPath": "\/img\/content\/Preisverleihung.jpg",
+		"outputAbbreviatedPath": "\/img\/content\/Preisverleihung.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Content\/team.png": {
+	"\/img\/content\/team.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 727027,
-		"inputAbbreviatedPath": "\/img\/Content\/team.png",
-		"outputAbbreviatedPath": "\/img\/Content\/team.png",
+		"inputAbbreviatedPath": "\/img\/content\/team.png",
+		"outputAbbreviatedPath": "\/img\/content\/team.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/header\/bg_designer_transparency.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6744,
-		"inputAbbreviatedPath": "\/img\/header\/bg_designer_transparency.png",
-		"outputAbbreviatedPath": "\/img\/header\/bg_designer_transparency.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/header\/hcwk_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18508,
-		"inputAbbreviatedPath": "\/img\/header\/hcwk_logo.png",
-		"outputAbbreviatedPath": "\/img\/header\/hcwk_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/header\/team.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 468503,
-		"inputAbbreviatedPath": "\/img\/header\/team.jpg",
-		"outputAbbreviatedPath": "\/img\/header\/team.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/news\/Ernst_Messerschmid.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75662,
-		"inputAbbreviatedPath": "\/img\/news\/Ernst_Messerschmid.png",
-		"outputAbbreviatedPath": "\/img\/news\/Ernst_Messerschmid.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/news\/Franziska_Brantner.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77682,
-		"inputAbbreviatedPath": "\/img\/news\/Franziska_Brantner.png",
-		"outputAbbreviatedPath": "\/img\/news\/Franziska_Brantner.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/news\/joerg_armbruster.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59448,
-		"inputAbbreviatedPath": "\/img\/news\/joerg_armbruster.jpg",
-		"outputAbbreviatedPath": "\/img\/news\/joerg_armbruster.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/news\/samuel_koch.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48479,
-		"inputAbbreviatedPath": "\/img\/news\/samuel_koch.jpg",
-		"outputAbbreviatedPath": "\/img\/news\/samuel_koch.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/aloisserwaty.jpg": {
 		"fileType": 16384,
@@ -2702,7 +2660,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/aloisserwaty.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/beatekohler.jpg": {
 		"fileType": 16384,
@@ -2713,7 +2671,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/beatekohler.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/birgitkelle.jpg": {
 		"fileType": 16384,
@@ -2724,7 +2682,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/birgitkelle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/dennishebbelmann.jpg": {
 		"fileType": 16384,
@@ -2735,7 +2693,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/dennishebbelmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/ernstmesserschmid.jpg": {
 		"fileType": 16384,
@@ -2746,7 +2704,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/ernstmesserschmid.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/ernstuhrlau.jpg": {
 		"fileType": 16384,
@@ -2757,7 +2715,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/ernstuhrlau.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/frankaugustin.jpg": {
 		"fileType": 16384,
@@ -2768,7 +2726,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/frankaugustin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/franziskabrantner.jpg": {
 		"fileType": 16384,
@@ -2779,7 +2737,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/franziskabrantner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/gerrithohendorf.jpg": {
 		"fileType": 16384,
@@ -2790,7 +2748,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/gerrithohendorf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/ingorollwagen.jpg": {
 		"fileType": 16384,
@@ -2801,7 +2759,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/ingorollwagen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/joergarmbruster.jpg": {
 		"fileType": 16384,
@@ -2812,7 +2770,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/joergarmbruster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/monikaebeling.jpg": {
 		"fileType": 16384,
@@ -2823,7 +2781,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/monikaebeling.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/paulkirchhof.jpg": {
 		"fileType": 16384,
@@ -2834,7 +2792,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/paulkirchhof.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/petermartin.jpg": {
 		"fileType": 16384,
@@ -2845,7 +2803,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/petermartin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/rainerbeckmann.jpg": {
 		"fileType": 16384,
@@ -2856,7 +2814,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/rainerbeckmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/ralfboent.jpg": {
 		"fileType": 16384,
@@ -2867,7 +2825,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/ralfboent.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/samuelkoch.jpg": {
 		"fileType": 16384,
@@ -2878,7 +2836,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/samuelkoch.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/wolfgangputz.jpg": {
 		"fileType": 16384,
@@ -2889,7 +2847,7 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/wolfgangputz.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/referenten\/wolfschuenemann.jpg": {
 		"fileType": 16384,
@@ -2900,128 +2858,95 @@
 		"outputAbbreviatedPath": "\/img\/referenten\/wolfschuenemann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Resources\/hcwk_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17449,
-		"inputAbbreviatedPath": "\/img\/Resources\/hcwk_logo.png",
-		"outputAbbreviatedPath": "\/img\/Resources\/hcwk_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/Resources\/plasberg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9.11778e+06,
-		"inputAbbreviatedPath": "\/img\/Resources\/plasberg.png",
-		"outputAbbreviatedPath": "\/img\/Resources\/plasberg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/Resources\/team.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.23574e+07,
-		"inputAbbreviatedPath": "\/img\/Resources\/team.png",
-		"outputAbbreviatedPath": "\/img\/Resources\/team.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/Sponsoren\/Logo_BASF.jpg": {
+	"\/img\/sponsoren\/Logo_BASF.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24429,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_BASF.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_BASF.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_BASF.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_BASF.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Curacon.jpg": {
+	"\/img\/sponsoren\/Logo_Curacon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 422522,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Curacon.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Curacon.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Curacon.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Curacon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Esser_Stiftung.png": {
+	"\/img\/sponsoren\/Logo_Esser_Stiftung.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20523,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Esser_Stiftung.png",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Esser_Stiftung.png",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Esser_Stiftung.png",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Esser_Stiftung.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Esser_Stiftung_pre.jpg": {
+	"\/img\/sponsoren\/Logo_Esser_Stiftung_pre.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 128453,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Esser_Stiftung_pre.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Esser_Stiftung_pre.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Esser_Stiftung_pre.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Esser_Stiftung_pre.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Freudenberg.jpg": {
+	"\/img\/sponsoren\/Logo_Freudenberg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 752802,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Freudenberg.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Freudenberg.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Freudenberg.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Freudenberg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg": {
+	"\/img\/sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47556,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Hans_Boeckler_Stiftung.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Heidelberger_Volksbank.jpg": {
+	"\/img\/sponsoren\/Logo_Heidelberger_Volksbank.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 139519,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Heidelberger_Volksbank.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Heidelberger_Volksbank.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Heidelberger_Volksbank.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Heidelberger_Volksbank.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/Sponsoren\/Logo_Henkel.jpg": {
+	"\/img\/sponsoren\/Logo_Henkel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 83580,
-		"inputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Henkel.jpg",
-		"outputAbbreviatedPath": "\/img\/Sponsoren\/Logo_Henkel.jpg",
+		"inputAbbreviatedPath": "\/img\/sponsoren\/Logo_Henkel.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsoren\/Logo_Henkel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Amelie_Räpple.jpg": {
 		"fileType": 16384,
@@ -3032,7 +2957,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Amelie_Räpple.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Angelika_mandzel.jpg": {
 		"fileType": 16384,
@@ -3043,7 +2968,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Angelika_mandzel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Anna_Carthaus.jpg": {
 		"fileType": 16384,
@@ -3054,7 +2979,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Anna_Carthaus.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Anna_Parrisius.jpg": {
 		"fileType": 16384,
@@ -3065,7 +2990,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Anna_Parrisius.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Annabell_Engel.jpg": {
 		"fileType": 16384,
@@ -3076,7 +3001,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Annabell_Engel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Benita Stalmann.jpg": {
 		"fileType": 16384,
@@ -3087,7 +3012,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Benita Stalmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Christina_Schmidt.jpg": {
 		"fileType": 16384,
@@ -3098,7 +3023,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Christina_Schmidt.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Claudius_Gottschalk.jpg": {
 		"fileType": 16384,
@@ -3109,7 +3034,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Claudius_Gottschalk.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/David_McLaren.jpg": {
 		"fileType": 16384,
@@ -3120,7 +3045,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/David_McLaren.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Derya_Sahin.jpg": {
 		"fileType": 16384,
@@ -3131,7 +3056,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Derya_Sahin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Elisabeth_von_Bock.jpg": {
 		"fileType": 16384,
@@ -3142,7 +3067,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Elisabeth_von_Bock.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Felicitas_Eichhorn.jpg": {
 		"fileType": 16384,
@@ -3153,7 +3078,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Felicitas_Eichhorn.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Felicitas_von_Dombois.jpg": {
 		"fileType": 16384,
@@ -3164,7 +3089,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Felicitas_von_Dombois.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Florian_Daase.jpg": {
 		"fileType": 16384,
@@ -3175,7 +3100,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Florian_Daase.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Jacinta_Marqués_Berger.jpg": {
 		"fileType": 16384,
@@ -3186,7 +3111,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Jacinta_Marqués_Berger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Jann_Goschenhofer.jpg": {
 		"fileType": 16384,
@@ -3197,7 +3122,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Jann_Goschenhofer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Jonas_Ott.jpg": {
 		"fileType": 16384,
@@ -3208,7 +3133,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Jonas_Ott.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Julia_Folz.jpg": {
 		"fileType": 16384,
@@ -3219,7 +3144,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Julia_Folz.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Juliane_Hoheisel.jpg": {
 		"fileType": 16384,
@@ -3230,7 +3155,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Juliane_Hoheisel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Kamila_Ishchanova.jpg": {
 		"fileType": 16384,
@@ -3241,7 +3166,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Kamila_Ishchanova.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Katharina_Richter-Koch.jpg": {
 		"fileType": 16384,
@@ -3252,7 +3177,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Katharina_Richter-Koch.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Kristina_Langemack.jpg": {
 		"fileType": 16384,
@@ -3263,7 +3188,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Kristina_Langemack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Lara_Bartels.jpg": {
 		"fileType": 16384,
@@ -3274,7 +3199,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Lara_Bartels.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Max_schroeder.jpg": {
 		"fileType": 16384,
@@ -3285,7 +3210,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Max_schroeder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Michael_Gaier.jpg": {
 		"fileType": 16384,
@@ -3296,7 +3221,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Michael_Gaier.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/miriam_pfister.jpg": {
 		"fileType": 16384,
@@ -3307,7 +3232,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/miriam_pfister.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Nicolas_Rost.jpg": {
 		"fileType": 16384,
@@ -3318,7 +3243,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Nicolas_Rost.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Paul_Morawski.jpg": {
 		"fileType": 16384,
@@ -3329,7 +3254,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Paul_Morawski.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team\/Paula_Körner.jpg": {
 		"fileType": 16384,
@@ -3340,7 +3265,7 @@
 		"outputAbbreviatedPath": "\/img\/team\/Paula_Körner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -3495,6 +3420,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Resources\/Content\/plasberg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.11778e+06,
+		"inputAbbreviatedPath": "\/Resources\/Content\/plasberg.png",
+		"outputAbbreviatedPath": "\/Resources\/Content\/plasberg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Resources\/Content\/team.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.23574e+07,
+		"inputAbbreviatedPath": "\/Resources\/Content\/team.png",
+		"outputAbbreviatedPath": "\/Resources\/Content\/team.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Resources\/Design\/banner.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3528,6 +3475,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Resources\/Design\/hcwk_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17449,
+		"inputAbbreviatedPath": "\/Resources\/Design\/hcwk_logo.png",
+		"outputAbbreviatedPath": "\/Resources\/Design\/hcwk_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Resources\/Design\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3547,28 +3505,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/VIWebFramework\/jQuery\/jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/VIWebFramework\/jQuery\/jquery.min.js",
-		"outputAbbreviatedPath": "\/VIWebFramework\/jQuery\/min\/jquery.min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/VIWebFramework\/LESS\/less.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/VIWebFramework\/LESS\/less.min.js",
-		"outputAbbreviatedPath": "\/VIWebFramework\/LESS\/min\/less.min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/VIWebFramework\/README.md": {
 		"enableFootnoteSupport": 0,

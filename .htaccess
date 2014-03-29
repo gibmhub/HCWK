@@ -2,12 +2,12 @@ Order Allow,Deny
 Allow from all
 Deny from none
 
-ErrorDocument 404 http://www.heidelberger-symposium.de/404
+ErrorDocument 404 http://hcwk.viwid.com/404
 
 RewriteEngine On
 
-#RewriteCond %{HTTP_HOST} !^www.heidelberger-symposium.de$ [NC]
-#RewriteRule ^(.*) http://www.heidelberger-symposium.de/$1 [R=301,L]
+#RewriteCond %{HTTP_HOST} !^hcwk.viwid.com$ [NC]
+#RewriteRule ^(.*) http://hcwk.viwid.com/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} -f
 #RewriteCond %{REQUEST_FILENAME} -d

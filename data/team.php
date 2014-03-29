@@ -1,6 +1,6 @@
 <?php
 
-include_once('data/data_structures.php');
+include_once('data/data-structures.php');
 
 $personen = array();
 
@@ -55,14 +55,14 @@ $personen[] = $person;
 
 $person = new Person();
 $person->name = 'Claudius Gottschalk';
-$person->bild = 'claudius_gottschalk.jpg';
+$person->bild = 'Claudius_Gottschalk.jpg';
 $person->fach = 'Humanmedizin';
 $person->extra = '"Wie siehst du bei einer Grenzkontrolle aus?"';
 $personen[] = $person;
 
 $person = new Person();
 $person->name = 'David McLaren';
-$person->bild = 'david_mclaren.jpg';
+$person->bild = 'David_McLaren.jpg';
 $person->fach = 'Volkswirtschaftslehre';
 $person->extra = '"Was machst Du, wenn das Symposium erfolgreich über die Bühne gebracht wurde?"';
 $personen[] = $person;
@@ -76,21 +76,21 @@ $personen[] = $person;
 
 $person = new Person();
 $person->name = 'Max Schröder';
-$person->bild = 'max_schroeder.jpg';
+$person->bild = 'Max_Schroeder.jpg';
 $person->fach = 'Mathematik';
 $person->extra = '"Was ist deine persöhnliche Grenzen?"';
 $personen[] = $person;
 
 $person = new Person();
 $person->name = 'Miriam Pfister';
-$person->bild = 'miriam_pfister.jpg';
+$person->bild = 'Miriam_Pfister.jpg';
 $person->fach = 'Psychologie';
 $person->extra = '"Was machst Du, wenn das Symposium erfolgreich über die Bühne gebracht wurde?"';
 $personen[] = $person;
 
 $person = new Person();
 $person->name = 'Angelika Mandzel';
-$person->bild = 'angelika_mandzel.jpg';
+$person->bild = 'Angelika_Mandzel.jpg';
 $person->fach = 'Rechtswissenschaften';
 $person->extra = '"Jemand hat mal wieder seine Aufgabe nicht erledigt?"';
 $personen[] = $person;
@@ -188,7 +188,7 @@ $personen[] = $person;
 
 $person = new Person();
 $person->name = 'Amelie Räpple';
-$person->bild = 'Amelie_Räpple.jpg';
+$person->bild = 'Amelie_Raepple.jpg';
 $person->fach = 'Rechtswissenschaften';
 $person->extra = '"Wo wir bei körperlichen Grenzen sind, wie hoch kannst du springen?"';
 $personen[] = $person;

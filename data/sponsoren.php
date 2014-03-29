@@ -1,6 +1,6 @@
 <?php
 
-include_once('data/data_structures.php');
+include_once('data/data-structures.php');
 
 $sponsoren = array();
 

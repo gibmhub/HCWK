@@ -1,5 +1,5 @@
 <?php
-    include_once('data/news_items.php');
+    include_once('data/news-items.php');
 
     foreach ($news_manager->allItems() as $item) {
 ?>

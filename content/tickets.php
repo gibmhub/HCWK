@@ -1,1 +1,1 @@
-<p>Momentan sind leider noch keine Tickets zu erwerben. Bitte schauen Sie später noch einmal vorbei.</p>
+<p>Momentan sind noch keine Tickets zu erwerben. Bitte schauen Sie später noch einmal vorbei.</p>

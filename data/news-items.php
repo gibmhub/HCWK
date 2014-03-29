@@ -80,7 +80,7 @@ Nahtoderfahrung e.V. begrüßen zu dürfen.</p>'.Referent::get('aloisserwaty')->
 	Aus diesem Grund freuen wir uns ganz besonders die nächsten Referenten für das kommende Symposium bekannt geben zu dürfen.
 	So dürfen wir uns zum einen auf einen sehr spannenden Vortrag des mit dem "Goldenen Kompass" prämierten Autors Samuel Koch zum Thema "Körperliche Grenzen" freuen.</p>'.Referent::get('samuelkoch')->getReferentBox().'
 	<p>Darüber hinaus freuen wir uns sehr, dass Jörg Armbruster am 26. Symposium teilnehmen wird. Der bekannte Journalist wird sich an der Diskussion zum Thema "Grenzen des Völkerrechts" beteiligen</p>'.Referent::get('joergarmbruster')->getReferentBox().'
-	<p>Außerdem möchten wir nochmal darauf hinweisen, dass der Einsendeschluss des <a href="'.$pagemap->getUrlForPage($pagemap->pageWithID('designwettbewerb')).'">Heidelberger Kunst- und Kulturpreises</a> auf den 14.02.2014 verlängert wurde. Also legt euch noch einmal ins Zeug!</p>
+	<p>Außerdem möchten wir nochmal darauf hinweisen, dass der Einsendeschluss des Heidelberger Kunst- und Kulturpreises auf den 14.02.2014 verlängert wurde. Also legt euch noch einmal ins Zeug!</p>
 	<p>Euer Orga-Team 2014</p>
 	';
 	$news_manager->addItem($current_item);
@@ -101,7 +101,7 @@ Nahtoderfahrung e.V. begrüßen zu dürfen.</p>'.Referent::get('aloisserwaty')->
 	$current_item->setDateFromString('09-01-2014');
 	$current_item->setTitle('Erste Referentenzusagen');
 		$current_item->content='
-	<p>Nach langer Vorbereitung freuen wir uns sehr neben unserem diesjährigen <a href="'.$pagemap->getUrlForPage($pagemap->pageWithID('schirmherr')).'"> Schirmherren</a> Frank Plasberg weitere Referenten für das 26. Heidelberger Symposium bekannt geben zu dürfen.</p>
+	<p>Nach langer Vorbereitung freuen wir uns sehr neben unserem diesjährigen <a href="/schirmherr">Schirmherren</a> Frank Plasberg weitere Referenten für das 26. Heidelberger Symposium bekannt geben zu dürfen.</p>
 	<p style="overflow:hidden">So konnten wir die Sozialwissenschaftlerin und Bundestagsabgeordnete Dr. Franziska Brantner für das Symposium gewinnen, die an einer Diskussion zum Thema "Europäische Union" teilnehmen wird.</p>'.Referent::get('franziskabrantner')->getReferentBox().'
 	<p>Desweiteren freuen wir uns sehr mit Prof. Dr. Dr. Ernst Messerschmid einen der ersten deutschen Astronauten beim Symposium begrüßen zu dürfen. Als einer der führenden Wissenschaftler auf dem Gebiet der Astronautik und ehemaliger Leiter des Europäischen Astronautenzentrums der ESA wird er in seinem Vortrag sowohl von seinen eigenen Erfahrungen im All berichten, als auch Einblicke in aktuelle Forschungsgebiete und die mittel- bzw. langfristigen Ziele der Raumfahrt bieten.</p>'.Referent::get('ernstmesserschmid')->getReferentBox().'
 	<p>Weitere Referenten werden in den kommenden Wochen folgen!</p>';

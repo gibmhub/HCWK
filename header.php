@@ -84,7 +84,7 @@
 			    	</div>
 			        <div class="content sidebar-complement">
 			        	<?php
-			        		if ($current_page->options['hide_title']!=true) {
+			        		if (!(isset($current_page->options['hide_title'])&&$current_page->options['hide_title'])) {
 				        		echo '<h1>'.$current_page->title.'</h1>';
 			        		}
 			        	?>

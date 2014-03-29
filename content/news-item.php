@@ -1,5 +1,5 @@
 <?php
-	include_once('data/news_items.php');
+	include_once('data/news-items.php');
 
 	$item = $news_manager->getItem($_GET['id']);
 	

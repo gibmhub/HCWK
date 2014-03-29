@@ -110,7 +110,7 @@ class Vortrag {
 	}
 
 	public function tableItem() {
-		$referentenLinks = [];
+		$referentenLinks = array();
 		foreach ($this->referenten as $referent) {
 			$referentenLinks[] = '<a href="/referent/'.$referent->getID().'">'.$referent->name.'</a>';
 		}
