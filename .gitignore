@@ -1,5 +1,9 @@
 # Resources
 Resources/
 
+# CodeKit
+config.codekit
+.codekit-cache
+
 # Components
 bower_components/
