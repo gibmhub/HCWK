@@ -46,7 +46,7 @@
 				</div>
 				
 				<div id="kontakt">
-					<h3>Kontakt</h3>
+					<h3><a href="/kontakt">Kontakt</a></h3>
 					<address>
 					  <b>Heidelberger Club für Wirtschaft und Kultur</b><br>
 					  Luisenstraße 3<br>
@@ -54,6 +54,8 @@
 					  <abbr title="Telefon">T:</abbr> 06221 / 70 71 90<br>
 					  <a href="mailto:info@hcwk.de"><abbr title="Email">@:</abbr> info@hcwk.de</a>
 					</address>
+					<p>Pressematerial finden sie hier:<br>
+					<a href="/presse">Presse</a></p>
 				</div>
 
 			</div>

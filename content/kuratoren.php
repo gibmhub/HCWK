@@ -1,84 +1,93 @@
+<?php
+
+	
+	// TODO:
+	// $kuratoren = array()
+	// $kuratoren[] = array('name' => 'Prof. Dr. Jean-Christophe Ammann', 'desc' => 'Ehem. Direktor des Museums für Moderne Kunst, Frankfurt a. M.');
+
+?>
+
 <p>Als Kuratoren unterstützen den Heidelberg Club für Wirtschaft und Kultur e.V.:</p>
 
-<ul class="text">
+<dl>
 
-<li class="head">Prof. Dr. Jean-Christophe Ammann</li>
+<dt>Prof. Dr. Jean-Christophe Ammann</dt>
 
-<li class="desc">Ehem. Direktor des Museums für Moderne Kunst, Frankfurt a. M.</li>
+<dd>Ehem. Direktor des Museums für Moderne Kunst, Frankfurt a. M.</dd>
 
-<li class="head">Prof. Dr. Reinhard Bettzuege</li>
+<dt>Prof. Dr. Reinhard Bettzuege</dt>
 
-<li class="desc">Botschafter a.D., Prof. für Internationale Beziehungen Boston University, Campus Brussels, Universität Bonn, Universität Antwerpen</li>
+<dd>Botschafter a.D., Prof. für Internationale Beziehungen Boston University, Campus Brussels, Universität Bonn, Universität Antwerpen</dd>
 
-<li class="head">Dr. Kurt Bock</li>
+<dt>Dr. Kurt Bock</dt>
 
-<li class="desc">Vorstandsvorsitzender der BASF SE, Ludwigshafen</li>
+<dd>Vorstandsvorsitzender der BASF SE, Ludwigshafen</dd>
 
-<li class="head">Dr. Hilmar Dosch</li>
+<dt>Dr. Hilmar Dosch</dt>
 
-<li class="desc">Ehem. Mitglied des Aufsichtsrates, Heidelberger Druckmaschinen AG</li>
+<dd>Ehem. Mitglied des Aufsichtsrates, Heidelberger Druckmaschinen AG</dd>
 
-<li class="head">Prof. Dr. Carl-Heinrich Esser</li>
+<dt>Prof. Dr. Carl-Heinrich Esser</dt>
 
-<li class="desc">Vorstand des Heinrich Vetter Forschungsinstituts e.V., Mannheim, <br />
-	Ehrensenator der Universität Heidelberg</li>
+<dd>Vorstand des Heinrich Vetter Forschungsinstituts e.V., Mannheim, <br />
+	Ehrensenator der Universität Heidelberg</dd>
 
-<li class="head">Andrea Fischer, MdB</li>
+<dt>Andrea Fischer, MdB</dt>
 
-<li class="desc">Bundesgesundheitsministerin a. D., Leitung der Health Care Practise, Pleon Germany</li>
+<dd>Bundesgesundheitsministerin a. D., Leitung der Health Care Practise, Pleon Germany</dd>
 
-<li class="head">Prof. Dr. Alberto Gil</li>
+<dt>Prof. Dr. Alberto Gil</dt>
 
-<li class="desc">Professor für Romanische Übersetzungswissenschaft an der Universität Saarbrücken</li>
+<dd>Professor für Romanische Übersetzungswissenschaft an der Universität Saarbrücken</dd>
 
-<li class="head">Prof. Dr. Dr. h. c. Leonhard Gleske</li>
+<dt>Prof. Dr. Dr. h. c. Leonhard Gleske</dt>
 
-<li class="desc">Mitglied des Direktoriums der Deutschen Bundesbank i. R., Frankfurt a. M.</li>
+<dd>Mitglied des Direktoriums der Deutschen Bundesbank i. R., Frankfurt a. M.</dd>
 
-<li class="head">Peter Hofmann</li>
+<dt>Peter Hofmann</dt>
 
-<li class="desc">Geschäftsführer der Karl Berrang GmbH, Mannheim</li>
+<dd>Geschäftsführer der Karl Berrang GmbH, Mannheim</dd>
 
-<li class="head">Prof. Dr. Dr. h. c. Peter Hommelhoff</li>
+<dt>Prof. Dr. Dr. h. c. Peter Hommelhoff</dt>
 
-<li class="desc">Professor für Rechtswissenschaft sowie ehemaliger Rektor der Universität Heidelberg, Partner der Wirtschaftsprüfungsgesellschafft KPMG, Frankfurt a. M.</li>
+<dd>Professor für Rechtswissenschaft sowie ehemaliger Rektor der Universität Heidelberg, Partner der Wirtschaftsprüfungsgesellschafft KPMG, Frankfurt a. M.</dd>
 
-<li class="head">John C. Kornblum</li>
+<dt>John C. Kornblum</dt>
 
-<li class="desc">Amerikanischer Botschafter a. D., Chairman Lazard &amp; Co. GmbH, Berlin</li>
+<dd>Amerikanischer Botschafter a. D., Chairman Lazard &amp; Co. GmbH, Berlin</dd>
 
-<li class="head">Prof. Dr. Thomas Maissen</li>
+<dt>Prof. Dr. Thomas Maissen</dt>
 
-<li class="desc">Direktor des Deutschen Historischen Instituts in Paris; Lehrstuhl für Neuere Geschichte (Frühe Neuzeit), Historisches Seminar der Universität Heidelberg</li>
+<dd>Direktor des Deutschen Historischen Instituts in Paris; Lehrstuhl für Neuere Geschichte (Frühe Neuzeit), Historisches Seminar der Universität Heidelberg</dd>
 
-<li class="head">Prof. Dr. Dres. h. c. Peter-Christian Müller-Graff</li>
+<dt>Prof. Dr. Dres. h. c. Peter-Christian Müller-Graff</dt>
 
-<li class="desc">Direktor des Instituts für deutsches und europäisches Gesellschafts- und Wirtschaftsrecht der Universität Heidelberg</li>
+<dd>Direktor des Instituts für deutsches und europäisches Gesellschafts- und Wirtschaftsrecht der Universität Heidelberg</dd>
 
-<li class="head">Markwart von Pentz</li>
+<dt>Markwart von Pentz</dt>
 
-<li class="desc">President, Agriculture & Turf Division, Deere & Company European Office, Mannheim</li>
+<dd>President, Agriculture & Turf Division, Deere & Company European Office, Mannheim</dd>
 
-<li class="head">Prof. Dr. Dr. Franz J. Radermacher</li>
+<dt>Prof. Dr. Dr. Franz J. Radermacher</dt>
 
-<li class="desc">Leiter des Forschungsinstituts für anwendungsorientierte Wissensverarbeitung an der Universität Ulm</li>
+<dd>Leiter des Forschungsinstituts für anwendungsorientierte Wissensverarbeitung an der Universität Ulm</dd>
 
-<li class="head">Peter Rippen</li>
+<dt>Peter Rippen</dt>
 
-<li class="desc">Director Strategic Alliances, Endress+Hauser Management AG, Reinach/Schweiz, <br />
-	Mitbegründer des Heidelberger Clubs für Wirtschaft und Kultur e. V.</li>
+<dd>Director Strategic Alliances, Endress+Hauser Management AG, Reinach/Schweiz, <br />
+	Mitbegründer des Heidelberger Clubs für Wirtschaft und Kultur e. V.</dd>
 
-<li class="head">Michael Prinz von Sachsen-Weimar und Eisenach</li>
+<dt>Michael Prinz von Sachsen-Weimar und Eisenach</dt>
 
-<li class="desc">Geschäftsführer der Großherzoglichen Schatullverwaltung GbR, Stiftungsrat der Klassik Stiftung Weimar sowie der Wartburg Stiftung Eisenach, Selbstständiger Unternehmensberater, Mannheim</li>
+<dd>Geschäftsführer der Großherzoglichen Schatullverwaltung GbR, Stiftungsrat der Klassik Stiftung Weimar sowie der Wartburg Stiftung Eisenach, Selbstständiger Unternehmensberater, Mannheim</dd>
 
-<li class="head">Dr. Kersten von Schenck</li>
+<dt>Dr. Kersten von Schenck</dt>
 
-<li class="desc">Rechtsanwalt, Notar und Autor juristischer Fachpublikationen
-</li>
+<dd>Rechtsanwalt, Notar und Autor juristischer Fachpublikationen
+</dd>
 
-<li class="head">Prof. Dr. Jürgen Siebke</li>
+<dt>Prof. Dr. Jürgen Siebke</dt>
 
-<li class="desc">Professor für Volkswirtschaftslehre sowie ehemaliger Rektor der Universität Heidelberg</li>
+<dd>Professor für Volkswirtschaftslehre sowie ehemaliger Rektor der Universität Heidelberg</dd>
 
-</ul>
+</dl>

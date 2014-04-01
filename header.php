@@ -33,6 +33,9 @@
 		<script type="text/javascript" src="/js/jQuery-Countdown/countdown/jquery.countdown.js"></script>
 		
 		<!-- Google Analytics -->
+<?php
+	if ($pagemap->env==VI_ENV_RELEASE) {
+?>
 		<script>
 	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -41,8 +44,10 @@
 	        ga('create', 'UA-45791086-1', 'heidelberger-symposium.de');
 	        ga('send', 'pageview');
 	    </script>
+<?php
+	}
+?>
 
-		
 		<!-- Custom -->
 		<script type="text/javascript" src="/js/min/custom-ck.js"></script>
 

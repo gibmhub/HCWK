@@ -72,6 +72,7 @@ class Vortrag {
 
 	public $title;
 	public $desc;
+	public $raum;
 	protected $referenten = array();	
 
 	static protected $vortraege = array();
@@ -90,7 +91,7 @@ class Vortrag {
 		return self::$vortraege[$id];
 	}
 	
-	public function getVortrag($id) {
+	static public function getVortrag($id) {
 		return self::$vortraege[$id];
 	}
 	

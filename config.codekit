@@ -2260,6 +2260,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/content\/anfahrt.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/anfahrt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/content\/archiv.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2364,6 +2373,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/content\/placeholder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/presse.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/presse.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2530,50 +2548,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/brand\/hand-left.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18479,
-		"inputAbbreviatedPath": "\/img\/brand\/hand-left.png",
-		"outputAbbreviatedPath": "\/img\/brand\/hand-left.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/brand\/hand-right.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23627,
-		"inputAbbreviatedPath": "\/img\/brand\/hand-right.png",
-		"outputAbbreviatedPath": "\/img\/brand\/hand-right.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/brand\/logo-dark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156190,
-		"inputAbbreviatedPath": "\/img\/brand\/logo-dark.png",
-		"outputAbbreviatedPath": "\/img\/brand\/logo-dark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/brand\/logo-light.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156190,
-		"inputAbbreviatedPath": "\/img\/brand\/logo-light.png",
-		"outputAbbreviatedPath": "\/img\/brand\/logo-light.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/content\/22symposium.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2651,6 +2625,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/referenten\/alexanderpschera.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57491,
+		"inputAbbreviatedPath": "\/img\/referenten\/alexanderpschera.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/alexanderpschera.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/referenten\/aloisserwaty.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2661,6 +2646,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/referenten\/ankedomscheitberg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59130,
+		"inputAbbreviatedPath": "\/img\/referenten\/ankedomscheitberg.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/ankedomscheitberg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/referenten\/beatekohler.jpg": {
 		"fileType": 16384,
@@ -2673,6 +2669,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/referenten\/berndwittich.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97126,
+		"inputAbbreviatedPath": "\/img\/referenten\/berndwittich.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/berndwittich.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/referenten\/birgitkelle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2683,6 +2690,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/referenten\/casparclemensmierau.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65297,
+		"inputAbbreviatedPath": "\/img\/referenten\/casparclemensmierau.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/casparclemensmierau.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/christophbangert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63207,
+		"inputAbbreviatedPath": "\/img\/referenten\/christophbangert.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/christophbangert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/dagbaehr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27816,
+		"inputAbbreviatedPath": "\/img\/referenten\/dagbaehr.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/dagbaehr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/referenten\/dennishebbelmann.jpg": {
 		"fileType": 16384,
@@ -2728,6 +2768,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/referenten\/frankplasberg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39276,
+		"inputAbbreviatedPath": "\/img\/referenten\/frankplasberg.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/frankplasberg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/referenten\/franziskabrantner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2750,6 +2801,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/referenten\/hansheinrichnolte.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192366,
+		"inputAbbreviatedPath": "\/img\/referenten\/hansheinrichnolte.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/hansheinrichnolte.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/referenten\/ingorollwagen.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2760,6 +2822,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/referenten\/jasminmittag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554030,
+		"inputAbbreviatedPath": "\/img\/referenten\/jasminmittag.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/jasminmittag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/referenten\/joergarmbruster.jpg": {
 		"fileType": 16384,
@@ -2772,6 +2845,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/referenten\/josefschuster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94445,
+		"inputAbbreviatedPath": "\/img\/referenten\/josefschuster.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/josefschuster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/kevinkuhn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26628,
+		"inputAbbreviatedPath": "\/img\/referenten\/kevinkuhn.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/kevinkuhn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/michaellysanderfremuth .jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45173,
+		"inputAbbreviatedPath": "\/img\/referenten\/michaellysanderfremuth .jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/michaellysanderfremuth .jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/referenten\/monikaebeling.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2782,6 +2888,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/referenten\/nilszurawski.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70880,
+		"inputAbbreviatedPath": "\/img\/referenten\/nilszurawski.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/nilszurawski.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/referenten\/paulkirchhof.jpg": {
 		"fileType": 16384,
@@ -2837,6 +2954,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/referenten\/siegfriedbuchholz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75496,
+		"inputAbbreviatedPath": "\/img\/referenten\/siegfriedbuchholz.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/siegfriedbuchholz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/silkeburmester.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92950,
+		"inputAbbreviatedPath": "\/img\/referenten\/silkeburmester.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/silkeburmester.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/referenten\/tanjakunz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50098,
+		"inputAbbreviatedPath": "\/img\/referenten\/tanjakunz.jpg",
+		"outputAbbreviatedPath": "\/img\/referenten\/tanjakunz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/referenten\/wolfgangputz.jpg": {
 		"fileType": 16384,
@@ -2948,16 +3098,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/team\/Amelie_Räpple.jpg": {
+	"\/img\/team\/Amelie_Raepple.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 39304,
-		"inputAbbreviatedPath": "\/img\/team\/Amelie_Räpple.jpg",
-		"outputAbbreviatedPath": "\/img\/team\/Amelie_Räpple.jpg",
+		"initialSize": 32048,
+		"inputAbbreviatedPath": "\/img\/team\/Amelie_Raepple.jpg",
+		"outputAbbreviatedPath": "\/img\/team\/Amelie_Raepple.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/team\/Angelika_mandzel.jpg": {
 		"fileType": 16384,
@@ -3003,16 +3153,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/team\/Benita Stalmann.jpg": {
+	"\/img\/team\/Benita_Stalmann.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36477,
-		"inputAbbreviatedPath": "\/img\/team\/Benita Stalmann.jpg",
-		"outputAbbreviatedPath": "\/img\/team\/Benita Stalmann.jpg",
+		"initialSize": 29089,
+		"inputAbbreviatedPath": "\/img\/team\/Benita_Stalmann.jpg",
+		"outputAbbreviatedPath": "\/img\/team\/Benita_Stalmann.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/team\/Christina_Schmidt.jpg": {
 		"fileType": 16384,
@@ -3102,16 +3252,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/team\/Jacinta_Marqués_Berger.jpg": {
+	"\/img\/team\/Jacinta_Marques_Berger.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 80694,
-		"inputAbbreviatedPath": "\/img\/team\/Jacinta_Marqués_Berger.jpg",
-		"outputAbbreviatedPath": "\/img\/team\/Jacinta_Marqués_Berger.jpg",
+		"initialSize": 74076,
+		"inputAbbreviatedPath": "\/img\/team\/Jacinta_Marques_Berger.jpg",
+		"outputAbbreviatedPath": "\/img\/team\/Jacinta_Marques_Berger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/team\/Jann_Goschenhofer.jpg": {
 		"fileType": 16384,
@@ -3256,16 +3406,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/team\/Paula_Körner.jpg": {
+	"\/img\/team\/Paula_Koerner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49871,
-		"inputAbbreviatedPath": "\/img\/team\/Paula_Körner.jpg",
-		"outputAbbreviatedPath": "\/img\/team\/Paula_Körner.jpg",
+		"initialSize": 42413,
+		"inputAbbreviatedPath": "\/img\/team\/Paula_Koerner.jpg",
+		"outputAbbreviatedPath": "\/img\/team\/Paula_Koerner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -3442,60 +3592,14 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Resources\/Design\/banner.png": {
-		"fileType": 32768,
+	"\/Resources\/Tickets\/listeTicket.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 56756,
-		"inputAbbreviatedPath": "\/Resources\/Design\/banner.png",
-		"outputAbbreviatedPath": "\/Resources\/Design\/banner.png",
+		"inputAbbreviatedPath": "\/Resources\/Tickets\/listeTicket.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Resources\/Design\/hand-left.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18479,
-		"inputAbbreviatedPath": "\/Resources\/Design\/hand-left.png",
-		"outputAbbreviatedPath": "\/Resources\/Design\/hand-left.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Resources\/Design\/hand-right.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23627,
-		"inputAbbreviatedPath": "\/Resources\/Design\/hand-right.png",
-		"outputAbbreviatedPath": "\/Resources\/Design\/hand-right.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Resources\/Design\/hcwk_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17449,
-		"inputAbbreviatedPath": "\/Resources\/Design\/hcwk_logo.png",
-		"outputAbbreviatedPath": "\/Resources\/Design\/hcwk_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Resources\/Design\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156190,
-		"inputAbbreviatedPath": "\/Resources\/Design\/logo.png",
-		"outputAbbreviatedPath": "\/Resources\/Design\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/sidebar.php": {
 		"fileType": 8192,
@@ -3562,8 +3666,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "web v2",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "HCWK",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_blue"
 	},
 "projectSettings": {

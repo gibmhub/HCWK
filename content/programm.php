@@ -45,9 +45,15 @@
 			</tr>
 			<tr>
 				<th>20.00</th>
-				<td colspan="2">Abendveranstaltungen</td>
-				<td>Abschlussparty</td>
+				<td><?=Vortrag::getVortrag('lesung')->tableItem()?></td>
+				<td><?=Vortrag::getVortrag('theater')->tableItem()?>
+				<td><?=Vortrag::getVortrag('poetryslam')->tableItem()?></td>
 			</tr>
+			<tr>
+				<th>22.00</th>
+				<td></td>
+				<td></td>
+				<td>Abschlussparty</td>
 		</tbody>
 	</table>
 </div>

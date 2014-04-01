@@ -5,6 +5,8 @@
     $pagemap = new VIPagemap();
 	    
     $pagemap->main_title = '26. Heidelberger Symposium';
+#    $pagemap->root_URL = 'www.heidelberger-symposium.de/';
+	$pagemap->env = VI_ENV_DEBUG;
         
     
     // Error Document
@@ -89,7 +91,6 @@
     $current_page = $pagemap->addPageWithID('anfahrt');
     $current_page->title = 'Anfahrt';
     $pagemap->pageWithID('veranstaltungsort')->addChildPage($current_page);
-    $current_page->forward = $pagemap->error_page;
 
     $current_page = $pagemap->addPageWithID('uebernachten');
     $current_page->title = 'Übernachten';
@@ -116,6 +117,10 @@
 
     $current_page = $pagemap->addPageWithID('kontakt');
     $current_page->title = 'Kontakt';
+    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+
+    $current_page = $pagemap->addPageWithID('presse');
+    $current_page->title = 'Presse';
     $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
 
     $current_page = $pagemap->addPageWithID('archiv');
