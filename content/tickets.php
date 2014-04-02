@@ -19,43 +19,75 @@
 		</div>
 	</div>
 	
+</form>
+
 	<div class="row">
 	
-		<div class="col-sm-6">
+		<div class="col-sm-5">
 			
 			<p>Haben Sie bereits ein Ticket? Dann geben Sie bitte hier Ihren Ticket-Code ein.</p>
 			
-			<div class="form-group control-group">		
-				<div class="col-xs-12 controls">
-		    		<input id="tickets-code" type="number" class="form-control validate-registrierung" placeholder="Ticket-Code" required data-validation-required-message="Bitte geben Sie Ihren Ticket-Code ein" data-validation-number-message="Bitte geben Sie einen gültigen Ticket-Code ein" minlength="6" maxlength="6" data-validation-maxlength-message="Bitte geben Sie einen gültigen Ticket-Code ein" data-validation-minlength-message="Bitte geben Sie einen gültigen Ticket-Code ein">
+			<form id="registrierung-form">
+				<div class="form-group control-group">		
+					<div class="controls">
+			    		<input id="tickets-code" type="text" class="form-control validate-registrierung" placeholder="Ticket-Code" required data-validation-required-message="Bitte geben Sie Ihren Ticket-Code ein" minlength="6" maxlength="6" data-validation-maxlength-message="Bitte geben Sie einen gültigen Ticket-Code ein" data-validation-minlength-message="Bitte geben Sie einen gültigen Ticket-Code ein">
+					</div>
 				</div>
-			</div>
-
-			<button id="registrierung-submit" type="submit" class="btn btn-primary pull-right">Registrieren!</button>			
+				<button id="registrierung-submit" type="submit" class="btn btn-primary pull-right">Registrieren!</button>
+			</form>		
 		</div>
 		
-		<div class="col-sm-6">
+		<div class="col-sm-7">
 		
-			<p>… oder wählen Sie eine Zahlungsart zum Online-Kauf eines Tickets.</p>
-		
-			<div class="form-group control-group">
-				<div class="col-xs-12 controls">
-					<div class="radio">
-						<label>
-							<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-paypal" value="paypal" required data-validation-required-message="Bitte wählen Sie eine Zahlungsart">
-							Paypal
-						</label>
-					</div>
-					<div class="radio">
-						<label>
-							<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
-							Sofortüberweisung
-						</label>
+			<p>… oder erwerben Sie ein Ticket im Online-Verkauf.</p>
+			<p>Der Preis enthält den <strong>Eintritt zu allen Veranstaltungen</strong> des 26. Heidelberger Symposiums 2014, sowie <strong>Verköstigung und Getränke</strong> während des Symposiums.</p>
+			
+			<form id="ticketverkauf-form">
+				<div class="form-group control-group">
+					<div class="controls">
+						<div class="radio">
+							<label>
+								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced" value="reduced" required data-validation-required-message="Bitte wählen Sie eine Ticketart">
+								Ermäßigt 15€<br>
+								<small>für Schüler, Studenten, Auszubildende und Behinderte</small>
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-normal" value="normal">
+								Normalpreis 30€
+							</label>
+						</div>
 					</div>
 				</div>
+				<div class="form-group control-group">
+					<label for="tickets-zahlungsart" class="control-label">Zahlungsart</label>
+					<div class="controls">
+						<div class="radio">
+							<label>
+								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-paypal" value="paypal" required data-validation-required-message="Bitte wählen Sie eine Zahlungsart">
+								Paypal
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
+								Sofortüberweisung
+							</label>
+						</div>
+					</div>
+				</div>
+				<button id="ticketverkauf-submit" type="submit" class="pull-right btn btn-primary">Weiter zur Bezahlung…</button>
+			</form>
+			<div id="paypal">
+				<script src="/js/paypal/paypal-button.min.js?merchant=YOUR_MERCHANT_ID"
+				    data-button="buynow"
+				    data-name="26. Heidelberger Symposium"
+				    data-amount="1.00"
+				    data-currency="EUR"
+				    data-callback="/ajax/tickets-kaufen.php?zahlungsart=paypal"
+				></script>
 			</div>
-			
-			<button id="ticketverkauf-submit" type="submit" class="pull-right btn btn-primary">Weiter zur Bezahlung…</button>
 
 		</div>
 		

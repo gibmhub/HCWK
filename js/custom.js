@@ -28,11 +28,11 @@ $(function(){
 			// get values from form
 			var name = $("input#tickets-name").val();
 			var email = $("input#tickets-email").val();
-			var code = $("input#tickets-code").val();
+			var ticketcode = $("input#tickets-code").val();
 			$.ajax({
 				url: "/ajax/tickets-registrieren.php",
-				type: "POST",
-				data: {name: name, email: email, code: code},
+				type: "GET",
+				data: {name: name, email: email, ticketcode: ticketcode},
 				cache: false,
 				success: function(data) {
 					if (data=='success') {
@@ -41,9 +41,6 @@ $(function(){
 	 					$('#success > .alert-success').html('<button class="close" type="button" data-dismiss="alert">×').append('</button>');
 	 					$('#success > .alert-success').append('<strong>Vielen Dank! Ihr Ticket wurde registriert.</strong> Sie erhalten in wenigen Minuten eine Email zur Bestätigung. Bitte wenden Sie sich bei Fragen an unseren <a href="/kontakt">Kontakt</a>.');
 	 					$('#success > .alert-success').append('</div>');
-	 
-						//clear all fields
-						$('#tickets-form').trigger("reset");						
 					} else {
 						// Fail message
 						$('#success').html('<div class="alert alert-danger">');
@@ -55,8 +52,6 @@ $(function(){
 						}
 						$('#success > .alert-danger').append('</div>');
 
-				        //clear all fields
-						$('#kontakt-form').trigger("reset");
 					}
 				},
 				error: function(data) {
@@ -64,13 +59,26 @@ $(function(){
 					$('#success').html('<div class="alert alert-danger">');
 					$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
 					$('#success > .alert-danger').append('<strong>Der Server antwortet nicht…</strong> Bitte senden treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
-					$('#success > .alert-danger').append('</div>');
-					 
-			        //clear all fields
-					$('#kontakt-form').trigger("reset");
+					$('#success > .alert-danger').append('</div>');					 
 				},
-           });
+			});
+			//clear all fields
+			$('#tickets-form').trigger("reset");
+			$('#registrierung-form').trigger("reset");
+
 		}
+	});
+	
+	
+	// Ticketverkauf
+	
+	// switch buttons
+	$('#paypal').hide();
+	$('input[name="tickets-zahlungsart"]').on('change', function(){
+	    if ($(this).val()!='paypal') {
+	         $("#ticketverkauf-submit").show();
+	         $('#paypal').hide();
+	    }
 	});
 
     $(".validate-ticketverkauf").jqBootstrapValidation({
@@ -80,7 +88,20 @@ $(function(){
 			var name = $("input#tickets-name").val();
 			var email = $("input#tickets-email").val();
 			var zahlungsart = $("input[name='tickets-zahlungsart']:checked").val();
-			window.location.replace("/ajax/tickets-kaufen.php?name="+name+"&email="+email+"&zahlungsart="+zahlungsart);
+			if (name==''||email==''||zahlungsart=='') {
+				// Fail message
+				$('#success').html('<div class="alert alert-danger">');
+				$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
+				$('#success > .alert-danger').append('<strong>Ungültige Eingaben…</strong> Bitte füllen Sie die Felder aus oder treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
+				$('#success > .alert-danger').append('</div>');
+				return;
+			}
+			if (zahlungsart=='sofortueberweisung') {
+				window.location.replace("/ajax/tickets-kaufen.php?name="+name+"&email="+email+"&zahlungsart="+zahlungsart);
+			} else if (zahlungsart=='paypal') {
+				$('form.paypal-button input[name=notify_url]').val('/ajax/tickets-kaufen.php?zahlungsart=paypal&name='+name+'&email='+email);
+				$('form.paypal-button').submit();
+			}
 		}
 	});	
     
