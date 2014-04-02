@@ -1,6 +1,5 @@
 $(function(){
 
-    var root_url = "http://www.heidelberger-symposium.de/";
 
     // Countdown
 
@@ -21,9 +20,74 @@ $(function(){
     });
     
     
+    // Ticket-Registrierung
+    
+    $(".validate-registrierung").jqBootstrapValidation({
+		submitSuccess: function($form, event) {
+			event.preventDefault(); // prevent default submit behaviour
+			// get values from form
+			var name = $("input#tickets-name").val();
+			var email = $("input#tickets-email").val();
+			var code = $("input#tickets-code").val();
+			$.ajax({
+				url: "/ajax/tickets-registrieren.php",
+				type: "POST",
+				data: {name: name, email: email, code: code},
+				cache: false,
+				success: function(data) {
+					if (data=='success') {
+		                // Success message
+						$('#success').html('<div class="alert alert-success">');
+	 					$('#success > .alert-success').html('<button class="close" type="button" data-dismiss="alert">×').append('</button>');
+	 					$('#success > .alert-success').append('<strong>Vielen Dank! Ihr Ticket wurde registriert.</strong> Sie erhalten in wenigen Minuten eine Email zur Bestätigung. Bitte wenden Sie sich bei Fragen an unseren <a href="/kontakt">Kontakt</a>.');
+	 					$('#success > .alert-success').append('</div>');
+	 
+						//clear all fields
+						$('#tickets-form').trigger("reset");						
+					} else {
+						// Fail message
+						$('#success').html('<div class="alert alert-danger">');
+						$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
+						if (data=='Invalid arguments provided') {
+							$('#success > .alert-danger').append('<strong>Ungültige Eingaben…</strong> Bitte füllen Sie die Felder aus oder treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
+						} else {
+							$('#success > .alert-danger').append('<strong>Der Server antwortet nicht…</strong> Bitte senden treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
+						}
+						$('#success > .alert-danger').append('</div>');
+
+				        //clear all fields
+						$('#kontakt-form').trigger("reset");
+					}
+				},
+				error: function(data) {
+					// Fail message
+					$('#success').html('<div class="alert alert-danger">');
+					$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
+					$('#success > .alert-danger').append('<strong>Der Server antwortet nicht…</strong> Bitte senden treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
+					$('#success > .alert-danger').append('</div>');
+					 
+			        //clear all fields
+					$('#kontakt-form').trigger("reset");
+				},
+           });
+		}
+	});
+
+    $(".validate-ticketverkauf").jqBootstrapValidation({
+		submitSuccess: function($form, event) {
+			event.preventDefault(); // prevent default submit behaviour
+			// get values from form
+			var name = $("input#tickets-name").val();
+			var email = $("input#tickets-email").val();
+			var zahlungsart = $("input[name='tickets-zahlungsart']:checked").val();
+			window.location.replace("/ajax/tickets-kaufen.php?name="+name+"&email="+email+"&zahlungsart="+zahlungsart);
+		}
+	});	
+    
+    
     // Kontakt
         
-    $(".validate").jqBootstrapValidation({
+    $("#kontakt-form .validate").jqBootstrapValidation({
 		submitSuccess: function($form, event) {
 			event.preventDefault(); // prevent default submit behaviour
 			// get values from form
@@ -64,7 +128,7 @@ $(function(){
 					// Fail message
 					$('#success').html('<div class="alert alert-danger">');
 					$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
-					$('#success > .alert-danger').append(data+'<strong>Der Server antwortet nicht…</strong> Bitte senden Sie stattdessen eine Email an <a href="mailto:info@hcwk.de">info@hcwk.de</a>.');
+					$('#success > .alert-danger').append('<strong>Der Server antwortet nicht…</strong> Bitte senden Sie stattdessen eine Email an <a href="mailto:info@hcwk.de">info@hcwk.de</a>.');
 					$('#success > .alert-danger').append('</div>');
 					 
 			        //clear all fields
@@ -84,47 +148,4 @@ $(function(){
      $('#success').html('');
   });*/
   
-  
-    
-/*    $('#kontakt-submit').click(function () {
-    
-	    window.console&&console.log('stuff');
-		
-		var name = $('#kontakt_name');
-		var email = $('#kontakt_email');
-		var msg = $('#kontakt_msg');
-
-		var button = $(this);
-		$.ajax({
-			type: 'POST',
-			url: root_url+'config/contact_form_submitting.php',
-			data: {
-    			'name': name.val(),
-    			'email': email.val(),
-    			'msg': msg.val()
-			},
-			success: function (html) {
-    			console.log(html);
-    			if (html=='invalid_name') {
-        			$(name).addClass('invalid');
-    			} else {
-        			$(name).removeClass('invalid');
-    			}
-    			if (html=='invalid_email') {
-        			$(email).addClass('invalid');
-    			} else {
-        			$(email).removeClass('invalid');
-    			}
-    			if (html=='invalid_msg') {
-        			$(msg).addClass('invalid');
-    			} else {
-        			$(msg).removeClass('invalid');
-    			}
-				if (html=='success') {
-					window.location = root_url;
-				}
-			}
-		});
-	});*/
-
 });

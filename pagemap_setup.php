@@ -131,9 +131,17 @@
     
     $current_page = $pagemap->addPageWithID('tickets');
     $current_page->title = 'Tickets';
+    $current_page->options['hide_title'] = true;
     $main_navi->addElement($current_page);
     
+/*    $current_page = $pagemap->addPageWithID('ticketverkauf');
+    $current_page->title = 'Ticketverkauf';
+    $pagemap->pageWithID('tickets')->addChildPage($current_page);
     
+    $current_page = $pagemap->addPageWithID('registrierung');
+    $current_page->title = 'Ticket registrieren';
+    $pagemap->pageWithID('tickets')->addChildPage($current_page);*/
+
     // Footer    
     
     // Impressum
