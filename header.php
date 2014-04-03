@@ -27,6 +27,9 @@
 	    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	    <!-- jqBootstrapValidation -->
 	    <script src="/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+	    
+	    <!-- Modernizr -->
+	    <script src="/bower_components/sprockets-modernizr/modernizr.js"></script>
 
 		<!-- Countdown -->
 		<link rel="stylesheet" href="/js/jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />

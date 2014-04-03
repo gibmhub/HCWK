@@ -118,11 +118,17 @@ ul.desc {
 		background-size: auto (@banner-height)-30px;
 	}
 	.hand-left {
-		background-image: url('/img/brand/hand-left.svg');
+		background-image: url('/img/brand/hand-left.png');
+		.svg & {
+			background-image: url('/img/brand/hand-left.svg');
+		}
 		background-position-x: right;
 	}
 	.hand-right {
-		background-image: url('/img/brand/hand-right.svg');
+		background-image: url('/img/brand/hand-right.png');
+		.svg & {
+			background-image: url('/img/brand/hand-right.svg');
+		}
 		background-position-x: left;
 	}
 	
@@ -130,7 +136,10 @@ ul.desc {
 		.make-xs-column(12);
 		.make-sm-column(6);
 		height: @banner-height;
-		background-image: url('/img/brand/logo-dark.svg');
+		background-image: url('/img/brand/logo-dark.png');
+		.svg & {
+			background-image: url('/img/brand/logo-dark.svg');
+		}
 		background-position: center center;
 		background-size: contain;
 		background-repeat: no-repeat;
