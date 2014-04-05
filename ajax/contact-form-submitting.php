@@ -9,8 +9,8 @@
 	}
 	
 	// send email
-	$receiver = 'mail@viwid.com'; // test
-//	$receiver = 'info@hcwk.de';
+//	$receiver = 'mail@viwid.com'; // test
+	$receiver = 'info@hcwk.de';
 	$subject = 'Nachricht von '.$name;
 	$mailheader = "Content-type: text/html; charset=utf-8\r\n";
 	$mailheader .= 'From: '.$email;

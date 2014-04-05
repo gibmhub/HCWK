@@ -1,5 +1,9 @@
 <h1>Tickets registrieren oder kaufen</h1>
 
+<p>Tickets werden bald hier zu erwerben sein. Schauen Sie in ein paar Tagen noch einmal vorbei.</p>
+
+<!--
+
 <p><div id="success"></div></p>
 
 <p>Bitte geben Sie Ihren Namen und Ihre Email-Adresse an. Sie erhalten dann zu Beginn des Symposiums ein Namensschild von uns, das Ihnen während der Veranstaltungszeit als Eintrittskarte dient.</p>
@@ -98,3 +102,5 @@
 	</div>
 	
 </form>
+
+-->

@@ -121,7 +121,7 @@
 
     $current_page = $pagemap->addPageWithID('presse');
     $current_page->title = 'Presse';
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+//    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
 
     $current_page = $pagemap->addPageWithID('archiv');
     $current_page->title = 'Archiv';

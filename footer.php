@@ -54,8 +54,10 @@
 					  <abbr title="Telefon">T:</abbr> 06221 / 70 71 90<br>
 					  <a href="mailto:info@hcwk.de"><abbr title="Email">@:</abbr> info@hcwk.de</a>
 					</address>
+					<!-- TODO: enable
 					<p>Pressematerial finden sie hier:<br>
 					<a href="/presse">Presse</a></p>
+					-->
 				</div>
 
 			</div>

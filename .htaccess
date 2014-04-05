@@ -6,6 +6,8 @@ ErrorDocument 404 http://www.heidelberger-symposium.de/404
 
 RewriteEngine On
 
+#RewriteBase /
+
 #RewriteCond %{HTTP_HOST} !^www.heidelberger-symposium.de$ [NC]
 #RewriteRule ^(.*) http://www.heidelberger-symposium.de/$1 [R=301,L]
 

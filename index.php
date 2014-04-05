@@ -3,7 +3,7 @@
     /*
     Site structure is managed by the VIPagemap class, see documentation in VIPagemap.php
     */
-    
+
     require_once('pagemap_setup.php');
 
     if ($pagemap->env==VI_ENV_DEBUG) {
@@ -22,6 +22,6 @@
 
 	include('content/'.$current_page->file);
 
-	require('footer.php');    
+	require('footer.php');
 
 ?>
