@@ -115,7 +115,6 @@ ul.desc {
 		height: @banner-height;
 		background-repeat: no-repeat;
 		background-position-y: center;
-		background-size: auto (@banner-height)-30px;
 	}
 	.hand-left {
 		background-image: url('/img/brand/hand-left.png');
@@ -123,6 +122,7 @@ ul.desc {
 			background-image: url('/img/brand/hand-left.svg');
 		}
 		background-position-x: right;
+		background-size: auto @banner-height*0.8;
 	}
 	.hand-right {
 		background-image: url('/img/brand/hand-right.png');
@@ -130,6 +130,7 @@ ul.desc {
 			background-image: url('/img/brand/hand-right.svg');
 		}
 		background-position-x: left;
+		background-size: auto @banner-height*0.9;
 	}
 	
 	.logo {

@@ -1,18 +1,27 @@
 <?php
 
+    ini_set('display_startup_errors',1);
+    ini_set('display_errors',1);
+    error_reporting(-1);
+
 	$name = $_GET['name'];
 	$email = $_GET['email'];
 	$ticketcode = $_GET['ticketcode'];
 
 	if (empty($name) || empty($email) || empty($ticketcode) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    	echo 'Invalid arguments provided';
-    	return false;
+    	die('Invalid arguments provided');
 	}
-
-	// TODO: store in database
+		
+	require_once(__DIR__.'/database-model.php');
 	
-	// get object for ticketcode
-	// write name and email
+	try {
+		$ticket = new Ticket($ticketcode);
+	} catch (NotFoundException $e) {
+		die('Invalid ticket code');
+	}
+	$ticket->name = $name;
+	$ticket->email = $email;
+	$ticket->writeToDatabase();
 	
 	// send email	
 	$receiver = $email;

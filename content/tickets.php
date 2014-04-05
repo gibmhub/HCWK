@@ -37,9 +37,13 @@
 			</form>		
 		</div>
 		
-		<div class="col-sm-7">
+		<div class="col-sm-1 text-center">
+			<strong>oder</strong>
+		</div>
 		
-			<p>… oder erwerben Sie ein Ticket im Online-Verkauf.</p>
+		<div class="col-sm-6">
+		
+			<p>Noch kein Ticket? Erwerben Sie ein Ticket im Online-Verkauf.</p>
 			<p>Der Preis enthält den <strong>Eintritt zu allen Veranstaltungen</strong> des 26. Heidelberger Symposiums 2014, sowie <strong>Verköstigung und Getränke</strong> während des Symposiums.</p>
 			
 			<form id="ticketverkauf-form">

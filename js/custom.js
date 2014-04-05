@@ -1,5 +1,14 @@
 $(function(){
 
+	
+	// SVG Fallback
+	
+	if (!Modernizr.svg) {
+		$("img[src$='.svg']").attr("src", function(i, val) {
+			return val.replace('.svg', '.png');
+		});
+	}
+
 
     // Countdown
 
@@ -47,6 +56,8 @@ $(function(){
 						$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
 						if (data=='Invalid arguments provided') {
 							$('#success > .alert-danger').append('<strong>Ungültige Eingaben…</strong> Bitte füllen Sie die Felder aus oder treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
+						} else if (data=='Invalid ticket code') {
+							$('#success > .alert-danger').append('<strong>Dieser Ticket-Code existiert nicht…</strong> Bitte senden treten Sie mit uns in <a href="/kontakt">Kontakt</a>, falls ein Fehler vorliegt.');
 						} else {
 							$('#success > .alert-danger').append('<strong>Der Server antwortet nicht…</strong> Bitte senden treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
 						}

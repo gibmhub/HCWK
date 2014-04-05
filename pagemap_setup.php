@@ -131,7 +131,7 @@
     
     $current_page = $pagemap->addPageWithID('tickets');
     $current_page->title = 'Tickets';
-    $current_page->options['hide_title'] = true;
+    $current_page->options['noframe'] = true;
     $main_navi->addElement($current_page);
     
 /*    $current_page = $pagemap->addPageWithID('ticketverkauf');

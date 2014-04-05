@@ -1,5 +1,5 @@
 <div class="brand-box">
-	<a href="/"><img class="logo" src="/img/brand/logo-dark.svg"></a>
+	<a href="/"><img class="logo" src="/img/brand/logo-light.svg"></a>
 	<div class="date"><i>8. – 10. Mai 2014</i></div>
 </div>
 
