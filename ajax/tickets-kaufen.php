@@ -14,16 +14,12 @@
 		echo 'not implemented';
 	
 	} else if ($zahlungsart=='sofortueberweisung') {
-
-		// Sofortüberweisung:
-		// Kundennummer: 51065
-		// Project ID: 123090
-		// API-Key: 90338bddf1109ccd07d239d499b702bb
 		
 		require_once(dirname(__FILE__).'/../sofort_lib_php/payment/sofortLibSofortueberweisung.inc.php');
 	
-		// enter your configuration key – you only can create a new configuration key by creating a new Gateway project in your account at sofort.com
-		$configkey = '51065:123090:90338bddf1109ccd07d239d499b702bb';
+		require_once(__DIR__.'/../config-secret.php');
+		
+		$configkey = $sofortueberweisung_configkey;
 		
 		$Sofortueberweisung = new Sofortueberweisung($configkey);
 		

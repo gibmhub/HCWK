@@ -6,3 +6,6 @@ Resources/
 
 # Components
 bower_components/
+
+# Secret
+config-secret.php

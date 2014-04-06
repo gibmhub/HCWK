@@ -6,7 +6,9 @@
 	    
     $pagemap->main_title = '26. Heidelberger Symposium';
 #    $pagemap->root_URL = 'www.heidelberger-symposium.de/';
-	$pagemap->env = VI_ENV_DEBUG;
+
+	require_once(__DIR__.'/config-secret.php');
+	$pagemap->env = $env;
         
     
     // Error Document

@@ -1,10 +1,8 @@
 <?php
+
+	require_once(__DIR__.'/../config-secret.php');	
 	
-	$server = 'localhost';
-	$username = 'root';
-	$password = 'root';
-	
-	$database = new mysqli($server, $username, $password, 'symposium_2014');
+	$database = new mysqli($mysql_server, $mysql_username, $mysql_password, 'symposium_2014');
 	
 	class NotFoundException extends Exception {}
 

@@ -1,0 +1,15 @@
+{
+  "name": "HCWK",
+  "version": "2.0.0",
+  "homepage": "https://github.com/knly/HCWK",
+  "authors": [
+    "Nils Fischer <n.fischer@viwid.com>"
+  ],
+  "description": "Webseite des Heidelberger Symposiums",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "jqBootstrapValidation": "~1.3.7",
+    "sprockets-modernizr": "~2.6.2"
+  }
+}
