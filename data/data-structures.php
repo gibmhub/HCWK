@@ -73,6 +73,8 @@ class Vortrag {
 	public $title;
 	public $desc;
 	public $raum;
+	public $day;
+	public $slot;
 	protected $referenten = array();	
 
 	static protected $vortraege = array();
