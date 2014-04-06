@@ -1,2 +1,2 @@
-HCWK-Web-v2
-===========
+Webseite des Heidelberger Symposiums
+====================================
