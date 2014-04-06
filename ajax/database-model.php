@@ -11,27 +11,36 @@
 		public $ticketcode;
 		public $name;
 		public $email;
+		public $timestamp;
+				
+		static public function get($ticketcode) {
 		
-		public function __construct($ticketcode) {
-			
-			$this->ticketcode = $ticketcode;
-
 			global $database;
 			
-			if ($result = $database->query('SELECT ticketcode, name, email FROM ticketliste WHERE ticketcode = "'.$ticketcode.'"')) {
+			if ($result = $database->query('SELECT name, email, timestamp FROM ticketliste WHERE ticketcode = "'.$ticketcode.'"')) {
 				if ($row = $result->fetch_object()) {
-					$this->name = $row->name;
-					$this->email = $row->email;
+					$ticket = new Ticket();
+					$ticket->ticketcode = $ticketcode;
+					$ticket->name = $row->name;
+					$ticket->email = $row->email;
+					$ticket->timestamp = $row->timestamp;
 				} else {
 					throw new NotFoundException();					
 				}
 			} else {
 				throw new NotFoundException();
 			}
-		
 		}
+
+		static public function register($ticketcode, $name, $email) {
 		
-		public function writeToDatabase() {
+			$ticket = self::get($ticketcode);
+			$ticket->name = $name;
+			$ticket->email = $email;
+			$ticket->write_to_database();
+		}
+
+		public function write_to_database() {
 		
 			global $database;
 			

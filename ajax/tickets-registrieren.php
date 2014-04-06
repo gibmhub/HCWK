@@ -15,15 +15,12 @@
 	require_once(__DIR__.'/database-model.php');
 	
 	try {
-		$ticket = new Ticket($ticketcode);
+		Ticket::register($ticketcode, $name, $email);
 	} catch (NotFoundException $e) {
 		die('Invalid ticket code');
 	}
-	$ticket->name = $name;
-	$ticket->email = $email;
-	$ticket->writeToDatabase();
 	
-	// send email	
+	// send email
 	$receiver = $email;
 	$subject = 'Registrierung zum 26. Heidelberger Symposium';
 	$mailheader = "Content-type: text/html; charset=utf-8\r\n";
