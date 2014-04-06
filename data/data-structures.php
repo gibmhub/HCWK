@@ -126,7 +126,47 @@ class Vortrag {
 		';
 		return $html;
 	}
+	
+	static public function day_string($day) {
+		switch ($day) {
+			case 0: return 'Mittwoch, 7.5.';
+			case 1: return 'Donnerstag, 8.5.';
+			case 2: return 'Freitag, 9.5.';
+			case 3: return 'Samstag, 10.5.';
+		}
+		return NULL;
+	}
+	static public function slot_string($slot) {
+		$suffix = 'h';
+		switch ($slot) {
+			case 1: return '9.00'.$suffix;
+			case 2: return '11.00'.$suffix;
+			case 3: return '14.00'.$suffix;
+			case 4: return '16.00'.$suffix;
+			case 5: return '18.00'.$suffix;
+			case 6: return '20.00'.$suffix;
+		}
+		return NULL;
+	}
+	static public function timeslot_string($day, $slot) {
+		return self::day_string($day).', '.self::slot_string($slot);
 
+	}
+
+	public function get_timeslot_string() {
+		return self::timeslot_string($this->day, $this->slot);
+	}
+	
+	static public function vortraege_in_timeslot($day, $slot) {
+		$vortraege = array();
+		foreach (self::$vortraege as $vortrag) {
+			if ($vortrag->day==$day&&$vortrag->slot==$slot) {
+				$vortraege[] = $vortrag;
+			}
+		}
+		return $vortraege;
+	}
+	
 }
 
 class Person {

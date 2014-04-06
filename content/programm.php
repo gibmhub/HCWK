@@ -1,19 +1,34 @@
 <p>Im folgenden finden sie das vorläufige Programm für die Tage des Symposiums. Die Veranstaltungen finden auf dem Heidelberger Uniplatz und in der Universität Heidelberg statt.</p>
 
-<p><b>Preopening:</b> Mittwoch, 7.5., 20.00h</p>
+<p><b>Preopening:</b> <?=Vortrag::timeslot_string(0, 6)?></p>
 
 <div class="programm-box table-responsive">
 	<table class="table table-bordered table-hover">
 		<thead>
 			<tr>
 				<th></th>
-				<th>Donnerstag, 8.5.</th>
-				<th>Freitag, 9.5.</th>
-				<th>Samstag, 10.5.</th>
+				<?php
+					for ($day=1; $day<=3; $day++) {
+						echo '<th>'.Vortrag::day_string($day).'</th>';
+					}
+				?>
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<?php
+				for ($slot=1; $slot<=6; $slot++) {
+					echo '<tr><th>'.Vortrag::slot_string($slot).'</th>';
+					for ($day=1; $day<=3; $day++) {
+						echo '<td>';
+						foreach (Vortrag::vortraege_in_timeslot($day, $slot) as $vortrag) {
+							echo $vortrag->tableItem();
+						}
+						echo '</td>';
+					}
+					echo '</tr>';
+				}
+			?>
+<!--			<tr>
 				<th>9.00</th>
 				<td></td>
 				<td><?=Vortrag::getVortrag('sportliche-grenzen')->tableItem()?><?=Vortrag::getVortrag('aerzte-ohne-grenzen')->tableItem()?><?=Vortrag::getVortrag('25-jahre-mauerfall')->tableItem()?><?=Vortrag::getVortrag('spirituelle-grenzen')->tableItem()?></td>
@@ -53,7 +68,7 @@
 				<th>22.00</th>
 				<td></td>
 				<td></td>
-				<td>Abschlussparty</td>
+				<td>Abschlussparty</td>-->
 		</tbody>
 	</table>
 </div>

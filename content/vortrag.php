@@ -6,7 +6,7 @@
 	} else {
 ?>
 
-<h1><?=$vortrag->title?></h1>
+<h1><?=$vortrag->title?> <small><?=$vortrag->get_timeslot_string()?></small></h1>
 
 <?=$vortrag->desc?>
 
