@@ -58,7 +58,7 @@ Solche Menschen bewegen sich am Rande des Machbaren, gehen körperlich, geistig 
 	$vortrag->desc = '';
 	
 	$vortrag = Vortrag::get('gespraechsrunde-mit-frank-plasberg');
-	$vortrag->title = 'Journalismus - grenzenlos? Ein Podiumsgespräch mit Frank Plasberg';
+	$vortrag->title = 'Journalismus - grenzenlos? Ein Podiumsgespräch';
 	$vortrag->desc = '<p>Frank Plasberg ist nicht nur Schirmherr des 26. Heidelberger Symposiums - er nimmt auch selbst an einer Veranstaltung der besonderen Art teil: An einem Schlagabtausch mit einem Studenten zum Thema "Journalismus - grenzenlos?". Eine Diskussion mit Plasberg  über die mögliche Grenzenlosigkeit und Begrenztheit seines Arbeitsfeldes, in das wir alle als Konsumenten von Nachrichten involviert sind. Welche Argumente werden die Diskutanten vorbringen? Wie sehen Vertreter verschiedener Generationen den Journalismus und seine Grenzen? Welche Grenzen sollten Journalisten nicht überschreiten? Welche Grenzen sind hingegen entbehrlich?</ br>
 Während seiner journalistischen Laufbahn führte Plasberg 1988 ein Interview mit den Geiselnehmern von Gladbeck - überschritt er damit eine moralische Grenze? </ br>
 Die Setzung von Grenzen für journalistische Arbeit betrifft uns alle, sind wir doch abhängig von Berichterstattungen, prägen sie doch unsere Wahrnehmung der Welt.</ br>
@@ -96,7 +96,7 @@ Ernst Uhrlau wird auch mit seinem Vortrag eine Grenze öffnen und mit uns den er
 	$vortrag->desc = '<p>Haben Asylsuchende es über die deutsche Landesgrenze geschafft, schauen sie oft auf eine beschwerliche, traumatisierende Flucht zurück. Doch den Flüchtlingen stellen sich, einmal angekommen, ganz neue Hürden in den Weg: Die deutsche Gesellschaft hat auch innerhalb des Landes feste Grenzen um sich gezogen. So bleiben Asylsuchende nicht nur in rechtlicher und politischer Hinsicht, sondern meist sogar räumlich vom Rest der Gemeinschaft, in der sie Schutz suchen, ausgeschlossen. Wir wollen verschiedene Formen von Grenzen und Ausgrenzung beleuchten und im besten Falle gemeinsam neue Ideen entwickeln, wie diese überwunden werden können. Dabei sollen auch Flüchtlinge selbst mit ihren Geschichten und Erfahrungen zu Wort kommen. Das Kolloquium soll auch zur Selbstreflexion anregen, welche sozialen und psychologischen Prozesse Ausgrenzung aufrechterhalten und rechtfertigen, also die unsichtbaren, unbewussten Grenzen thematisieren. Denn: „Was sichtbar wird, wenn man sich an den Rand begibt und die Umfangslinie abschreitet, sind nicht sie, sondern wir.“ (Carolin Emcke, Zeit Magazin)</p>';
 
 	$vortrag = Vortrag::get('100-jahre-erster-weltkrieg');
-	$vortrag->title = ' 100 Jahre Erster Weltkrieg -Ein historisches Grenzereigis?!';
+	$vortrag->title = 'Die Antiquitiertheit territorialer Grenzen (1914)';
 	$vortrag->desc = '<p>Im Sommer 2014 jährt sich der Ausbruch des Ersten Weltkrieges, der sogenannten „Urkatastrophe des 20. Jahrhunderts“ nun zum 100. Mal. Dieses, mittlerweile geflügelte Wort des US-amerikani- schen Historikers George F. Kennan versucht die epochale, zeitgeschichtliche Wirkungskraft dieses europäischen, wie globalen Großereignisses zu benennen. Die zentralen Entwicklungen des 20. Jahrhunderts, der Ausbruch des Zweiten Weltkrieges und der Kalte Krieg, seien bereits im Keim im Ersten Weltkrieg angelegt gewesen und die Zivilisationskrise der europäischen Moderne nahm ihren Lauf.<br />
 Der Erste Weltkrieg ist ein historisches „Grenzereignis“ in doppelter Hinsicht. So markierte er als geschichtliche Zäsur nicht nur die Epochengrenze des „langen 19. Jahrhunderts“, welches mit dem Beginn des „kurzen 20. Jahrhunderts“, dem „Zeitalter der Extreme“ (Eric Hobsbawm) endete. Dieser erste „totale Krieg“ der Geschichte überschritt in seinem Ausmaß auch territoriale, industrielle, gesellschafts-politische und humanitäre Grenzen der bisher gekannten Kriegsführung.<br />
 Dieser Vortrag möchte Einblicke gewähren in die Geschichte des Ersten Weltkrieges, der in jeder Hinsicht eine Geschichte von Grenzüberschreitungen darstellt, wie sie die moderne Welt zuvor, noch nicht kannte.</p>';
@@ -117,7 +117,11 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 	$vortrag->desc = '<p>Dichterwettstreite gab es ja schon einige in Heidelberg. Überall geht dieses Gespenst um, das Gespenst namens Poetry Slam. Doch das Publikum schreit „Mehr!“. Auch wir veranstalten zum Abschluss des Symposiums einen Slam, der unter dem Thema „Grenzenlos“ stehen wird. Grenzenlose Beiträge und grenzenlos witzige oder nachdenkliche Anekdoten werden von neun Poeten einem Publikum vorgetragen, worauf dieses mittels Applausstärke entscheiden kann, welche drei Beiträge ins Finale kommen dürfen. Möge der beste Wortathlet gewinnen und einen würdigen Preis abstauben! Mit dabei sein werden unter anderem Mario Henn, Caro Kübler und Dominique Crisand.</p>';
 	
 	$vortrag = Vortrag::get('theater');
-	$vortrag->title = 'Theater';
+	$vortrag->title = '„The Black Rider" – Musical mit Diskussion im Theater und Orchester Heidelberg';
+	$vortrag->desc = '<p></p>';
+	
+	$vortrag = Vortrag::get('aerzte-ohne-grenzen');
+	$vortrag->title = 'Ärzte ohne Grenzen';
 	$vortrag->desc = '<p></p>';
 	
 	$vortrag = Vortrag::get('lesung');
@@ -128,7 +132,7 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 <p>„Kevin Kuhn ist ein sehr gut komponiertes, scharfsichtiges Buch gelungen. Es ist große Kunst.“- Nils Minkmar, Frankfurter Allgemeine Zeitung</p>';
 		
 	$vortrag = Vortrag::get('abschlussvortrag');
-	$vortrag->title = 'Abschlussvortrag';
+	$vortrag->title = 'Kriegsfotografie: Bilder und ihre Grenzen';
 	$vortrag->desc = '';
 	
 

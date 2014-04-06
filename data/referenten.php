@@ -58,7 +58,7 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent->name = 'Johannes Rascher';
 	$referent->desc = 'Wirtschaftspsychologe';
 	$referent->vita = '<p>Johannes Rascher, M.A., ist seit 2013 Trainer und Coach bei der Grundl Leadership Akademie. Er wurde 1986 in Bad Friedrichshall geboren. Nach seinem Studium des Wirtschaftsingenieurswesen an der HS Esslingen und Wirtschaftspsychologie an der HS Erding arbeitete Johannes Rascher zunächst im Trainingsbereich eines Beratungsunternehmens im Bereich Prozessoptimierung. Bei der Grundl Leadership Akademie unterstützt Johannes Rascher vor allem die Implementierung des Führungssystems Leading Simple in Unternehmen. Die Trainer der Grundl Leadership Akademie sind Experten für Führung, Kommunikation und Menschenentwicklung mit System. Rascher ist ledig und hat keine Kinder.</p>';
-	$referent->setVortrag(Vortrag::get('grenzen-der-resourcen'));
+	$referent->setVortrag(Vortrag::get('grenzen-der-ressourcen'));
 	
 	$referent = Referent::get('oliverstengel');
 	$referent->name = 'Dr. Oliver Stengel';
@@ -68,8 +68,8 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	
 	$referent = Referent::get('berndwittich');
 	$referent->name = 'Bernd Wittich';
-	$referent->desc = '';
-	$referent->vita = '<p>J</p>';
+	$referent->desc = 'Politikwissenschaftler';
+	$referent->vita = '<p>Bernd Wittich engagierte sich nach dem Studium zunächst für die DDR. Er arbeitete in einer Forschungsgruppe zu Veränderungen im politischen System der DDR. Angesichts der Weigerung der SED sich für die Glasnost- und Perestroikapolitik Gorbatschows zu öffnen, eskalierten hier innere Konflikte. Widersprüche zwischen Propaganda und gesellschaftlicher Realität wurden Wittich immer deutlicher bewusst. Zum Bruch mit dem System kam es für ihn, als er vor der Entscheidung stand, entweder seinen Beruf zu verlieren oder eine ihm nahestehende Person zu verraten. Infolge der Weigerung, sich an Denkverbote und Befehle der Partei zu halten, erhielt Wittich später Berufsverbot. Im Dezember 1988 verließ er "freiwillig" die DDR, wurde also faktisch ausgebürgert und entging so einer Haft. </p>';
 	$referent->setVortrag(Vortrag::get('25-jahre-mauerfall'));
 	
 	$referent = Referent::get('siegfriedbuchholz');
@@ -79,7 +79,7 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent->setVortrag(Vortrag::get('25-jahre-mauerfall'));
 	
 	$referent = Referent::get('josefschuster');
-	$referent->name = 'Prof. Dr. Joesef Schuster';
+	$referent->name = 'Prof. Dr. Josef Schuster SJ';
 	$referent->desc = 'Professor für Moraltheologie';
 	$referent->vita = '<p>Josef Schuster SJ studierte Philosophie und Katholische Theologie und wurde 1974 zum Priester geweiht. Anschließend war er Lehrer für Religion und Philosophie, sowie Erzieher für die Jahrgangsstufen 12 und 13 am Aloisiuskolleg in Bonn-Bad Godesberg. Nachdem Schuster 1982 in Theologischer Ethik promoviert hatte, wurde er Leiter des Jugendzentrums „Mergener Hof“ in Trier, nebenamtlich arbeitete er weiterhin als Religionslehrer. Nachdem Schuster einige Jahre lang als Hochschulassistent an der Philosophisch-Theologischen Hochschule Sankt-Georgen in Frankfurt am Main tätig war, wurde er 1996 Professor für Moraltheologie. Schuster ist u.a. Mitglied im „Arbeitskreis Ethik in der Medizin – Haus am Dom Frankfurt“ und im „Frankfurter Forum für gesellschafts- und gesundheitspolitische Grundsatzfragen e.V.“.</p>';
 	$referent->setVortrag(Vortrag::get('medizinethik'));
@@ -213,7 +213,7 @@ Mitglied des Deutschen Bundestags seit 2013.</p>
 	
 	$referent = Referent::get('petermartin');
 	$referent->name = 'Peter Martin';
-	$referent->desc = 'Politikwissenschaftler';
+	$referent->desc = 'Politikwissenschaftler und Leiter der Vertretung der EU-Kommission in München';
 	$referent->vita = '<p>Geboren am 3. Oktober 1967 in Bad Homburg v.d. Höhe.
 Peter Martin begann seine Karriere bei der Europäischen Kommission 1999 und arbeitete zunächst als Projektmanager in der Generaldirektion Informationsgesellschaft mit dem Schwerpunkt elektronischer Handel. Danach wurde er abgeordnet zur Generaldirektion Forschung, wo er als Projektleiter für die effizientere Implementierung von EU-Forschungsprogrammen verantwortlich war. Im Anschluss daran arbeitete er als Referent für internationale Forschungszusammenarbeit zwischen der EU und Drittstaaten.
 Peter Martin hat Politikwissenschaft, Europa- und Völkerrecht, neuere Geschichte und Kommunikation an der Johannes Gutenberg-Universität in Mainz und an der Johann Wolfgang Goethe-Universität in Frankfurt am Main studiert. An der London School of Economics and Political Science (LSE) erwarb er einen Mastertitel. Er war außerdem Forschungsreferent am "European Institute" der LSE und widmete sich dort u.a. internationalen Regulierungsfragen.

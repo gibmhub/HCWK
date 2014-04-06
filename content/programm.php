@@ -16,8 +16,8 @@
 			<tr>
 				<th>9.00</th>
 				<td></td>
-				<td><?=Vortrag::getVortrag('koerperliche-grenzen')->tableItem()?><?=Vortrag::getVortrag('25-jahre-mauerfall')->tableItem()?><?=Vortrag::getVortrag('spirituelle-grenzen')->tableItem()?></td>
-				<td><?=Vortrag::getVortrag('grenzen-der-ressourcen')->tableItem()?><?=Vortrag::getVortrag('grenzen-des-konsums')->tableItem()?></td>
+				<td><?=Vortrag::getVortrag('sportliche-grenzen')->tableItem()?><?=Vortrag::getVortrag('aerzte-ohne-grenzen')->tableItem()?><?=Vortrag::getVortrag('25-jahre-mauerfall')->tableItem()?><?=Vortrag::getVortrag('spirituelle-grenzen')->tableItem()?></td>
+				<td><?=Vortrag::getVortrag('grenzen-der-ressourcen')->tableItem()?><?=Vortrag::getVortrag('innerdeutsche-grenzen')->tableItem()?><?=Vortrag::getVortrag('grenzen-des-konsums')->tableItem()?><?=Vortrag::getVortrag('grenzen-der-moral')->tableItem()?></td>
 			</tr>
 			<tr>
 				<th>11.00</th>

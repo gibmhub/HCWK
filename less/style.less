@@ -28,7 +28,8 @@
 	display: block;
 	margin-top: 0.25em;
 	@color-stripes: @color-highlight;
-	background-image: repeating-linear-gradient(-45deg, @color-stripes, @color-stripes 1px, transparent 1px, transparent 4px);
+	background-image: repeating-linear-gradient(-45deg, @color-stripes 0px, @color-stripes 1px, transparent 1px, transparent 4px);
+	background-size: 6px 2px;
 	height: 2px;
 }
 
@@ -119,14 +120,13 @@ ul.desc {
 		.make-sm-column(3);
 		height: @banner-height;
 		background-repeat: no-repeat;
-		background-position-y: center;
 	}
 	.hand-left {
 		background-image: url('/img/brand/hand-left.png');
 		.svg & {
 			background-image: url('/img/brand/hand-left.svg');
 		}
-		background-position-x: right;
+		background-position: right center;
 		background-size: auto @banner-height*0.8;
 	}
 	.hand-right {
@@ -134,7 +134,7 @@ ul.desc {
 		.svg & {
 			background-image: url('/img/brand/hand-right.svg');
 		}
-		background-position-x: left;
+		background-position: left center;
 		background-size: auto @banner-height*0.9;
 	}
 	

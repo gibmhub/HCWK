@@ -5,6 +5,6 @@
 	<li><a href="http://www.hollaender-hof.de">Holländer Hof</a></li>
 	<li><a href="https://www.europaeischerhof.com">Europäischer Hof</a></li>
 	<li><a href="http://www.hackteufel.de">Hotel Hackteufel</a></li>
-	<li><a href="http://www.4-jahreszeiten.de/de/schnookeloch/">Hotel Schnookelloch</a></li>
+	<li><a href="http://www.4-jahreszeiten.de/de/">Hotel Vier Jahreszeiten</a></li>
 	<li><a href="https://hotelo-heidelberg.de">Hotelo Heidelberg</a></li>
 </ul>
