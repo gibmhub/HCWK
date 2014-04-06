@@ -4,9 +4,9 @@
 	
 	// sort by vortrag->title > name
 	function referenten_sort(Referent $a, Referent $b) {
-		$cmp_days = $a->getVortrag()->day > $b->getVortrag()->day;
+		$cmp_days = $a->getVortrag()->day - $b->getVortrag()->day;
 		if ($cmp_days==0) {
-			$cmp_slots = $a->getVortrag()->slot > $b->getVortrag()->slot;
+			$cmp_slots = $a->getVortrag()->slot - $b->getVortrag()->slot;
 			if ($cmp_slots==0) {
 				$cmp_titles = strcmp($a->getVortrag()->title, $b->getVortrag()->title);
 				if ($cmp_titles==0) {

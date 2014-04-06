@@ -10,6 +10,10 @@
 			<?=$pagemap->main_title.' | '.$current_page->title?>
 		</title>
 	
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="/img/icon/favicon.ico">
+		<link rel="apple-touch-icon" href="/img/icon/apple-touch-icon-precomposed.png">
+	
   		<!-- Stylesheets -->
   		<link rel="stylesheet" href="/css/style.css" type="text/css" />
 
