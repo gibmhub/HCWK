@@ -53,4 +53,11 @@ $sponsor->link = 'http://www.esser-stiftung.de/index.html';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
+$sponsor = new Sponsor ();
+$sponsor->name = 'Gerolsteiner';
+$sponsor->logo = 'Logo_Gerolsteiner.jpg';
+$sponsor->link = 'http://www.gerolsteiner.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
 ?>
