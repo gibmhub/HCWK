@@ -63,7 +63,7 @@
 			</div>
 					
 			<div id="copyright">
-				&copy; 2013 HCWK | <a href="/impressum">Impressum</a> | Erstellt von <a href="http://www.viwid.com">Nils Fischer</a> und Jonas Ott
+				&copy; 2013 HCWK | <a href="/impressum">Impressum</a> | Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott
 			</div>
 		</div>
 	</div>

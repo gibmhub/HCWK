@@ -5958,15 +5958,15 @@ ul.desc li small:before {
 #banner .logo {
   float: left;
   width: 100%;
-  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   height: 300px;
   background-image: url('/img/brand/logo-dark.png');
-  background-position: center center;
-  background-size: contain;
+  background-position: center top;
+  background-size: auto 260px;
   background-repeat: no-repeat;
+  position: relative;
 }
 @media (min-width: 768px) {
   #banner .logo {
@@ -5976,6 +5976,17 @@ ul.desc li small:before {
 }
 .svg #banner .logo {
   background-image: url('/img/brand/logo-dark.svg');
+}
+#banner .logo:after {
+  content: '8. - 10. Mai 2014';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-style: italic;
 }
 /* Structure */
 @media (min-width: 768px) {

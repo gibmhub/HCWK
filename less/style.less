@@ -146,9 +146,21 @@ ul.desc {
 		.svg & {
 			background-image: url('/img/brand/logo-dark.svg');
 		}
-		background-position: center center;
-		background-size: contain;
+		background-position: center top;
+		background-size: auto (@banner-height)-40px;
 		background-repeat: no-repeat;
+		position: relative;
+		&:after {
+			content: '8. - 10. Mai 2014';
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			color: @color-highlight;
+			font-style: italic;
+		}
 	}
 
 }
