@@ -13,7 +13,7 @@ RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} -f
 #RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule  .?  -  [S=2,L]
+RewriteRule  .?  -  [L]
 
 RewriteRule ^referent/([a-z0-9-]+)/?$ index.php?p=referenten#$1 [QSA,NC,L]
 RewriteRule ^vortrag/([a-z0-9-]+)/?$ index.php?p=vortrag&id=$1 [QSA,NC,L]

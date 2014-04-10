@@ -6673,6 +6673,10 @@ ul.desc li small:before {
     width: 50%;
   }
 }
+#ticketverkauf-submit-desc.show-dest:after {
+  content: attr(data-content);
+  margin-right: 15px;
+}
 /* Facebook Like Box */
 .fb-comments,
 .fb-comments iframe[style],
