@@ -83,12 +83,12 @@ $(function() {
 	
 	// Ticketverkauf
 	
-	// switch buttons
-	$('#paypal').hide();
+	// switch price
 	$('input[name="tickets-type"]').on('change', function(){
 		var price = $('input[name="tickets-type"]:checked').attr('data-price');
 		$('#paypal input[name="amount"]').val(price);
 	});
+	// display destination
 	$('input[name="tickets-zahlungsart"]').on('change', function(){
 		var type = $('input[name="tickets-zahlungsart"]:checked').val();
 		var dest = '';
@@ -107,8 +107,8 @@ $(function() {
 			var name = $("input#tickets-name").val();
 			var email = $("input#tickets-email").val();
 			var zahlungsart = $('input[name="tickets-zahlungsart"]:checked').val();
-			var type = $('input[name="tickets-type"]:checked').attr('val');
-			if (name==''||email==''||zahlungsart==''||type=='') {
+			var tickettype = $('input[name="tickets-type"]:checked').val();
+			if (name==''||email==''||zahlungsart==''||tickettype=='') {
 				// Fail message
 				$('#success').html('<div class="alert alert-danger">');
 				$('#success > .alert-danger').html('<button class="close" type="button" data-dismiss="alert">×').append( "</button>");
@@ -117,7 +117,7 @@ $(function() {
 				return;
 			}
 			if (zahlungsart=='paypal') {
-				$('form.paypal-button input[name=notify_url]').val('/ajax/tickets-kaufen.php?zahlungsart=paypal&name='+name+'&email='+email+'&type='+type);
+				$('form.paypal-button input[name=custom]').val(name+'&&'+email+'&&'+tickettype);
 				$('form.paypal-button').submit();
 			} else if (zahlungsart=='sofortueberweisung') {
 				window.location.replace("/ajax/tickets-kaufen.php?name="+name+"&email="+email+"&zahlungsart="+zahlungsart);

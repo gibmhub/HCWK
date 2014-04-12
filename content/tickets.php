@@ -99,22 +99,28 @@
 						</div>
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
-								Sofortüberweisung
+								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung" disabled>
+								Sofortüberweisung<br>
+								<small>Noch nicht verfügbar</small>
 							</label>
 						</div>
 					</div>
 				</div>
 				</div></div>
-				<div class="pull-right"><small><span id="ticketverkauf-submit-desc" data-content="Keine Zahlungsart ausgewählt"></span></small><button id="ticketverkauf-submit" type="submit" class="btn btn-primary">Weiter zur Bezahlung…</button>
+				<div class="pull-right"><small><span id="ticketverkauf-submit-desc" data-content="Keine Zahlungsart ausgewählt"></span></small><button id="ticketverkauf-submit" type="submit" class="btn btn-primary">Weiter zur Bezahlung…</button></div>
 			</form>
 			<div id="paypal">
-				<script src="/js/paypal/paypal-button.min.js?merchant=<?=$paypal_merchant_id?>"
+				<script src="/js/paypal/paypal-button.min.js?merchant=<? if ($paypal_use_sandbox) { echo $paypal_merchant_id_sandbox; } else { echo $paypal_merchant_id; }?>"
 				    data-button="buynow"
 				    data-name="26. Heidelberger Symposium"
 				    data-amount="0"
 				    data-currency="EUR"
-				    data-callback="/ajax/tickets-kaufen.php?zahlungsart=paypal"
+				    data-callback="<?=$baseurl?>/ajax/paypal-listener.php"
+				    data-return="<?=$baseurl?>/tickets/?payment-success=true"
+				    <?php if ($paypal_use_sandbox) { ?>
+				    data-env="sandbox"
+				    <?php } ?>
+				    data-custom=""
 				></script>
 			</div>
 
