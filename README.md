@@ -6,7 +6,8 @@ Site dependencies are managed using [Bower](http://bower.io) and declared in `bo
 A `config-secret.php` is required to provide the following variables:
 
 	$env = VI_ENV_DEBUG | VI_ENV_RELEASE
-	$baseurl
+	$baseurl = "http://base.u.rl"
+	$basedir = "/path/to/root"
 	$mysql_server, $mysql_username, $mysql_password, $mysql_database
 	$paypal_merchant_id, $paypal_merchant_id_sandbox
 	$paypal_use_sandbox = true | false
