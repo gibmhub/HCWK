@@ -18,7 +18,7 @@
 			if ($pagemap->isCurrentPage($child)) {
     			echo ' class="active"';
 			}
-			echo '><a href="'.$pagemap->getUrlForPage($child).'">'.$child->title.'</a></li>';
+			echo '><a href="'.$child->displayURL().'">'.$child->title.'</a></li>';
 		}
 		echo '</ul>';
 	}

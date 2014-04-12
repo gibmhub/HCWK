@@ -12,7 +12,7 @@
     
     $current_page = $pagemap->currentPage();
         
-//    $pagemap->checkURL();
+    $pagemap->checkURL();
 
 	require('header.php');
 

@@ -1,11 +1,13 @@
 <?php
 
     require_once('VIWebFramework/VIPagemap/VIPagemap.php');
+    require_once('config-secret.php');
 
     $pagemap = new VIPagemap();
 	    
     $pagemap->main_title = '26. Heidelberger Symposium';
-#    $pagemap->root_URL = 'www.heidelberger-symposium.de/';
+    $pagemap->baseurl = $baseurl;
+    $pagemap->basedir = $basedir;
 
 	require_once(__DIR__.'/config-secret.php');
 	$pagemap->env = $env;
@@ -40,7 +42,7 @@
     $current_page = $pagemap->addPageWithID('news-item');
     $current_page->title = 'News';
 	$current_page->options['hide_title'] = true;
-	$current_page->display_url = 'news/$id';
+	$current_page->display_url = '/news/$id';
 
     // Symposium
 
@@ -68,6 +70,7 @@
     $current_page = $pagemap->addPageWithID('vortrag');
     $current_page->title = 'Vortrag';
 	$current_page->options['hide_title'] = true;    
+	$current_page->display_url = '/vortrag/$id';
 	
     $current_page = $pagemap->addPageWithID('mitmachen');
     $current_page->title = 'Mitmachen';
