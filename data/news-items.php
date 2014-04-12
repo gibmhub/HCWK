@@ -1,11 +1,24 @@
 <?php
 
+
     include_once('VIWebFramework/VINewsManager/VINewsManager.php');
     include_once('data/referenten.php');
     include_once('data/vortraege.php');
 
     $news_manager = new VINewsManager();
 
+	$current_item = new VINewsItem();
+	$current_item->setDateFromString('12-04-2014');
+	$current_item->setTitle('Nur noch ein Monat bis zum Symposium');
+	$current_item->content ='
+<p>Wir freuen uns sehr bekannt geben zu dürfen, dass Anke Domscheit-Berg, Landesvorsitzende der Piraten Brandenburg an der Diskussion mit dem Titel "Entgrenzung der Privatsphäre" teilnehmen wird.
+</p>'.Referent::get('ankedomscheitberg')->getReferentBox().'
+<p> Auch das Abendprogramm nimmt Gestalt an. So wird Kevin Kuhn am Donnerstag Abend aus seinem Roman "Hikikomori" lesen und in Dialog mit den Zuhörern treten.</p>'.Referent::get('kevinkuhn')->getReferentBox().'
+<p>Zudem freuen wir uns für den Abschlussvortrag mit Christoph Bangert einen renommierten Kriegsfotographen für das Symposium gewonnn zu haben. Er wird in seinem Vortrag "Kriegsfotografie: Bilder und ihre Grenzen" über seine Arbeit berichten und die damit verbundenen Grenzen und Grenzüberschreitungen näher beleuchten.</p> '.Referent::get('christophbangert')->getReferentBox().'
+<p>	Außerdem wurde in den letzten Tagen die Homepage aktualisiert, sodass jetzt Informationen zu den teilnehmenden <a href="/referenten">Referenten</a> sowie ein aktualisiertes <a href="/programm">Programm</a> auf der Homepage zu finden sind. Informationen zum bald beginnenden Ticketverkauf werden in Kürze bekannt gegeben.</p>
+		';
+	$news_manager->addItem($current_item);
+	
 	$current_item = new VINewsItem();
 	$current_item->setDateFromString('21-03-2014');
 	$current_item->setTitle('Die heiße Phase beginnt');
