@@ -8,6 +8,13 @@
     $news_manager = new VINewsManager();
 
 	$current_item = new VINewsItem();
+	$current_item->setDateFromString('13-04-2014');
+	$current_item->setTitle('Ankündigung Bernd Kölmel');
+	$current_item->content ='
+<p>Wir freuen uns über die Zusage von Bernd Kölmel, Sprecher des Landesverbandes Baden-Württemberg der Partei Alternative für Deutschland. Er wird an der Diskussion „Europäische Union – Grenzenlose Freiheit?“ teilnehmen und mit einer kritischen Position die Debatte um eine wichtige Perspektive ergänzen.</p>'.Referent::get('berndkölmel')->getReferentBox();
+	$news_manager->addItem($current_item);
+	
+	$current_item = new VINewsItem();
 	$current_item->setDateFromString('12-04-2014');
 	$current_item->setTitle('Nur noch ein Monat bis zum Symposium');
 	$current_item->content ='
@@ -23,8 +30,8 @@
 	$current_item->setDateFromString('21-03-2014');
 	$current_item->setTitle('Die heiße Phase beginnt');
 	$current_item->content ='
-<p>Nur noch 47 Tage bis zum Symposium! Da wird es höchste Zeit die nächsten Referenten bekannt zu geben. Für die Diskussionsrunde „Europa – Freiheit ohne Grenzen?“ hat Dr. Ingo Rollwagen, Senior Analyst bei der Deutschen Bank, zugesagt. Wir freuen uns, dass Herr Rollwagen die Diskussion mit seiner Expertise auf dem Gebiet der Zukunfts- und Innovationsforschung, ergänzen wird.</p>'.Referent::get('ingorollwagen')->getReferentBox().'
-<p>Außerdem freuen wir uns sehr mit Wolfgang Putz einen der qualifiziertesten deutschen Juristen auf dem Gebiet des Medizinrechts für unsere Diskussionsrunde mit dem Titel "Das Lebensende als Grenzsetzung? Diskussion ethischer Grenzen in der Medizin" gewinnen zu können.</p>'.Referent::get('wolfgangputz')->getReferentBox().'
+<p>Nur noch 47 Tage bis zum Symposium! Da wird es höchste Zeit die nächsten Referenten bekannt zu geben.</p>
+<p>Wir freuen uns sehr mit Wolfgang Putz einen der qualifiziertesten deutschen Juristen auf dem Gebiet des Medizinrechts für unsere Diskussionsrunde mit dem Titel "Das Lebensende als Grenzsetzung? Diskussion ethischer Grenzen in der Medizin" gewinnen zu können.</p>'.Referent::get('wolfgangputz')->getReferentBox().'
 <p>Auch die Kolloquien nehmen langsam Gestalt an: Vom Heidelberger Asylarbeitskreis wird Dennis Hebbelmann ein Kolloquium zum Thema "Innerdeutsche Grenzen – wie Asylsuchende Fremde bleiben" abhalten und näher die Problematik vieler Flüchtlinge in Deutschland beleuchten</p>'.Referent::get('dennishebbelmann')->getReferentBox();
 	$news_manager->addItem($current_item);
 

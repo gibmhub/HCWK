@@ -21,53 +21,94 @@
 		</dd>
     </dl>
 </div>
+
 <div class="archiv_item">
-    <h2>24. Heidelberger Symposium</h2>
-    <h3>03. - 05. Mai 2012 mit dem Thema "Mut zur Moral"</h3>
-    <div class="content_left"> <img src="/img/content/24symposium.png"/> </div>
-    <div class="content_right">
-        <p><b>Schirmherrschaft: Ulrich Wickert</b>, Journalist und Autor</p>
-        <p><b>Die Idee: </b>Die Moral begleitet uns täglich ohne dabei konkret benannt zu werden. Woran orientiert sich unsere Gesellschaft in Bezug auf moralische Fragestellungen?</p>
-        <p><b>u.a. teilnehmende Referenten:</b></p>
-        <p><b>Henryk M. Broder,</b> Journalist und Autor</p>
-        <p><b>Thilo Bode,</b> Geschäftsführer der Verbraucherschutzorganisation Foodwatch, ehemaliger Manager bei Greenpeace</p>
-        <p><b>Heidemarie Wieczorek-Zeul,</b> Politikerin (SPD und Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung a.D.</p>
-        <p><b>Günther Nonnenmacher, </b> Mitherausgeber der FAZ<br /></p>
-    </div>
+    <h2>24. Heidelberger Symposium <small>03. - 05. Mai 2012 mit dem Thema "Mut zur Moral"</small></h2>
+	
+ <img src="/img/content/24symposium.png"/>
+ 
+	<dl>
+	    <dt>Schirmherrschaft</dt>
+		<dd>
+			<ul class="desc">
+				<li><strong>Ulrich Wickert <small>Journalist und Autor</small></strong></li>
+			</ul>
+		</dd>
+		
+        <dt>Die Idee</dt>
+		<dd><p>Die Moral begleitet uns täglich ohne dabei konkret benannt zu werden. Woran orientiert sich unsere Gesellschaft in Bezug auf moralische Fragestellungen?</p></dd>
+        <dt>u.a. teilnehmende Referenten</dt>
+        <dd>
+			<ul>
+				<li><strong>Henryk M. Broder <small>Journalist und Autor</small></strong></li>
+        		<li><strong>Thilo Bode <small>Geschäftsführer der Verbraucherschutzorganisation Foodwatch, ehemaliger Manager bei Greenpeace</small></strong></li>
+        		<li><strong>Heidemarie Wieczorek-Zeul <small>Politikerin (SPD und Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung a.D.</small></strong></li>
+        		<li><strong>Günther Nonnenmacher <small> Mitherausgeber der FAZ</small></strong></p>
+    		</ul>
+		</dd>
+	</dl>
 </div>
+
+
 <div class="archiv_item">
-    <h2>23. Heidelberger Symposium</h2>
-    <h3>05. - 07. Mai 2011 mit dem Thema "Achtung, Freiheit!"</h3>
-    <div class="content_left"> <img src="/img/content/23symposium.png"/> </div>
-    <div class="content_right">
-        <p><b>Schirmherrschaft: Martin Walser,</b> Schriftsteller</p>
-        <p><b>Die Idee:</b> Freiheit. Jedem ein Begriff und doch schwierig zu beschreiben. Ist der Mensch frei? Soll die Wirtschaft frei sein? Was machen die neuen Medien mit unserer Freiheit? Was bedeutet Freiheit in anderen Kulturen?</p>
-        <p><b>u.a. teilnehmende Referenten</b></p>
-        <p><b>Wolfgang Huber,</b> ehemaliger Ratsvorsitzender der evangelischen Kirche in Deutschland</p>
-        <p><b>Peter Schaar,</b> Bundesbeauftragter für den Datenschutz</p>
-        <p><b>Frido Mann,</b> Schriftsteller und Psychologe</p>
-        <p><b>Thilo Sarrazin,</b> Politiker und Autor<br /></p>
-    </div>
+    <h2>23. Heidelberger Symposium <small>05. - 07. Mai 2011 mit dem Thema "Achtung, Freiheit!"</small></h2>
+	<img src="/img/content/23symposium.png"/>
+	<dl>
+        <dt>Schirmherrschaft</dt>
+	<dd>
+		<ul class="desc">
+			<li><strong>Martin Walser <small>Schriftsteller</small></strong></li>
+		</ul>
+	</dd>
+	
+        <dt>Die Idee</dt>
+			<dd><p>Freiheit. Jedem ein Begriff und doch schwierig zu beschreiben. Ist der Mensch frei? Soll die Wirtschaft frei sein? Was machen die neuen Medien mit unserer Freiheit? Was bedeutet Freiheit in anderen Kulturen?</p></dd>
+        	<dt>u.a. teilnehmende Referenten</dt>
+			<dd>
+				<ul>
+        <li><strong>Wolfgang Huber <small>ehemaliger Ratsvorsitzender der evangelischen Kirche in Deutschland</small></strong></li>
+        <li><strong>Peter Schaar <small>Bundesbeauftragter für den Datenschutz</small></strong></li>
+        <li><strong>Frido Mann <small>Schriftsteller und Psychologe</small></strong></li>>
+        <li><strong>Thilo Sarrazin <small>Politiker und Autor</small></strong></li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+
+
+<div class="archiv_item">
+    <h2>22. Heidelberger Symposium <small>06. - 08. Mai 2010 mit dem Thema "Fortschritt - Wohin?"</small></h2>
+	<img src="/img/content/22symposium.png"/>
+    <dl>
+        <dt>Schirmherrschaft</dt>
+		<dd>
+			<ul class="desc">
+				<li><strong>Rainer Brüderle <small>Bundeswirtschaftsminister a.D.</small></strong></li>
+				<li><strong>Harald zu Hausen <small>Nobelpreisträger für Medizin </small></strong></li>
+			</ul>
+		</dd>
+		
+        <dt>Die Idee</dt> 
+			<dd><p>Fortschritt findet ständig statt - in Kultur, Gesellschaft und Wissenschaft. Aber wohin wollen wir?</p></dd>
+        <dt>u.a. teilnehmende Referenten:</dt>
+		<dd>
+			<ul>
+        <li><strong>Thilo Sarrazin <small>damals Mitglied im Vorstand der Bundesbank, zuvor Finanzsenator des Landes Berlin</small></strong></li>
+        <li><strong>Harald zur Hausen <small>Nobelpreisträger für Medizin, Leiter des DKFZ Heidelberg</small></strong></li>
+        <li><strong>Katja Patzel-Mattern <small>Professorin für Wirtschafts- und Sozialgeschichte in Heidelberg</small></strong></li>
+        <li><strong>>Hermann Häring <small>Professor em. für Wirtschaftstheorie und Theologie, Nijmegen</small></strong></li>
+			</ul>
+		</dd>
+	</dl>
 </div>
-<div class="archiv_item">
-    <h2>22. Heidelberger Symposium</h2>
-    <h3>06. - 08. Mai 2010 mit dem Thema "Fortschritt - Wohin?"</h3>
-    <div class="content_left"><img src="/img/content/22symposium.png"/></div>
-    <div class="content_right">
-        <p><b>Schirmherrschaft: Rainer Brüderle, </b> Bundeswirtschaftsminister a.D., <b>Harald zu Hausen,</b> Nobelpreisträger für Medizin</p>
-        <p><b>Die Idee:</b> Fortschritt findet ständig statt - in Kultur, Gesellschaft und Wissenschaft. Aber wohin wollen wir?</p>
-        <p><b>u.a. teilnehmende Referenten:</b></p>
-        <p><b>Thilo Sarrazin,</b> damals Mitglied im Vorstand der Bundesbank, zuvor Finanzsenator des Landes Berlin</p>
-        <p><b>Harald zur Hausen,</b> Nobelpreisträger für Medizin, Leiter des DKFZ Heidelberg</p>
-        <p><b>Katja Patzel-Mattern,</b> Professorin für Wirtschafts- und Sozialgeschichte in Heidelberg</p>
-        <p><b>Hermann Häring,</b> Professor em. für Wirtschaftstheorie und Theologie, Nijmegen<br /></p>
-    </div>
-</div>
-<div class="archiv_item">
-    <h3>Themen vor 2010:</h3>
-    <p>2009:	Glück für Alle!
+	
+	
+	
+	<div class="archiv_item">
+    <h2>Themen vor 2010:</h2>
+    <p>2009:	Glück für Alle!<br />
     2008:	Wissen Macht Menschen<br />
-    2007:	Um Gottes Willen – Renaissance der Religion?<br />
+    2007:	Um Gottes Willen – Renaissance der Religion?</em><br />
     2006:	Angst – Blockade unserer Gesellschaft?<br />
     2005:	Identität in Deutschland – Selbstverständnis einer Nation<br />
     2004:	Visions of the World – Kooperation, Verantwortung und Gerechtigkeit in unserer „heilen“ Welt<br />
