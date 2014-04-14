@@ -15,6 +15,13 @@
 	$referent->vita = '<p>Nach seinem Physikstudium und seiner Promotion kam Ernst Messerschmid 1978 zur Deutschen Forschungsanstalt für Luft- und Raumfahrt in Oberpfaffenhofen. Ab 1983 war Messerschmid dort Wissenschaftsastronaut und flog 1985 mit dem amerikanischen Space-Shuttle "Challenger" eine Woche in den Weltraum. 1986 wurde er zum ordentlichen Professor und Direktor des Instituts für Raumfahrtsysteme der Universität Stuttgart berufen. Im Zeitraum 2000 bis 2004 übernahm er in Köln-Porz die Leitung des Europäischen Astronautenzentrums der ESA. Er war dort unter anderem verantwortlich für das Astronautentraining und die Auswahl der europäischen Astronauten für Flüge zur Internationalen Raumstation. Zu den derzeitigen Forschungsschwerpunkten gehören die Entwicklung von zukünftigen Raumstationen, Strategien und Szenarien für Raumflugmissionen zu Mond, erdnahen Asteroiden und Mars.</p>';
 	$referent->setVortrag(Vortrag::get('grenzen-des-alls'));
 	
+	$referent = Referent::get('berndkölmel');
+	$referent->name = 'Bernd Kölmel';
+	$referent->desc = 'Sprecher des Landesverbands Baden-Württemberg der AfD';
+	$referent->vita = '<p>Einer Ausbildung und anschließendem sechsjährigen Dienst bei der Polizei folgte ein Studium auf dem Zweiten Bildungsweg als Rechtspfleger. Nach Tätigkeiten beim Amtsgericht Baden-Baden und dem Bundesverfassungsgericht wechselte er 1993 zum Rechnungshof Baden-Württemberg und ist seit dem in verschiedenen Funktionen unter Anderem für die Justiz und Analysen zum Landeshaushalt zuständig.Von 1982 bis 2012 war Kölmel Mitglied bei der CDU, wechselte im März 2013 zu der Alternative für Deutschland und bereitete die Gründung des Landesverbands Baden-Württemberg mit vor. Bei der Gründungsversammlung des Landesverbandes und auch beim Landesparteitag am 24.11.2013 wurde Kölmel als einer der Sprecher gewählt und war auch bei der Bundestagswahl 2013 Spitzenkandidat des Landesverbandes. 
+</p>';
+	$referent->setVortrag(Vortrag::get('europaeische-union'));
+	
 	$referent = Referent::get('samuelkoch');
 	$referent->name = 'Samuel Koch';
 	$referent->desc = 'Buchautor';
@@ -226,12 +233,6 @@ Vor seiner Beschäftigung bei der Kommission war Martin für das Londoner Bü
 	$referent->vita = '<p>Rainer Beckmann ist verheiratet und hat vier Kinder. Als Jurist befasst er sich seit vielen Jahren mit Fragen des Lebensschutzes. Er war in verschiedenen Lebensrechtsorganisationen aktiv und ist gegenwärtig stellvertretender Vorsitzender der Juristen-Vereinigung Lebensrecht e. V. (Köln). Seit April 2001 ist er Schriftleiter der Zeitschrift für Lebensrecht. In der 14. Wahlperiode des Deutschen Bundestages gehörte er als sachverständiges Mitglied der Enquete-Kommission „Recht und Ethik der modernen Medizin“ an (2000 bis 2003). Auch in die neue Enquete-Kommission „Ethik und Recht der modernen Medizin“ wurde er als Sachverständiger berufen. Er hat zahlreiche Publikationen zu medizinisch-rechtlichen Fragen veröffentlicht.</p>';
 	$referent->setVortrag(Vortrag::get('medizinethik'));
 	
-	$referent = Referent::get('ingorollwagen');
-	$referent->name = 'Dr. Ingo Rollwagen';
-	$referent->desc = 'Senior Analyst bei der Deutschen Bank';
-	$referent->vita = '<p>Dr. Ingo Rollwagen, Senior Analyst bei der Deutschen Bank, arbeitet seit 2004 als Experte für Zukunftsfragen, Technologien und Bildung beim bankinternen think-tank DB Research. Dem voraus ging eine mehrjährige Tätigkeit in der Society and Technology Research Group der DaimlerChrysler in dessen Rahmen Zukunfts- und Innovationsforschung betrieben wird.
-Der Schwerpunkt der Arbeit bei der Deutschen Bank Research liegt auf der Analyse der Wissenswirtschaft. Ferner ist Herr Rollwagen als Experte im Bereich Bildung, Wissenschaft und Forschung, Zukunftsforschung und Wissens- und Technologietransfer für Industrieverbände, außeruniversitäre Forschungsorganisationen, die deutsche und verschiedene ausländische Regierungen, die OECD und die Europäische Kommission tätig. Er war u.a. Mitglied der High Level Expert Group ‚Europe 2050’. </p>';
-	$referent->setVortrag(Vortrag::get('europaeische-union'));
 
 	$referent = Referent::get('aloisserwaty');
 	$referent->name = 'Alois Serwaty';
