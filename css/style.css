@@ -5990,7 +5990,7 @@ ul.desc li small:before {
 }
 /* Structure */
 @media (min-width: 768px) {
-  body.mainnav-shift {
+  body.mainnav-fixed-top {
     margin-top: 80px;
   }
 }
@@ -6324,14 +6324,14 @@ ul.desc li small:before {
     width: 75%;
   }
 }
-#main .fullwidth {
+#main .full-width {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  #main .fullwidth {
+  #main .full-width {
     float: left;
     width: 100%;
   }
@@ -6647,6 +6647,13 @@ ul.desc li small:before {
 .archiv-item img {
   float: right !important;
   margin: 0 0 15px 15px;
+}
+.faq dt small {
+  font-size: 1em;
+  font-weight: normal;
+}
+.faq dt small:before {
+  content: '// ';
 }
 /* Forms */
 .form-col-label {

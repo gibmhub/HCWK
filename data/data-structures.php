@@ -185,8 +185,12 @@ class Sponsor {
 	public $link;
 	public $klasse;
 	
-	const kHauptsponsor = 1;
-	const kNebensponsor = 0;
+}
+
+class FAQItem {
+
+	public $frage;
+	public $antwort;
 	
 }
 

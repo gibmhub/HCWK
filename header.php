@@ -62,7 +62,7 @@
 	</head>
 	
 	<?php
-		if (isset($current_page->options['noframe'])&&$current_page->options['noframe']==true) {
+		if (isset($current_page->options['show_banner'])&&$current_page->options['show_banner']==true) {
 	?>
 	
 	<body>
@@ -73,35 +73,25 @@
 				<div class="hand hand-right"></div>
 			</div></div>
 		</div>
-
-	<?php
-			include('mainnav.php');			
-	?>
-		<div id="main">
 			
-	<?php
-	
-		} else {
+	<?php } else { ?>
 			
-			echo '<body class="mainnav-shift">';
+	<body class="mainnav-fixed-top">
 		
-			include('mainnav.php');
-	?>
+	<?php } ?>
+	
+	<?php include('mainnav.php'); ?>
 	
 		    <div id="main">
 		    	<div class="row">
-			    	<div id="sidebar">
-			    		<?php
-			    			include('sidebar.php');
-			    		?>
-			    	</div>
-			        <div class="content sidebar-complement">
-			        	<?php
-			        		if (!(isset($current_page->options['hide_title'])&&$current_page->options['hide_title'])) {
-				        		echo '<h1>'.$current_page->title.'</h1>';
-			        		}
-			        	?>
-					
-	<?php
-		}
-	?>
+		    		<?php
+		    			if (isset($current_page->options['hide_sidebar'])&&$current_page->options['hide_sidebar']==true) {
+		    				echo '<div class="content full-width">';
+		    			} else {
+		    				include('sidebar.php');
+		    				echo '<div class="content sidebar-complement">';
+		    			}
+		        		if (!(isset($current_page->options['hide_title'])&&$current_page->options['hide_title'])) {
+			        		echo '<h1>'.$current_page->title.'</h1>';
+		        		}
+		        	?>

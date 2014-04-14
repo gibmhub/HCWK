@@ -69,7 +69,7 @@
 							<label>
 								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced" value="reduced" data-price="15" required data-validation-required-message="Bitte wählen Sie eine Ticketart">
 								Ermäßigt 15€<br>
-								<small>für Schüler, Studenten, Auszubildende und Behinderte</small>
+								<small>für Schüler, Studenten, Auszubildende und Menschen mit Behinderung</small>
 							</label>
 						</div>
 						<div class="radio">
@@ -129,3 +129,18 @@
 	</div>
 	
 </form>
+
+
+<h1>Häufig gestellte Fragen</h1>
+
+<div class="row">
+
+<?php
+	include_once(__DIR__.'/../data/faq.php');
+	
+	foreach ($faq_items as $faq) {
+		echo '<div class="col-sm-6"><p><strong>'.$faq->frage.'</strong><br>'.$faq->antwort.'</p></div>';
+	}
+?>
+		
+</div>

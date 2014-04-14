@@ -24,7 +24,9 @@
     
     $current_page = $pagemap->addPageWithID('home');
     $current_page->title = 'Willkommen';
-    $current_page->options['noframe'] = True;
+    $current_page->options['show_banner'] = true;
+    $current_page->options['hide_sidebar'] = true;
+    $current_page->options['hide_title'] = true;
     $pagemap->default_page = $current_page;
 
 
@@ -136,7 +138,9 @@
     
     $current_page = $pagemap->addPageWithID('tickets');
     $current_page->title = 'Tickets';
-    $current_page->options['noframe'] = true;
+    $current_page->options['show_banner'] = true;
+    $current_page->options['hide_sidebar'] = true;
+    $current_page->options['hide_title'] = true;
     $main_navi->addElement($current_page);
     
 /*    $current_page = $pagemap->addPageWithID('ticketverkauf');
