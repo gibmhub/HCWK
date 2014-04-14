@@ -11,7 +11,7 @@
 	$current_item->setDateFromString('13-04-2014');
 	$current_item->setTitle('Ankündigung Bernd Kölmel');
 	$current_item->content ='
-<p>Wir freuen uns über die Zusage von Bernd Kölmel, Sprecher des Landesverbandes Baden-Württemberg der Partei Alternative für Deutschland. Er wird an der Diskussion „Europäische Union – Grenzenlose Freiheit?“ teilnehmen und mit einer kritischen Position die Debatte um eine wichtige Perspektive ergänzen.</p>'.Referent::get('berndkölmel')->getReferentBox();
+<p>Wir freuen uns über die Zusage von Bernd Kölmel, Sprecher des Landesverbandes Baden-Württemberg der Partei Alternative für Deutschland. Er wird an der Diskussion „Europäische Union – Grenzenlose Freiheit?“ teilnehmen und mit einer kritischen Position die Debatte um eine wichtige Perspektive ergänzen.</p>'.Referent::get('berndkoelmel')->getReferentBox();
 	$news_manager->addItem($current_item);
 	
 	$current_item = new VINewsItem();
