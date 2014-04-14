@@ -58,7 +58,7 @@
 		<div class="col-sm-7">
 		
 			<p>Noch kein Ticket? Erwerben Sie hier ein Ticket im Online-Verkauf.</p>
-			<p>Der Preis enthält den <strong>Eintritt zu allen Veranstaltungen</strong> des 26. Heidelberger Symposiums 2014, sowie <strong>Verköstigung und Getränke</strong> während des Symposiums.</p>
+			<p>Der Preis enthält den <strong>Eintritt zu allen Veranstaltungen</strong> des 26. Heidelberger Symposiums 2014, sowie <strong>Verköstigung und Getränke (s.u.)</strong> während des Symposiums.</p>
 			
 			<form id="ticketverkauf-form">
 				<div class="row"><div class="col-sm-7">
