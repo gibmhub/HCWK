@@ -168,7 +168,7 @@ ul.desc {
 
 /* Structure */
 
-body.mainnav-shift {
+body.mainnav-fixed-top {
 	@media(min-width: @screen-sm-min) {
 		margin-top: @navbar-height+20px;
 	}
@@ -310,7 +310,7 @@ body.mainnav-shift {
 	.sidebar-complement {
 		.make-sm-column(9);
 	}
-	.fullwidth {
+	.full-width {
 		.make-sm-column(12);
 	}
 
@@ -524,6 +524,12 @@ body.mainnav-shift {
 	img {
 		.pull-right;
 		margin: 0 0 15px 15px;
+	}
+}
+
+.faq {
+	dt {
+		.strong();
 	}
 }
 
