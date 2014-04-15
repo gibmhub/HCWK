@@ -60,4 +60,39 @@ $sponsor->link = 'http://www.gerolsteiner.de';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
+$sponsor = new Sponsor ();
+$sponsor->name = 'Volksbank';
+$sponsor->logo = 'Logo_Volksbank.jpg';
+$sponsor->link = 'https://www.heidelberger-volksbank.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
+$sponsor = new Sponsor ();
+$sponsor->name = 'IFM';
+$sponsor->logo = 'Logo_IFM.png';
+$sponsor->link = 'https://www.ifm.com';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
+$sponsor = new Sponsor ();
+$sponsor->name = 'Endress+Hausser';
+$sponsor->logo = 'Logo_Endresshausser.jpg';
+$sponsor->link = 'http://www.de.endress.com';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
+$sponsor = new Sponsor ();
+$sponsor->name = 'Techniker Krankenkasse';
+$sponsor->logo = 'Logo_TK.jpg';
+$sponsor->link = 'http://www.tk.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
+$sponsor = new Sponsor ();
+$sponsor->name = 'agora42';
+$sponsor->logo = 'Logo_agora42.png';
+$sponsor->link = 'https://www.agora42.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
 ?>
