@@ -70,7 +70,7 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent = Referent::get('oliverstengel');
 	$referent->name = 'Dr. Oliver Stengel';
 	$referent->desc = 'Soziologe';
-	$referent->vita = '<p>Dr. Oliver Stengel studierte von 1995 bis 1997 Philosophie, Ethnologie und Erziehungswissenschaften in Heidelberg. Seit 1997 bis 2003 studierte er Soziologie, Psychologie und Politikwissenschaften in Jena und promovierte 2011 zu dem Thema: "Suffizienz: Die Konsumgesellschaft in der ökologischen Krise" und erhielt dafür den Kapp-Preis des Instituts für Soziologie der Universität Jena. Von 2004 bis Februar 2014 war er wissenschaftlicher Mitarbeiter der Universitäten Jena und Wuppertal und ist seit März diesen Jahres wissenschaftlicher Mitarbeiter der Universität Bochum. In dieser Funktion wirkte er an etlichen Projekten rund um das Thema Nachhaltigkeit im Konsumverhalten mit, wie zum Beispiel zur Rückgabe und Nutzung gebrauchter Handys als Ausgangspunkt für nachhaltiges Konsumentenverhalten im Rahmen des BMBF-Wissenschaftsjahres 2012 "Zukunftsprojekt Erde" oder war aktiv bei  "The European Topic Centre on Sustainable Consumption and Production", welches ein internationales Konsortium aus europäischen Partnerorganisationen ist, zur Europäischen Umweltagentur (EEA) gehört und dessen Aufgabe die empirische Erhebung von Informationen und Daten zu einem nachhaltigen Konsum- und Produktionsverhalten ist.</p>';
+	$referent->vita = '<p>Dr. Oliver Stengel studierte von 1995 bis 1997 Philosophie, Ethnologie und Erziehungswissenschaften in Heidelberg. Seit 1997 bis 2003 studierte er Soziologie, Psychologie und Politikwissenschaften in Jena und promovierte 2011 zu dem Thema: "Suffizienz: Die Konsumgesellschaft in der ökologischen Krise" und erhielt dafür den Kapp-Preis des Instituts für Soziologie der Universität Jena.Von 2004-2006 war er wissenschaftler Mitarbeiter am Institut für Soziologie der Uni Jena, danach wechselte er in die Forschungsgruppe "Nachhaltiges Produzieren und Konsumieren" des Wuppertal Instituts. Seit März 2014 abreitet er als wissenschaftlicher Mitarbeiter an der Hochschule Bochum. In dieser Funktion wirkte er an etlichen Projekten rund um das Thema Nachhaltigkeit im Konsumverhalten mit, wie zum Beispiel zur Rückgabe und Nutzung gebrauchter Handys als Ausgangspunkt für nachhaltiges Konsumentenverhalten im Rahmen des BMBF-Wissenschaftsjahres 2012 "Zukunftsprojekt Erde" oder war aktiv bei  "The European Topic Centre on Sustainable Consumption and Production", welches ein internationales Konsortium aus europäischen Partnerorganisationen ist, zur Europäischen Umweltagentur (EEA) gehört und dessen Aufgabe die empirische Erhebung von Informationen und Daten zu einem nachhaltigen Konsum- und Produktionsverhalten ist.</p>';
 	$referent->setVortrag(Vortrag::get('grenzen-des-konsums'));
 	
 	$referent = Referent::get('berndwittich');
@@ -162,13 +162,7 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 ';
 	$referent->setVortrag(Vortrag::get('voelkerrecht'));
 	
-	$referent = Referent::get('birgitkelle');
-	$referent->name = 'Birgit Kelle';
-	$referent->desc = 'Freie Journalistin und Buchautorin';
-	$referent->vita = '<p>Birgit Kelle, geb. 1975 in Siebenbürgen (Rumänien), verheiratet, Mutter von vier Kindern, Freie Journalistin und Buchautorin (Dann mach doch die Bluse zu – Ein Aufschrei gegen den Gleichheitswahn, Adeo Verlag) Kolumnistin bei The European, Focus u.a. Vorsitzende des Vereins Frau 2000plus e.V., Vorstandsmitglied New Women For Europe (NWFE), Brüssel, stellv. Vorsitzende Familienarbeit e.V. Engagiert für einen neuen Feminismus abseits von Gender Mainstreaming und Quotenwahnsinn. 2012 als Sachverständige berufen vor dem Familienausschuss in der Debatte zum Betreuungsgeld.</p>';
-	$referent->setVortrag(Vortrag::get('feminismus'));
-	
-	
+
 $referent = Referent::get('wolfgangputz');
 $referent->name = 'Wolfgang Putz';
 $referent->desc = 'Jurist, Lehrbeauftragter für Medizinrecht und Medizinethik';

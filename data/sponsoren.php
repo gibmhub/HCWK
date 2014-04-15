@@ -55,15 +55,8 @@ $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
 $sponsor->name = 'Gerolsteiner';
-$sponsor->logo = 'Logo_Gerolsteiner.jpg';
+$sponsor->logo = 'Logo_Gerolsteiner.png';
 $sponsor->link = 'http://www.gerolsteiner.de';
-$sponsor->klasse = 'make-border';
-$sponsoren[] = $sponsor;
-
-$sponsor = new Sponsor ();
-$sponsor->name = 'Volksbank';
-$sponsor->logo = 'Logo_Volksbank.jpg';
-$sponsor->link = 'https://www.heidelberger-volksbank.de';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 

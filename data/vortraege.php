@@ -19,7 +19,7 @@
 	$vortrag = Vortrag::get('koerperliche-grenzen');
 	$vortrag->day = 2;
 	$vortrag->slot = 2;
-	$vortrag->title = 'Körperliche Grenzen';
+	$vortrag->title = 'Grenzen! Persönliche Ansichten von Samuel Koch';
 	$vortrag->desc = '<p>Wer in den letzten Jahren hin und wieder die TV-Show „Wetten, dass..?“ gesehen hat, dem wird die Sendung vom 4. Dezember 2010 in Erinnerung geblieben sein. Die Sendung, die nicht nur den Rücktritt von Thomas Gottschalk mit sich brachte, sondern auch das Leben eines damals 23-jährigen Schauspielstudenten von Grund auf änderte.</ br>
 Samuel Koch ist seit seinem schweren Unfall vor laufenden Kameras und über zehn Millionen Fernsehzuschauern vom Hals abwärts gelähmt und auf diese bizarre Weise berühmt geworden. Von einem Tag auf den anderen sah er sich im Alltag mit gänzlich anderen Aufgaben konfrontiert, die für die meisten Menschen nicht das geringste Problem darstellen. Und das, wo doch gerade Bewegung und Sport eine zentrale Rolle in seinem Leben spielten.</ br>
 Doch Samuel Koch gibt nicht auf, nutzt seine Bekanntheit, schreibt ein Buch über seine Situation und setzt sich für Menschen mit ähnlichen Schicksalen ein!
