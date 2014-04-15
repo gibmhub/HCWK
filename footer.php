@@ -24,25 +24,14 @@
 				
 				<div id="sponsoren">
 				    <h3>Unsere Sponsoren</h3>
-					<ul>
+				    <div class="sponsoren-container">
 						<?php
 							include_once('data/sponsoren.php');
-							$i = 0;
 							foreach ($sponsoren as $sponsor) {
-								if ($i%2==0) {
-									echo '<div class="row">';
-								}
-								echo '<li class="'.$sponsor->klasse.'"><a href="'.$sponsor->link.'" target="_blank"><img src="/img/sponsoren/'.$sponsor->logo.'"></a></li>';
-								if ($i==0) {
-									$i++;
-								}
-								if ($i%2==1) {
-									echo '</div>';
-								}
-								$i++;
+								echo '<div class="sponsoren-item '.$sponsor->klasse.'"><a href="'.$sponsor->link.'" target="_blank"><img src="/img/sponsoren/'.$sponsor->logo.'"></a></div>';
 							}
 						?>
-					</ul>
+				    </div>
 				</div>
 				
 				<div id="kontakt">

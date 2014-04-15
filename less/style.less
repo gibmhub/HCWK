@@ -381,34 +381,29 @@ body.mainnav-fixed-top {
 		.make-row();
 		
 		#fb {
-			.make-sm-column(4);
+			.make-sm-column(5);
 		}
 		#sponsoren {
-			.make-sm-column(5);
-			ul {
-				.list-inline;
+			.make-sm-column(7);
+			.sponsoren-container {
 				background-color: white;
-				li {
-					.make-xs-column(6);
-					&:not(:first-child) {
-						padding-left: 0;
-					}
-					&:not(:last-child) {
-						padding-right: 0;
-					}
-//					padding: 0;
-//					height: 100px;
+				&:after {
+					content: '';
+					display: block;
+					clear: both;
 				}
-				li.hauptsponsor {
-					.make-xs-column(12);
-					//.make-sm-column(12);
-				}
-				li.make-border img {
-					padding: 10px;
+			}
+			.sponsoren-item {
+				float: left;
+				width: 33%;
+				&.hauptsponsor {
+					width: 66%;
 				}
 				img {
 					width: 100%;
-//					border: 1px solid white;
+				}
+				&.make-border {
+					padding: 10px;
 				}
 			}
 		}
