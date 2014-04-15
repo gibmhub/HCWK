@@ -27,32 +27,26 @@
 				    <div class="sponsoren-container">
 						<?php
 							include_once('data/sponsoren.php');
+							$i = 0;
 							foreach ($sponsoren as $sponsor) {
-								echo '<div class="sponsoren-item '.$sponsor->klasse.'"><a href="'.$sponsor->link.'" target="_blank"><img src="/img/sponsoren/'.$sponsor->logo.'"></a></div>';
+								echo '<div class="sponsoren-item '.$sponsor->klasse;
+								if ($sponsor->klasse=='hauptsponsor') {
+									$i++;
+								}
+								if ($i%3==0) {
+									echo(' rowbreak');
+								}
+								echo '"><a href="'.$sponsor->link.'" target="_blank"><img src="/img/sponsoren/'.$sponsor->logo.'"></a></div>';
+								$i++;
 							}
 						?>
 				    </div>
-				</div>
-				
-				<div id="kontakt">
-					<h3><a href="/kontakt">Kontakt</a></h3>
-					<address>
-					  <b>Heidelberger Club für Wirtschaft und Kultur</b><br>
-					  Luisenstraße 3<br>
-					  69115 Heidelberg<br>
-					  <abbr title="Telefon">T:</abbr> 06221 / 70 71 90<br>
-					  <a href="mailto:info@hcwk.de"><abbr title="Email">@:</abbr> info@hcwk.de</a>
-					</address>
-					<!-- TODO: enable
-					<p>Pressematerial finden sie hier:<br>
-					<a href="/presse">Presse</a></p>
-					-->
 				</div>
 
 			</div>
 					
 			<div id="copyright">
-				&copy; 2013 HCWK | <a href="/impressum">Impressum</a> | Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott
+				&copy; 2013 HCWK | <a href="/impressum">Impressum</a> | Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott | <a href="/kontakt">Kontakt</a>
 			</div>
 		</div>
 	</div>

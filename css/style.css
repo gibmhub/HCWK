@@ -6516,6 +6516,9 @@ ul.desc li small:before {
 #footer #extra #sponsoren .sponsoren-item.make-border {
   padding: 10px;
 }
+#footer #extra #sponsoren .sponsoren-item.rowbreak {
+  clear: both;
+}
 #footer #extra #kontakt {
   position: relative;
   min-height: 1px;

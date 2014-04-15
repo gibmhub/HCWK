@@ -12,16 +12,16 @@ $sponsor->klasse = 'hauptsponsor';
 $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
-$sponsor->name = 'Curacon';
-$sponsor->logo = 'Logo_Curacon.jpg';
-$sponsor->link = 'http://www.curacon.de';
+$sponsor->name = 'Hans Böckler Stiftung';
+$sponsor->logo = 'Logo_Hans_Boeckler_Stiftung.jpg';
+$sponsor->link = 'http://www.boeckler.de/index.htm';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
-$sponsor->name = 'Hans Böckler Stiftung';
-$sponsor->logo = 'Logo_Hans_Boeckler_Stiftung.jpg';
-$sponsor->link = 'http://www.boeckler.de/index.htm';
+$sponsor->name = 'Curacon';
+$sponsor->logo = 'Logo_Curacon.jpg';
+$sponsor->link = 'http://www.curacon.de';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
@@ -40,9 +40,9 @@ $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
-$sponsor->name = 'Henkel';
-$sponsor->logo = 'Logo_Henkel.jpg';
-$sponsor->link = 'http://www.henkel.de/';
+$sponsor->name = 'agora42';
+$sponsor->logo = 'Logo_agora42.png';
+$sponsor->link = 'https://www.agora42.de';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
@@ -50,6 +50,13 @@ $sponsor = new Sponsor ();
 $sponsor->name = 'Esser Stiftung';
 $sponsor->logo = 'Logo_Esser_Stiftung.png';
 $sponsor->link = 'http://www.esser-stiftung.de/index.html';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
+$sponsor = new Sponsor ();
+$sponsor->name = 'Endress+Hausser';
+$sponsor->logo = 'Logo_Endresshausser.jpg';
+$sponsor->link = 'http://www.de.endress.com';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
@@ -68,13 +75,6 @@ $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
-$sponsor->name = 'Endress+Hausser';
-$sponsor->logo = 'Logo_Endresshausser.jpg';
-$sponsor->link = 'http://www.de.endress.com';
-$sponsor->klasse = 'make-border';
-$sponsoren[] = $sponsor;
-
-$sponsor = new Sponsor ();
 $sponsor->name = 'Techniker Krankenkasse';
 $sponsor->logo = 'Logo_TK.jpg';
 $sponsor->link = 'http://www.tk.de';
@@ -82,9 +82,9 @@ $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
 $sponsor = new Sponsor ();
-$sponsor->name = 'agora42';
-$sponsor->logo = 'Logo_agora42.png';
-$sponsor->link = 'https://www.agora42.de';
+$sponsor->name = 'Henkel';
+$sponsor->logo = 'Logo_Henkel.jpg';
+$sponsor->link = 'http://www.henkel.de/';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
