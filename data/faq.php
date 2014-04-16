@@ -24,6 +24,7 @@
 	$faq->antwort = 'Ja, Sie können die Registrierung ihres Ticket-Codes einfach mit den geänderten Daten erneut durchführen. Die bei uns hinterlegten Daten werden dabei aktualisiert.';
 	$faq_items[] = $faq;
 	
+	$faq = new FAQItem();
 	$faq->frage = 'Muss ich mich auch registrieren, wenn ich ein Online-Ticket gekauft habe?';
 	$faq->antwort = 'Nein, beim Online-Kauf wird ihr Name direkt bei uns hinterlegt. Sie haben diesbezüglich bereits eine Bestätigung per Email von uns erhalten.';
 	$faq_items[] = $faq;

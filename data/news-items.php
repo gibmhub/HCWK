@@ -8,6 +8,22 @@
     $news_manager = new VINewsManager();
 
 	$current_item = new VINewsItem();
+	$current_item->setDateFromString('16-04-2014');
+	$current_item->setTitle('Start des Ticketvorverkaufs');
+	$current_item->content ='
+	<p>Das Symposium rückt in greifbare Nähe, daher freuen wir uns dass der <a href="/tickets">Online-Ticketverkauf</a> nun zugänglich ist.
+	Folgende Ticketkategorien können dabei ausgewählt werden:</p>
+	<ul>
+		<li><strong>Ermäßigt 15€</strong> <small>für Schüler, Studenten, Auszubildende und Menschen mit Behinderung</small></li>
+		<li><strong>Normal 30€</strong></li>
+	</ul>
+	<p>Zusätzlich wird es dieses Jahr ein Special zum 26. Heidelberger Symposium geben, wobei zwei ermäßigte Tickets zu einem <strong>Sonderpreis von 26€</strong> erworben werden können.</p>
+	<p>Die Informationen zu den Vorverkaufsstellen in Heidelberg werden in Kürze bereitgestellt.</p>
+	<p>Die Tickets gewähren dabei Zugang zu allen Veranstaltungen des 26. Heidelberger Symposiums sowie zur Verköstigung während den angekündigten Essenszeiten.</p>
+	<p>Zudem freuen wir uns sehr, dass Brigardegeneral Dag Baehr, Kommandeur des Kommando Spezialkräfte der deutschen Bundeswehr, am Freitag morgen ein Kolloquium mit dem Titel "Grenzen der physischen und psychischen Belastbarkeit" abhalten wird.</p>'.Referent::get('dagbaehr')->getReferentBox();
+	$news_manager->addItem($current_item);
+	
+	$current_item = new VINewsItem();
 	$current_item->setDateFromString('13-04-2014');
 	$current_item->setTitle('Ankündigung Bernd Kölmel');
 	$current_item->content ='
