@@ -1,6 +1,6 @@
 <?php
 
-	require_once('data/data-structures.php');
+	require_once(__DIR__.'/data-structures.php');
 	
 	/*
 	$referent = Referent::get('__referent_id__');

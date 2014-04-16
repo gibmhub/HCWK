@@ -1,33 +1,26 @@
 <?php
 
-    require_once('VIWebFramework/VIPagemap/VIPagemap.php');
-    require_once('config-secret.php');
-
-    $pagemap = new VIPagemap();
+    require_once(__DIR__.'/config-secret.php');
+    require_once(__DIR__.'/VIWebFramework/VIPagemap.php');
 	    
-    $pagemap->main_title = '26. Heidelberger Symposium';
-    $pagemap->baseurl = $baseurl;
-    $pagemap->basedir = $basedir;
-
-	require_once(__DIR__.'/config-secret.php');
-	$pagemap->env = $env;
+    VIPagemap::$main_title = '26. Heidelberger Symposium';
         
     
     // Error Document
     
-    $current_page = $pagemap->addPageWithID('404');
-    $current_page->title = 'Seite nicht gefunden';
-    $pagemap->error_page = $current_page;
-    $current_page->file = 'placeholder.php';
+    $page = VIPagemap::addPage('404');
+    $page->title = 'Seite nicht gefunden';
+    $page->filename = 'placeholder.php';
+    VIPagemap::$error_page = $page;
 
     // Splashscreen
     
-    $current_page = $pagemap->addPageWithID('home');
-    $current_page->title = 'Willkommen';
-    $current_page->options['show_banner'] = true;
-    $current_page->options['hide_sidebar'] = true;
-    $current_page->options['hide_title'] = true;
-    $pagemap->default_page = $current_page;
+    $page = VIPagemap::addPage('home');
+    $page->title = 'Willkommen';
+    $page->options['show_banner'] = true;
+    $page->options['hide_sidebar'] = true;
+    $page->options['hide_title'] = true;
+    VIPagemap::$default_page = $page;
 
 
     // Main
@@ -36,127 +29,127 @@
 
     // News
 
-    $current_page = $pagemap->addPageWithID('news');
-    $current_page->title = 'News';
-    $current_page->options['sidebar_exclude'] = array('news');
-    $main_navi->addElement($current_page);
+    $page = VIPagemap::addPage('news');
+    $page->title = 'News';
+    $page->options['sidebar_exclude'] = array('news');
+    $main_navi->addElement($page);
 
-    $current_page = $pagemap->addPageWithID('news-item');
-    $current_page->title = 'News';
-	$current_page->options['hide_title'] = true;
-	$current_page->display_url = '/news/$id';
+    $page = VIPagemap::addPage('news-item');
+    $page->title = 'News';
+	$page->options['hide_title'] = true;
+	$page->display_url = '/news/$id';
 
     // Symposium
 
-    $current_page = $pagemap->addPageWithID('symposium');
-    $current_page->title = '26. Symposium';
-    $main_navi->addElement($current_page);
+    $page = VIPagemap::addPage('symposium');
+    $page->title = '26. Symposium';
+    $main_navi->addElement($page);
 
-    $current_page = $pagemap->addPageWithID('grenzenlos');
-    $current_page->title = 'Grenzen[los]';
-    $pagemap->pageWithID('symposium')->forward = $current_page;
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('grenzenlos');
+    $page->title = 'Grenzen[los]';
+    VIPagemap::getPage('symposium')->forward = $page;
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('schirmherr');
-    $current_page->title = 'Schirmherr';
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('schirmherr');
+    $page->title = 'Schirmherr';
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('programm');
-    $current_page->title = 'Programm';
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('programm');
+    $page->title = 'Programm';
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('referenten');
-    $current_page->title = 'Referenten';
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('referenten');
+    $page->title = 'Referenten';
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('vortrag');
-    $current_page->title = 'Vortrag';
-	$current_page->options['hide_title'] = true;    
-	$current_page->display_url = '/vortrag/$id';
+    $page = VIPagemap::addPage('vortrag');
+    $page->title = 'Vortrag';
+	$page->options['hide_title'] = true;    
+	$page->display_url = '/vortrag/$id';
 	
-    $current_page = $pagemap->addPageWithID('mitmachen');
-    $current_page->title = 'Mitmachen';
-	$current_page->options['hide_title'] = true;    
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('mitmachen');
+    $page->title = 'Mitmachen';
+	$page->options['hide_title'] = true;    
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('spenden');
-    $current_page->title = 'Spenden';
-    $pagemap->pageWithID('symposium')->addChildPage($current_page);
+    $page = VIPagemap::addPage('spenden');
+    $page->title = 'Spenden';
+    VIPagemap::getPage('symposium')->addChildPage($page);
 
     // Veranstaltungsort
     
-    $current_page = $pagemap->addPageWithID('veranstaltungsort');
-    $current_page->title = 'Veranstaltungsort';
-    $main_navi->addElement($current_page);
+    $page = VIPagemap::addPage('veranstaltungsort');
+    $page->title = 'Veranstaltungsort';
+    $main_navi->addElement($page);
 
-    $current_page = $pagemap->addPageWithID('heidelberg');
-    $current_page->title = 'Heidelberg';
-	$current_page->options['hide_title'] = true;    
-    $pagemap->pageWithID('veranstaltungsort')->forward = $current_page;
-    $pagemap->pageWithID('veranstaltungsort')->addChildPage($current_page);
+    $page = VIPagemap::addPage('heidelberg');
+    $page->title = 'Heidelberg';
+	$page->options['hide_title'] = true;    
+    VIPagemap::getPage('veranstaltungsort')->forward = $page;
+    VIPagemap::getPage('veranstaltungsort')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('anfahrt');
-    $current_page->title = 'Anfahrt';
-    $pagemap->pageWithID('veranstaltungsort')->addChildPage($current_page);
+    $page = VIPagemap::addPage('anfahrt');
+    $page->title = 'Anfahrt';
+    VIPagemap::getPage('veranstaltungsort')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('uebernachten');
-    $current_page->title = 'Übernachten';
-    $pagemap->pageWithID('veranstaltungsort')->addChildPage($current_page);
+    $page = VIPagemap::addPage('uebernachten');
+    $page->title = 'Übernachten';
+    VIPagemap::getPage('veranstaltungsort')->addChildPage($page);
 	
 	// Veranstalter
 	
-    $current_page = $pagemap->addPageWithID('veranstalter');
-    $current_page->title = 'Veranstalter';
-    $main_navi->addElement($current_page);
+    $page = VIPagemap::addPage('veranstalter');
+    $page->title = 'Veranstalter';
+    $main_navi->addElement($page);
 
-    $current_page = $pagemap->addPageWithID('hcwk');
-    $current_page->title = 'Der HCWK';
-    $pagemap->pageWithID('veranstalter')->forward = $current_page;
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('hcwk');
+    $page->title = 'Der HCWK';
+    VIPagemap::getPage('veranstalter')->forward = $page;
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('team');
-    $current_page->title = 'Team 2014';
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('team');
+    $page->title = 'Team 2014';
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('kuratoren');
-    $current_page->title = 'Kuratoren';
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('kuratoren');
+    $page->title = 'Kuratoren';
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('kontakt');
-    $current_page->title = 'Kontakt';
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('kontakt');
+    $page->title = 'Kontakt';
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('presse');
-    $current_page->title = 'Presse';
-//    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('presse');
+    $page->title = 'Presse';
+//    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
-    $current_page = $pagemap->addPageWithID('archiv');
-    $current_page->title = 'Archiv';
-    $pagemap->pageWithID('veranstalter')->addChildPage($current_page);
+    $page = VIPagemap::addPage('archiv');
+    $page->title = 'Archiv';
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
     // Tickets
     
-    $current_page = $pagemap->addPageWithID('tickets');
-    $current_page->title = 'Tickets';
-    $current_page->options['show_banner'] = true;
-    $current_page->options['hide_sidebar'] = true;
-    $current_page->options['hide_title'] = true;
-    $main_navi->addElement($current_page);
+    $page = VIPagemap::addPage('tickets');
+    $page->title = 'Tickets';
+    $page->options['show_banner'] = true;
+    $page->options['hide_sidebar'] = true;
+    $page->options['hide_title'] = true;
+    $main_navi->addElement($page);
     
-/*    $current_page = $pagemap->addPageWithID('ticketverkauf');
-    $current_page->title = 'Ticketverkauf';
-    $pagemap->pageWithID('tickets')->addChildPage($current_page);
+/*    $page = VIPagemap::addPage('ticketverkauf');
+    $page->title = 'Ticketverkauf';
+    VIPagemap::getPage('tickets')->addChildPage($page);
     
-    $current_page = $pagemap->addPageWithID('registrierung');
-    $current_page->title = 'Ticket registrieren';
-    $pagemap->pageWithID('tickets')->addChildPage($current_page);*/
+    $page = VIPagemap::addPage('registrierung');
+    $page->title = 'Ticket registrieren';
+    VIPagemap::getPage('tickets')->addChildPage($page);*/
 
     // Footer    
     
     // Impressum
     
-    $current_page = $pagemap->addPageWithID('impressum');
-    $current_page->title = 'Impressum';
+    $page = VIPagemap::addPage('impressum');
+    $page->title = 'Impressum';
 
 
 ?>

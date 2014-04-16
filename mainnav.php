@@ -27,7 +27,7 @@
 		
 	    <div id="navbar-wrapper" class="collapse navbar-collapse">
 			<?php
-				echo $main_navi->htmlRepresentation('nav navbar-nav', $pagemap);
+				echo $main_navi->htmlRepresentation('nav navbar-nav');
 			?>
 		</div>
 

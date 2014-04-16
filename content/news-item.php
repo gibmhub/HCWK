@@ -1,7 +1,7 @@
 <?php
-	include_once('data/news-items.php');
+	require_once(__DIR__.'/../data/news-items.php');
 
-	$item = $news_manager->getItem($_GET['id']);
+	$item = VINewsManager::getItem($_GET['id']);
 	
 	if (!isset($item)) {
 		echo '<p>Kein Artikel ausgewählt</p>';

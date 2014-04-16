@@ -1,6 +1,6 @@
 <?php
 	
-	require_once('data/data-structures.php');
+	require_once(__DIR__.'/data-structures.php');
 
 	/*
 	$vortrag = Vortrag::get('__vortrag_id__');

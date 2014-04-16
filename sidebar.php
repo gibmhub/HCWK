@@ -7,17 +7,17 @@
 	
 	<?php
 	
-		if (count($current_page->childPages)>0) {
+		if (count($current_page->getChildPages())>0) {
 	    	$parentPage = $current_page;
-		} else if (isset($current_page->parentPage)) {
-	    	$parentPage = $current_page->parentPage;
+		} else if ($current_page->getParentPage()!=null) {
+	    	$parentPage = $current_page->getParentPage();
 		}
-		if (isset($parentPage)&&count($parentPage->childPages)>0) {
+		if (isset($parentPage)&&count($parentPage->getChildPages())>0) {
 	        echo '<h3>'.$parentPage->title.'</h3>';
 			echo '<ul class="submenu-box">';
-			foreach ($parentPage->childPages as $child) {
+			foreach ($parentPage->getChildPages() as $child) {
 				echo '<li';
-				if ($pagemap->isCurrentPage($child)) {
+				if (VIPagemap::isCurrentPage($child)) {
 	    			echo ' class="active"';
 				}
 				echo '><a href="'.$child->displayURL().'">'.$child->title.'</a></li>';
@@ -30,10 +30,10 @@
 	<?php
 		
 	//	if ($current_page->id!='news') {
-	        include_once('data/news-items.php');
+	        require_once(__DIR__.'/data/news-items.php');
 	
 	        echo '<h3><a href="/news">Aktuell</a></h3>';
-	        echo $news_manager->getNewsBox(5);
+	        echo VINewsManager::getNewsBox(5);
 		
 	//	}	
 	    

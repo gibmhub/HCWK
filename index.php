@@ -1,8 +1,8 @@
 <?php
 
-    require_once('pagemap_setup.php');
+	require_once(__DIR__.'/config-secret.php');
 
-    if ($pagemap->env==VI_ENV_DEBUG) {
+    if (VIConstants::$env==VI_ENV_DEBUG) {
         ini_set('display_startup_errors',1);
 	    ini_set('display_errors',1);
 	    error_reporting(-1);
@@ -10,14 +10,16 @@
 	    error_reporting(0);
     }
     
-    $current_page = $pagemap->currentPage();
+    require_once(__DIR__.'/pagemap_setup.php');
+
+    $current_page = VIPagemap::getCurrentPage();
         
-    $pagemap->checkURL();
+    VIPagemap::checkURL();
 
-	require('header.php');
+	require(__DIR__.'/header.php');
 
-	include('content/'.$current_page->file);
+	include(__DIR__.'/content/'.$current_page->getFile());
 
-	require('footer.php');
+	require(__DIR__.'/footer.php');
 
 ?>

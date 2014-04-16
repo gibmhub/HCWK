@@ -26,7 +26,7 @@
 				    <h3>Unsere Sponsoren</h3>
 				    <div class="sponsoren-container">
 						<?php
-							include_once('data/sponsoren.php');
+							include_once(__DIR__.'/data/sponsoren.php');
 							$i = 0;
 							foreach ($sponsoren as $sponsor) {
 								echo '<div class="sponsoren-item '.$sponsor->klasse;
