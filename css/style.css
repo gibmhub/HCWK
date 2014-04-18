@@ -6701,6 +6701,7 @@ ul.desc li small:before {
   color: red;
 }
 /* PayPal */
-#paypal {
+#paypal,
+#sofortueberweisung {
   display: none;
 }

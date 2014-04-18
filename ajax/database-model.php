@@ -1,6 +1,9 @@
 <?php
 
-	require_once(__DIR__.'/../config-secret.php');	
+	require_once(__DIR__.'/../config-secret.php');
+	
+	require_once(__DIR__.'/../VIWebFramework/VILogger.php');
+	$logger = VILogger::get('tickets.'.basename(__FILE__, '.php'));
 	
 	$database = new mysqli($mysql_server, $mysql_username, $mysql_password, $mysql_database);
 	
@@ -43,7 +46,10 @@
 		}
 
 		static public function register($ticketcode, $name, $email) {
-		
+
+			global $logger;
+			$logger->log('register ticketcode: '.$ticketcode.' | '.$name.' | '.$email, VI_LOG_LEVEL_INFO);
+
 			$ticket = self::get($ticketcode);
 			$ticket->name = $name;
 			$ticket->email = $email;
@@ -62,6 +68,10 @@
 		}
 		
 		static public function get_paid_online_ticketcode($txn_type, $txn_id, $type) {
+		
+			global $logger;
+			$logger->log('requested paid online ticketcode: '.$txn_type.' | '.$txn_id.' | '.$type, VI_LOG_LEVEL_INFO);
+			
 			global $database;
 			if ($result = $database->query('SELECT ticketcode FROM ticketliste WHERE use_online = 1 AND txn_id IS NULL LIMIT 1')) {
 				if ($row = $result->fetch_object()) {

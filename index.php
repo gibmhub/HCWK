@@ -9,7 +9,7 @@
     } else {
 	    error_reporting(0);
     }
-    
+
     require_once(__DIR__.'/pagemap_setup.php');
 
     $current_page = VIPagemap::getCurrentPage();

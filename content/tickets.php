@@ -99,9 +99,8 @@
 						</div>
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung" disabled>
+								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
 								Sofortüberweisung<br>
-								<small>Noch nicht verfügbar</small>
 							</label>
 						</div>
 					</div>
@@ -115,13 +114,26 @@
 				    data-name="26. Heidelberger Symposium"
 				    data-amount="0"
 				    data-currency="EUR"
-				    data-callback="<?=$baseurl?>/ajax/paypal-listener.php"
-				    data-return="<?=$baseurl?>/tickets/?payment-success=true"
+				    data-callback="<?=VIPagemap::$baseurl?>/ajax/paypal-listener.php"
+				    data-return="<?=VIPagemap::$baseurl?>/tickets/?payment-success=true"
 				    <?php if ($paypal_use_sandbox) { ?>
 				    data-env="sandbox"
 				    <?php } ?>
 				    data-custom=""
 				></script>
+			</div>
+			<div id="sofortueberweisung">
+				<form class="sofortueberweisung-button" method="post" action="https://www.sofort.com/payment/start">
+					<input type="hidden" name="user_id" value="<?=$sofortueberweisung_user_id?>" />
+					<input type="hidden" name="project_id" value="<?=$sofortueberweisung_project_id?>" />
+					<input type="hidden" name="reason_1" value="-TRANSACTION-" />
+					<input type="hidden" name="reason_2" value="Heidelberger Symposium" />
+					<input type="hidden" name="user_variable_0" value="" />
+					<input type="hidden" name="user_variable_1" value="" />
+					<input type="hidden" name="user_variable_2" value="" />
+					<input type="hidden" name="amount" value="0" />
+					<input type="submit" value="Absenden" />
+				</form>
 			</div>
 
 		</div>
