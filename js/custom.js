@@ -50,6 +50,11 @@ $(function() {
 	 					$('#success > .alert-success').html('<button class="close" type="button" data-dismiss="alert">×').append('</button>');
 	 					$('#success > .alert-success').append('<strong>Vielen Dank! Ihr Ticket wurde registriert.</strong> Sie erhalten in wenigen Minuten eine Email zur Bestätigung. Um die angegebenen Daten zu korrigieren, können Sie die Registrierung erneut durchführen. Bitte wenden Sie sich bei Fragen an unseren <a href="/kontakt">Kontakt</a>.');
 	 					$('#success > .alert-success').append('</div>');
+						try {
+							ga('send', 'event', 'tickets', 'registrierung');
+						} catch (e) {
+							console.log(e);
+						}
 					} else {
 						// Fail message
 						$('#success').html('<div class="alert alert-danger">');
@@ -111,6 +116,11 @@ $(function() {
 				$('#success > .alert-danger').append('<strong>Ungültige Eingaben…</strong> Bitte füllen Sie die Felder aus oder treten Sie mit uns in <a href="/kontakt">Kontakt</a>.');
 				$('#success > .alert-danger').append('</div>');
 				return;
+			}
+			try {
+				ga('send', 'event', 'tickets', 'kauf', zahlungsart);
+			} catch (e) {
+				console.log(e);
 			}
 			if (zahlungsart=='paypal') {
 				$('form.paypal-button input[name=custom]').val(name+'&&'+email+'&&'+tickettype);
