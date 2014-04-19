@@ -29,4 +29,9 @@
 	$faq->antwort = 'Nein, beim Online-Kauf wird ihr Name direkt bei uns hinterlegt. Sie haben diesbezüglich bereits eine Bestätigung per Email von uns erhalten.';
 	$faq_items[] = $faq;
 	
+	$faq = new FAQItem();
+	$faq->frage = 'Ich möchte das Ticketspecial kaufen. Soll ich den Namen für das zweite Ticket auch direkt mit eintragen?';
+	$faq->antwort = 'Nein, geben Sie beim Online-Kauf nur Ihre eigenen Daten an. Sie erhalten dann den zweiten Ticket-Code per Email und können ihn an die zweite Person weitergeben. Er oder sie kann sich anschließend selbst mit diesem Ticket-Code registrieren.';
+	$faq_items[] = $faq;
+	
 ?>
