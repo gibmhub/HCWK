@@ -25,7 +25,7 @@
 
     // Main
     
-    $main_navi = new VINavigation();
+    $main_navi = new VINavigation('main-navi');
 
     // News
 

@@ -2,13 +2,9 @@
 
 	require_once(__DIR__.'/config-secret.php');
 
-    if (VIConstants::$env==VI_ENV_DEBUG) {
-        ini_set('display_startup_errors',1);
-	    ini_set('display_errors',1);
-	    error_reporting(-1);
-    } else {
-	    error_reporting(0);
-    }
+	require_once(__DIR__.'/VIWebFramework/VILogger.php');
+	VILogger::get('default')->configureErrorReporting(VI_LOG_LEVEL_DEBUG);
+
 
     require_once(__DIR__.'/pagemap_setup.php');
 
