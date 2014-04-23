@@ -415,14 +415,47 @@ body.mainnav-fixed-top {
 		}
 	}
 
-	#copyright {
+	#bottom-line {
 		.make-row();
 		font-size: 0.85em;
-		.text-center;
-		padding-top: 15px;
-		padding-bottom: 15px;
+		margin-top: 30px;
+		margin-bottom: 25px;
+		& > div {
+			.make-sm-column(4);
+			height: 50px;
+			.vertical-center;
+			text-align: center;
+			@media (max-width: @screen-sm-min) {
+				width: 100%;
+			}
+		}
+		#copyright {
+			@media (min-width: @screen-sm-min) {
+				text-align: left;
+			}
+		}
+		#about {
+			@media (min-width: @screen-sm-min) {
+				text-align: right;
+			}
+		}
+		#silhouetten {
+			img {
+				height: 50px;
+				margin-right: 10px;
+			}
+		}
+
 	}
 	
+}
+
+.vertical-center {
+	display: table;
+	.vertical-center-inner {
+		display: table-cell;
+		vertical-align: middle;
+	}
 }
 
 

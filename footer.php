@@ -45,8 +45,16 @@
 
 			</div>
 					
-			<div id="copyright">
-				&copy; 2013 HCWK | <a href="/impressum">Impressum</a> | Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott | <a href="/kontakt">Kontakt</a>
+			<div id="bottom-line">
+				<div id="copyright" class="vertical-center"><div class="vertical-center-inner">&copy; 2013 HCWK | <a href="/impressum">Impressum</a></div></div>
+				<div id="silhouetten" class="vertical-center"><div class="vertical-center-inner">
+<?php
+					include_once(__DIR__.'/data/silhouetten.php');
+					$silhouette = $silhouetten[array_rand($silhouetten)];
+?>
+					<img src="/img/silhouetten/<?=$silhouette->id?>.svg"><?=$silhouette->spruch?>
+				</div></div>
+				<div id="about" class="vertical-center"><div class="vertical-center-inner">Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott | <a href="/kontakt">Kontakt</a></div></div>
 			</div>
 		</div>
 	</div>
