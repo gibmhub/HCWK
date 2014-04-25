@@ -84,10 +84,16 @@ ul.desc {
 	
 	a {
 		color: @color-highlight;
+		&.btn-primary {
+			color: @color-bg;
+		}
 	}
 	a:hover, a:active, a:focus, .active > a {
 		color: @color-text;
 		text-decoration: none;
+		&.btn-primary {
+			color: @color-bg;
+		}
 	}
 	h1>a, h2>a, h3>a, h4>a, h5>a, h6>a {
 		color: @color-text;
@@ -469,6 +475,15 @@ body.mainnav-fixed-top {
 	}
 	.date {
 		.text-center;
+	}
+}
+
+.tickets-left-counter-box {
+	display: none;
+	text-align: center;
+	margin: 10px 0 10px 0;
+	.btn {
+		margin-top: 10px;
 	}
 }
 

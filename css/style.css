@@ -5893,12 +5893,21 @@ ul.desc li small:before {
 #banner a {
   color: #ffffff;
 }
+#banner a.btn-primary {
+  color: #000000;
+}
 #banner a:hover,
 #banner a:active,
 #banner a:focus,
 #banner .active > a {
   color: #009fee;
   text-decoration: none;
+}
+#banner a:hover.btn-primary,
+#banner a:active.btn-primary,
+#banner a:focus.btn-primary,
+#banner .active > a.btn-primary {
+  color: #000000;
 }
 #banner h1 > a,
 #banner h2 > a,
@@ -6061,12 +6070,21 @@ ul.desc li small:before {
 #mainnav a {
   color: #ffffff;
 }
+#mainnav a.btn-primary {
+  color: #000000;
+}
 #mainnav a:hover,
 #mainnav a:active,
 #mainnav a:focus,
 #mainnav .active > a {
   color: #009fee;
   text-decoration: none;
+}
+#mainnav a:hover.btn-primary,
+#mainnav a:active.btn-primary,
+#mainnav a:focus.btn-primary,
+#mainnav .active > a.btn-primary {
+  color: #000000;
 }
 #mainnav h1 > a,
 #mainnav h2 > a,
@@ -6268,12 +6286,21 @@ ul.desc li small:before {
 #main a {
   color: #009fee;
 }
+#main a.btn-primary {
+  color: #ffffff;
+}
 #main a:hover,
 #main a:active,
 #main a:focus,
 #main .active > a {
   color: #000000;
   text-decoration: none;
+}
+#main a:hover.btn-primary,
+#main a:active.btn-primary,
+#main a:focus.btn-primary,
+#main .active > a.btn-primary {
+  color: #ffffff;
 }
 #main h1 > a,
 #main h2 > a,
@@ -6394,12 +6421,21 @@ ul.desc li small:before {
 #footer a {
   color: #000000;
 }
+#footer a.btn-primary {
+  color: #009fee;
+}
 #footer a:hover,
 #footer a:active,
 #footer a:focus,
 #footer .active > a {
   color: #ffffff;
   text-decoration: none;
+}
+#footer a:hover.btn-primary,
+#footer a:active.btn-primary,
+#footer a:focus.btn-primary,
+#footer .active > a.btn-primary {
+  color: #009fee;
 }
 #footer h1 > a,
 #footer h2 > a,
@@ -6593,6 +6629,14 @@ ul.desc li small:before {
 }
 .brand-box .date {
   text-align: center;
+}
+.tickets-left-counter-box {
+  display: none;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.tickets-left-counter-box .btn {
+  margin-top: 10px;
 }
 .submenu-box {
   padding-left: 0;

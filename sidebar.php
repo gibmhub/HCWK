@@ -5,6 +5,15 @@
 		<div class="date"><i>8. – 10. Mai 2014</i></div>
 	</div>
 	
+	<div class="tickets-left-counter-box">
+<?php
+		include_once(__DIR__.'/ajax/database-model.php');
+?>
+		Nur noch <strong><?=ticketsLeftCount()?></strong> Tickets verfügbar.
+		<a href="/tickets" class="btn btn-primary">Ticket kaufen</a>		
+	</div>
+
+	
 	<?php
 	
 		if (count($current_page->getChildPages())>0) {
@@ -49,5 +58,5 @@
 		    echo $referent->getReferentBox('vertical');
 		?>
 	</div>-->
-
+	
 </div>

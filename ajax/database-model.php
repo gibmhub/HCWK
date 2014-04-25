@@ -130,4 +130,13 @@ function process_payment($payment_status, $txn_type, $txn_id, $name, $email, $ty
 
 }
 
+function ticketsLeftCount() {
+	global $database;
+	if ($result = $database->query('SELECT COUNT(*) FROM ticketliste WHERE timestamp IS NULL')) {
+		if ($row = $result->fetch_row()) {
+			return $row[0];
+		}
+	}
+}
+
 ?>
