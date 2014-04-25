@@ -2,6 +2,7 @@
 	if (!isset($_GET['id'])||$_GET['id']=='undefined') {
 		die('<div class="alert alert-danger"><strong>Kein Referent ausgewählt.</strong> Unter <a href="/referenten">Referenten</a> finden Sie eine vollständige Liste.</div>');
 	}
+	include_once(__DIR__.'/../data/referenten.php');
 	$referent = Referent::getReferent($_GET['id']);
 	if ($referent==null) {
 		die('<div class="alert alert-danger"><strong>Es existiert keine Seite für diesen Referenten.</strong> Unter <a href="/referenten">Referenten</a> finden Sie eine vollständige Liste.</div>');

@@ -1,6 +1,6 @@
 <?php
 
-	include_once('data/referenten.php');
+	require_once(__DIR__.'/../data/referenten.php');
 	
 	// sort by vortrag->title > name
 	function referenten_sort(Referent $a, Referent $b) {

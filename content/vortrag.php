@@ -2,6 +2,7 @@
 	if (!isset($_GET['id'])||$_GET['id']=='undefined') {
 		die('<div class="alert alert-danger"><strong>Kein Vortrag ausgewählt.</strong> Unter <a href="/programm">Programm</a> finden Sie eine vollständige Liste.</div>');
 	}
+	require_once(__DIR__.'/../data/vortraege.php');
 	$vortrag = Vortrag::getVortrag($_GET['id']);
 	if ($vortrag==null) {
 		die('<div class="alert alert-danger"><strong>Es existiert keine Seite für diesen Vortrag.</strong> Unter <a href="/programm">Programm</a> finden Sie eine vollständige Liste.</div>');
