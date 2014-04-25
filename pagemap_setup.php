@@ -62,6 +62,11 @@
     $page->title = 'Referenten';
     VIPagemap::getPage('symposium')->addChildPage($page);
 
+    $page = VIPagemap::addPage('referent');
+    $page->title = 'Referent';
+	$page->options['hide_title'] = true;
+	$page->display_url = '/referent/$id';
+
     $page = VIPagemap::addPage('vortrag');
     $page->title = 'Vortrag';
 	$page->options['hide_title'] = true;    

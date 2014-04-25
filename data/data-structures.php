@@ -26,6 +26,9 @@ class Referent {
 	}
 	
 	static public function getReferent($id) {
+		if (!isset(self::$referenten[$id])) {
+			return null;
+		}
 		return self::$referenten[$id];
 	}
 	

@@ -6,7 +6,7 @@ ErrorDocument 404 http://www.heidelberger-symposium.de/404
 
 RewriteEngine On
 
-# RewriteBase /
+RewriteBase /hcwk/
 
 # RewriteCond %{HTTP_HOST} !^www.heidelberger-symposium.de$ [NC]
 # RewriteRule ^(.*) http://www.heidelberger-symposium.de/$1 [R=301,L]
@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME} -f
 # RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule  .?  -  [L]
 
-RewriteRule ^referent/([a-z0-9-]+)/?$ index.php?p=referenten#$1 [QSA,NC,L]
+RewriteRule ^referent/([a-z0-9-]+)/?$ index.php?p=referent&id=$1 [QSA,NC,L]
 RewriteRule ^vortrag/([a-z0-9-]+)/?$ index.php?p=vortrag&id=$1 [QSA,NC,L]
 RewriteRule ^news/([a-z0-9-]+)/?$ index.php?p=news-item&id=$1 [QSA,NC,L]
 RewriteRule ^([a-z0-9-]+)/?$ index.php?p=$1 [QSA,NC,L]
