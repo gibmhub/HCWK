@@ -6,6 +6,7 @@
 	$referent = Referent::get('__referent_id__');
 	$referent->name = '__referent_name__';
 	$referent->desc = '__referent_desc__';
+	$referent->vita = '__referent_vita__';
 	$referent->setVortrag(Vortrag::get('__vortrag_id__'));
 	*/
 	
@@ -14,6 +15,12 @@
 	$referent->desc = 'Professor für Astronautik und Raumstationen, ehem. Astronaut und Leiter des Europäischen Astronautenzentrums der ESA';
 	$referent->vita = '<p>Nach seinem Physikstudium und seiner Promotion kam Ernst Messerschmid 1978 zur Deutschen Forschungsanstalt für Luft- und Raumfahrt in Oberpfaffenhofen. Ab 1983 war Messerschmid dort Wissenschaftsastronaut und flog 1985 mit dem amerikanischen Space-Shuttle "Challenger" eine Woche in den Weltraum. 1986 wurde er zum ordentlichen Professor und Direktor des Instituts für Raumfahrtsysteme der Universität Stuttgart berufen. Im Zeitraum 2000 bis 2004 übernahm er in Köln-Porz die Leitung des Europäischen Astronautenzentrums der ESA. Er war dort unter anderem verantwortlich für das Astronautentraining und die Auswahl der europäischen Astronauten für Flüge zur Internationalen Raumstation. Zu den derzeitigen Forschungsschwerpunkten gehören die Entwicklung von zukünftigen Raumstationen, Strategien und Szenarien für Raumflugmissionen zu Mond, erdnahen Asteroiden und Mars.</p>';
 	$referent->setVortrag(Vortrag::get('grenzen-des-alls'));
+	
+	$referent = Referent::get('fabiantrau');
+	$referent->name = 'Fabian Trau';
+	$referent->desc = 'Student';
+	$referent->vita = '<p>Fabian Trau studiert seit 2010 an der Ruprecht-Karls-Universität Heidelberg Slavistik und Geschichte. Parallel zum Studium absolvierte er Praktika in verschiedenen Redaktion bei Print, Radio und Fernsehen. Sein Schwerpunkt liegt auf Osteuropa, wo er unter anderem im ARD-Studio Warschau und dem Studio der Deutschen Welle in Moskau hospitierte. Während der Europameisterschaft 2012 in Polen und der Ukraine und den Olympischen Winterspielen 2014 in Sochi war er für den ARD-Hörfunk vor Ort tätig. Seit Herbst 2013 ist er Stipendiat der studienbegleitenden Journalistenausbildung des Instituts zur Förderung des publizistischen Nachwuchses in München.</p>';
+	$referent->setVortrag(Vortrag::get('gespraechsrunde-mit-frank-plasberg'));
 	
 	$referent = Referent::get('berndkoelmel');
 	$referent->name = 'Bernd Kölmel';
