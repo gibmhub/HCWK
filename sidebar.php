@@ -7,10 +7,10 @@
 	
 	<div class="tickets-left-counter-box">
 <?php
-		include_once(__DIR__.'/ajax/database-model.php');
+		// include_once(__DIR__.'/ajax/database-model.php');
+		// echo 'Nur noch <strong>'.ticketsLeftCount().'</strong> Tickets verfügbar.';
 ?>
-		Nur noch <strong><?=ticketsLeftCount()?></strong> Tickets verfügbar.
-		<a href="/tickets" class="btn btn-primary">Ticket kaufen</a>		
+		<a href="/tickets" class="btn btn-primary">Tickets registrieren<br>oder kaufen</a><br>
 	</div>
 
 	
