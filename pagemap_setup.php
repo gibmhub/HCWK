@@ -126,7 +126,7 @@
 
     $page = VIPagemap::addPage('presse');
     $page->title = 'Presse';
-//    VIPagemap::getPage('veranstalter')->addChildPage($page);
+    VIPagemap::getPage('veranstalter')->addChildPage($page);
 
     $page = VIPagemap::addPage('archiv');
     $page->title = 'Archiv';
