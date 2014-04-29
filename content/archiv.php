@@ -22,7 +22,7 @@
     </dl>
 </div>
 
-<div class="archiv_item">
+<div class="archiv-item">
     <h2>24. Heidelberger Symposium <small>03. - 05. Mai 2012 mit dem Thema "Mut zur Moral"</small></h2>
 	
  <img src="/img/content/24symposium.png"/>
@@ -50,7 +50,7 @@
 </div>
 
 
-<div class="archiv_item">
+<div class="archiv-item">
     <h2>23. Heidelberger Symposium <small>05. - 07. Mai 2011 mit dem Thema "Achtung, Freiheit!"</small></h2>
 	<img src="/img/content/23symposium.png"/>
 	<dl>
@@ -68,7 +68,7 @@
 				<ul>
         <li><strong>Wolfgang Huber <small>ehemaliger Ratsvorsitzender der evangelischen Kirche in Deutschland</small></strong></li>
         <li><strong>Peter Schaar <small>Bundesbeauftragter für den Datenschutz</small></strong></li>
-        <li><strong>Frido Mann <small>Schriftsteller und Psychologe</small></strong></li>>
+        <li><strong>Frido Mann <small>Schriftsteller und Psychologe</small></strong></li>
         <li><strong>Thilo Sarrazin <small>Politiker und Autor</small></strong></li>
 				</ul>
 			</dd>
@@ -76,7 +76,7 @@
 	</div>
 
 
-<div class="archiv_item">
+<div class="archiv-item">
     <h2>22. Heidelberger Symposium <small>06. - 08. Mai 2010 mit dem Thema "Fortschritt - Wohin?"</small></h2>
 	<img src="/img/content/22symposium.png"/>
     <dl>
@@ -104,27 +104,27 @@
 	
 	
 	
-	<div class="archiv_item">
-    <h2>Themen vor 2010:</h2>
-    <p>2009:	Glück für Alle!<br />
-    2008:	Wissen Macht Menschen<br />
-    2007:	Um Gottes Willen – Renaissance der Religion?</em><br />
-    2006:	Angst – Blockade unserer Gesellschaft?<br />
-    2005:	Identität in Deutschland – Selbstverständnis einer Nation<br />
-    2004:	Visions of the World – Kooperation, Verantwortung und Gerechtigkeit in unserer „heilen“ Welt<br />
-    2003:	Arbeit im Wandel – Entwicklungsland Deutschland?<br />
-    2002:	EuroVision – United States of Europe?<br />
-    2001:	GENial? – Der Mensch von morgen<br />
-    2000:	Zukunft der Medien – Medien der Zukunft<br />
-    1999:	Bild dir deine Zukunft – Identität im neuen Jahrtausend<br />
-    1998:	Im Rausch der Geschwindigkeit – Wo steht der Mensch?<br />
-    1997:	Aus-Gebildet?!<br />
-    1996:	Globalisierung – Der Schritt in ein neues Zeitalter<br />
-    1995:	Sozialfall Sozialstaat<br />
-    1994:	Werte – Worthülsen oder Wegweiser?<br />
-    1993:	Falsch programmiert?! – Herausforderung Informationsgesellschaft<br />
-    1992:	Deutschland quo vadis?<br />
-    1991:	Freiheit – Freizeit – Berufung – Beruf<br />
-    1990:	Ressourcen – Spiel mit Grenzen<br />
-    1989:	Europa '92</p>
-</div>
+<h2 style="clear:both">Themen vor 2010:</h2>
+<ul>
+<li>2009: Glück für Alle!</li>
+<li>2008: Wissen Macht Menschen</li>
+<li>2007: Um Gottes Willen – Renaissance der Religion?</li>
+<li>2006: Angst – Blockade unserer Gesellschaft?</li>
+<li>2005: Identität in Deutschland – Selbstverständnis einer Nation</li>
+<li>2004: Visions of the World – Kooperation, Verantwortung und Gerechtigkeit in unserer „heilen“ Welt</li>
+<li>2003: Arbeit im Wandel – Entwicklungsland Deutschland?</li>
+<li>2002: EuroVision – United States of Europe?</li>
+<li>2001: GENial? – Der Mensch von morgen</li>
+<li>2000: Zukunft der Medien – Medien der Zukunft</li>
+<li>1999: Bild dir deine Zukunft – Identität im neuen Jahrtausend</li>
+<li>1998: Im Rausch der Geschwindigkeit – Wo steht der Mensch?</li>
+<li>1997: Aus-Gebildet?!</li>
+<li>1996: Globalisierung – Der Schritt in ein neues Zeitalter</li>
+<li>1995: Sozialfall Sozialstaat</li>
+<li>1994: Werte – Worthülsen oder Wegweiser?</li>
+<li>1993: Falsch programmiert?! – Herausforderung Informationsgesellschaft</li>
+<li>1992: Deutschland quo vadis?</li>
+<li>1991: Freiheit – Freizeit – Berufung – Beruf</li>
+<li>1990: Ressourcen – Spiel mit Grenzen</li>
+<li>1989: Europa '92</li>
+</ul>

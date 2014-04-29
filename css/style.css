@@ -6716,6 +6716,9 @@ ul.desc li small:before {
   max-height: 200px;
   max-width: 200px;
 }
+.archiv-item {
+  clear: both;
+}
 .archiv-item img {
   float: right !important;
   margin: 0 0 15px 15px;
