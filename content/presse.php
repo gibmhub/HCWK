@@ -1,10 +1,10 @@
-<h2>Auszeichnungen</h2>
+<h3>Auszeichnungen</h3>
 
 <p>Für sein Engagement wurde der HCWK von der Initiative <em>Deutschland – Land der Ideen</em> als ein <i>Ausgewählter Ort 2008</i> ausgezeichnet und mit dem Heidelberger Symposium 2010 in das Programm <em>Jugend in Aktion</em> der Europäischen Union aufgenommen. Zudem erhielt der Club als beste studentische Initiative von der Gesellschaft der Freunde Universität Heidelberg e. V. den <em>Preis der Freunde 2013</em>.</p>
 
 <div class="text-center"><img src="/img/presse/landderideen.png"><img src="/img/presse/jugendinaktion.png"><img src="/img/presse/preisderfreunde.png"></div>
 
-<h2>Pressestimmen und Zitate</h2>
+<h3>Pressestimmen und Zitate</h3>
 
 <?php
 
@@ -62,7 +62,7 @@
 ?>
 
 
-<h2>Downloads</h2>
+<h3>Downloads</h3>
 
 <ul>
 	<li><a href="download/ankuendigung.pdf" target="_blank">Allgemeine Zeitungsankündigung</a></li>

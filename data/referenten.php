@@ -22,6 +22,12 @@
 	$referent->vita = '<p>Fabian Trau studiert seit 2010 an der Ruprecht-Karls-Universität Heidelberg Slavistik und Geschichte. Parallel zum Studium absolvierte er Praktika in verschiedenen Redaktion bei Print, Radio und Fernsehen. Sein Schwerpunkt liegt auf Osteuropa, wo er unter anderem im ARD-Studio Warschau und dem Studio der Deutschen Welle in Moskau hospitierte. Während der Europameisterschaft 2012 in Polen und der Ukraine und den Olympischen Winterspielen 2014 in Sochi war er für den ARD-Hörfunk vor Ort tätig. Seit Herbst 2013 ist er Stipendiat der studienbegleitenden Journalistenausbildung des Instituts zur Förderung des publizistischen Nachwuchses in München.</p>';
 	$referent->setVortrag(Vortrag::get('gespraechsrunde-mit-frank-plasberg'));
 	
+	$referent = Referent::get('annabernzen');
+	$referent->name = 'Anna Bernzen';
+	$referent->desc = 'Studentin';
+	$referent->vita = '<p>Anna K. Bernzen, LL.B. hat ihren Bachelor in Jura und BWL an der Universität Mannheim und der University of Surrey in England gemacht. In Mannheim lernt sie – mit freundlicher Unterstützung der Konrad-Adenauer-Stiftung und der Studienstiftung des deutschen Volkes – im Moment für ihr erstes juristisches Staatsexamen. Daneben absolviert sie in den Semesterferien eine studienbegleitende Journalistenausbildung. Während des Semesters schreibt sie als freie Autorin für diverse Print- und Online-medien und unterstützt zwei Mannheimer Juraprofessoren als geprüfte Hilfskraft. Die (juristischen) Grenzen des Journalismus konnte sie in ihren Praktika bereits gut kennenlernen, zum Beispiel beim Handelsblatt, beim Bayrischen Rundfunk und bei den Presserechtlern der Kanzlei Raue LLP.</p>';
+	$referent->setVortrag(Vortrag::get('gespraechsrunde-mit-frank-plasberg'));
+	
 	$referent = Referent::get('berndkoelmel');
 	$referent->name = 'Bernd Kölmel';
 	$referent->desc = 'Sprecher des Landesverbands Baden-Württemberg der AfD';
@@ -143,10 +149,29 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent->vita = '<p>Tanja Angela Kunz, geb. 1980 in Karlsruhe, studierte Neuere deutsche Literatur und Romanistik an der Humboldt-Universität zu Berlin mit anschließender Promotion im Fach Deutsche Literatur. Als Stipendiatin der Elsa-Neumann-Stiftung Berlin forschte sie intensiv zum spannungsreichen und vielgestaltigen Verhältnis von Literatur und Ethik im 20. und 21. Jahrhundert. Ihre interdisziplinär ausgerichtete Promotionsschrift mit dem Titel Die Sehnsucht nach dem Guten bei Peter Handke. Zum Verhältnis von Literatur und Ethik im epischen und dramatischen Werk reichte sie Ende 2013 ein. Sie ist Mitverfasserin der 2014 bei De Gruyter im Auftrag des Deutschen Literaturarchivs Marbach erscheinenden Forschungsbibliographie zu Peter Handke (in: Peter Handke. Stationen, Orte, Positionen).</p>';
 	$referent->setVortrag(Vortrag::get('grenzen-der-moral'));
 	
-	$referent = Referent::get('paulkirchhof');
-	$referent->name = 'Prof. Dr. Paul Kirchhof';
-	$referent->desc = 'Jurist, ehem. Bundesverfassungsrichter';
-	$referent->vita = '<p>Paul Kirchhof studierte Rechtswissenschaften an den Universitäten Freiburg und München. Von 1975 bis 1981 war er ordentlicher Professor für Öffentliches Recht und Direktor des Instituts für Steuerrecht der Universität Münster, dessen Prorektor er zeitweise war. Seit 1981 lehrt er als Ordentlicher Professor für öffentliches Recht an der Universität Heidelberg, war dort bis 2013 der Direktor des Instituts für Finanz- und Steuerrecht und zweitweise der Dekan der Juristischen Fakultät. 1987 erfolgte die Berufung als Bundesverfassungsrichter. Seit 2000 ist er zum ordentlichen Mitglied der Heidelberger Akademie der Wissenschaften gewählt worden und wurde 2013 ihr Präsident. Seit 2013 ist er Seniorprofessor distinctus der Universität Heidelberg.</p>';
+	$referent = Referent::get('tilmanschroeter');
+	$referent->name = 'Tilman Schröter';
+	$referent->desc = 'Moderator';
+	$referent->vita = '<p>Tilman Schröter, geboren 1988, ist in Berlin aufgewachsen und machte dort Abitur und Zivildienst. Er studierte zunächst Politikwissenschaften und Geschichte, später dann Theologie in Greifswald und seit 2012 in Heidelberg. In seinem Hauptstudium konzentriert er sich auf ethische Fragen, wobei die angewandte Ethik dabei im Vordergrund steht. In den vorlesungsfreien Zeiten bildet Schröter sich im journalistischen Bereich weiter und hat in mehreren Medienanstalten aus Print und Fernsehen Praktika absolviert. Nebenbei ist er gelegentlich als freier Mitarbeiter bei Regionalzeitungen tätig. 
+</p>';
+	$referent->setVortrag(Vortrag::get('medizinethik'));
+	
+	$referent = Referent::get('christopherdaase');
+	$referent->name = 'Dr. Christopher Daase';
+	$referent->desc = 'Politikwissenschaftler';
+	$referent->vita = '<p>Dr. Christopher Daase studierte Germanistik, Philosophie, Kunstgeschichte und Politikwissenschaften an den Universitäten Hamburg, Freiburg und Berlin. 1990 bis 1991 folgte ein Aufbaustudium an der Harvard Universität. 1996 promovierte er an der Freien Universität Berlin mit einer Arbeit über unkonventionelle Kriegsführung, die 1997 mit dem Ernst-Reuter-Preis ausgezeichnet wurde. Seit 2005 ist er geschäftsführender Herausgeber der Zeitschrift für Internationale Beziehungen. 2009 erhielt er die Professur für Internationale Organisationen an der Goethe-Universität Frankfurt. Im selben Jahr wurde Daase Vorstandsmitglied und Leiter des Programmbereichs „Internationale Organisationen und Völkerrecht“ an der Hessischen Stiftung für Friedens- und Konfliktforschung. </p>';
+	$referent->setVortrag(Vortrag::get('voelkerrecht'));
+	
+	$referent = Referent::get('evawinkler');
+	$referent->name = 'PD Dr. med. Dr. phil. Eva Winkler';
+	$referent->desc = 'Ärztin';
+	$referent->vita = '<p>Während ihrer ärztlichen Ausbildung nutzte Winkler ein zweijähriges Stipendium an der Harvard University für Forschungsprojekte zur medizinischen Ethik. Neben der medizinischen erlangte sie die philosophische Doktorwürde mit einer Promotion zur Einbeziehung von Patienten und Angehörigen in Entscheidungen zur Therapiebegrenzung. Sie habilitierte sich mit dem Thema "Bedeutung individueller und institutioneller ethischer Verantwortung am Beispiel von Behandlungsentscheidungen am Lebensende". Als Oberärztin der Medizinischen Onkologie am NCT Heidelberg leitete sie den Forschungsschwerpunkt  "Ethik und Patientenorientierung in der Onkologie". Sie leitet u.a. in der  Deutschen Gesellschaft für Hämatologie und Onkologie die AG „Medizin und Ethik“ und ist Projektsprecherin für das Marsilius-Projekt „Ethische und rechtliche Aspekte der Totalgenomsequenzierung“ in Heidelberg. </p>';
+	$referent->setVortrag(Vortrag::get('medizinethik'));
+	
+	$referent = Referent::get('stefansohm');
+	$referent->name = 'Stefan Sohm';
+	$referent->desc = 'Jurist';
+	$referent->vita = '<p>Stefan Sohm wurde 1963 in Lüdinghausen geboren, wuchs aber weitgehend in Süddeutschland auf, wo er auch nach Abitur und Wehrdienst an der Universität Konstanz Rechtswissenschaften mit Schwerpunkt öffentliches Recht studierte.  Nach einer zweijährigen Tätigkeit als wissenschaftlicher Mitarbeiter im Bereich Staats- und Verwaltungsrecht, ebenfalls an der Universität Konstanz, brachte ihn ein besonderes Interesse für die Schnittstellen zwischen Recht und Sicherheitspolitik zur Bundeswehr. Nach Verwendungen als Rechtsberater einer Heeresdivision und Dozent für Völkerrecht am Zentrum Innere Führung ist er seit Jahren im Bundesministerium der Verteidigung tätig. Er hat dort unterschiedlichste Verwendungen in der Rechtsabteilung, der Personalabteilung, dem Leitungsbereich und der Abteilung Politik durchlaufen. Seit Beginn des Jahres 2013 leitet er in der Rechtsabteilung das Referat für Völkerrecht und Rechtsgrundlagen der Auslandseinsätze der Bundeswehr. Stefan Sohm hat zu einer Reihe wehrrechtlicher Themen veröffentlicht, ist Mitautor eines Kommentars zum Soldatengesetz und Mitglied der Deutschen Gesellschaft für Wehrrecht und Humanitäres Völkerrecht.</p>';
 	$referent->setVortrag(Vortrag::get('voelkerrecht'));
 	
 	$referent = Referent::get('michaellysanderfremuth');
@@ -163,11 +188,11 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent->setVortrag(Vortrag::get('innerdeutsche-grenzen'));
 		
 	$referent = Referent::get('paulkirchhof');
-	$referent->name = 'Dr. Paul Kirchhof';
+	$referent->name = 'Prof. Dr. Paul Kirchhof';
 	$referent->desc = 'ehem. Bundesverfassungsrichter, Seniorprofessor distinctus Universität Heidelberg';
 	$referent->vita = '<p>Paul Kirchhof studierte Rechtswissenschaften an den Universitäten Freiburg und München. Von 1975 bis 1981 war er ordentlicher Professor für Öffentliches Recht und Direktor des Instituts für Steuerrecht der Universität Münster, dessen Prorektor er zeitweise war. Seit 1981 lehrt er als Ordentlicher Professor für öffentliches Recht an der Universität Heidelberg, war dort bis 2013 der Direktor des Instituts für Finanz- und Steuerrecht und zweitweise der Dekan der Juristischen Fakultät. 1987 erfolgte die Berufung als Bundesverfassungsrichter. Seit 2000 ist er zum ordentlichen Mitglied der Heidelberger Akademie der Wissenschaften gewählt worden und wurde 2013 ihr Präsident. Seit 2013 ist er Seniorprofessor distinctus der Universität Heidelberg.</p>
 ';
-	$referent->setVortrag(Vortrag::get('voelkerrecht'));
+	$referent->setVortrag(Vortrag::get('europaeische-union'));
 	
 
 $referent = Referent::get('wolfgangputz');
@@ -241,10 +266,16 @@ Vor seiner Beschäftigung bei der Kommission war Martin für das Londoner Bü
 	$referent->vita = 'Alois Serwaty, geb. 1947 in Daun/Eifel, Berufsoffizier a.D., Studium des Bauingenieurwesens in München. Seit einer Außerkörper- bzw. Nahtoderfahrung bei einem medizinischen Eingriff erfolgte über 20 Jahre eine intensive Beschäftigung mit natur- und geisteswissenschaftlichen Fragestellungen zu diesen Phänomenen und führte zur Herausgabe von Tagungs-/Sammelbänden mit interdisziplinären Beiträgen sowie unterschiedlichen Veröffentlichungen und Vortragstätigkeiten, u.a. an Universitäten, kirchlichen und säkularen Akademien und bei Kongressen. Mitbegründer und derzeitiger Vorsitzender (seit 2004) des Netzwerk Nahtoderfahrung e.V. in Deutschland.';
 	$referent->setVortrag(Vortrag::get('spirituelle-grenzen'));
 
+	$referent = Referent::get('matthiasvillalobos');
+	$referent->name = 'Dr. Matthias Villalobos';
+	$referent->desc = 'Oberarzt Thoraxklinik';
+	$referent->vita = 'Dr. Matthias Villalobos ist seit 2013 Oberarzt an der Thoraxklinik am Universitätsklinikum Heidelberg. Während seines beruflichen Werdegangs erfolgten mehrere Einsätze mit den Ärzten ohne Grenzen: Im Jahr 2010 war Herr Villalobos in Baraka, Demokratische Republik Kongo mit der Unterstützung eines Krankenhauses tätig. Der Schwerpunkt lag unter Anderem auf der Versorgung unterernährter Kinder, HIV-Infizierter oder der Versorgung von Vertriebenen aufgrund bewaffneter Konflikte. Ende 2013 bis Anfang dieses Jahres war Herr Villalobos in Malakal, Südsudan im Rahmen eines Noteinsatzes aufgrund einer Kala-Azar-Epidemie (Parasitenerkrankung) und der zusätzlichen Versorgung von Kriegsverwundeten nach Ausbruch des Krieges im Dezember tätig. ';
+	$referent->setVortrag(Vortrag::get('aerzte-ohne-grenzen'));
+	
 	$referent = Referent::get('frankaugustin');
 	$referent->name = 'Frank Augustin';
 	$referent->desc = 'Chefredakteur agora42';
-	$referent->vita = 'In Freiburg i.Br. geboren und später nach Stuttgart wechselnd, studiere Frank Augustin Geschichte und Philosophie an der Universität Stuttgart und schloss dort 1994 sein Magisterstudium ab. Im selben Jahr begann die freie Mitarbeit bei dem Magazin „der blaue reiter – Journal für Philosophie“. Im Jahr 1999 folgte die Anstellung als Redakteur, die eine Karriere bei dem blauen reiter begünstigte und schließlich 2009 zur Ernennung als stellvertretender Chefredakteur führte. Ebenfalls im Jahr 2009 fand die Mitgründung des philosophischen Wirtschaftsmagazins agora42 statt, dessen Chefredakteur Frank Augustin seit der Gründung ist. ';
+	$referent->vita = 'In Freiburg i.Br. geboren und später nach Stuttgart wechselnd, studierte Frank Augustin Geschichte und Philosophie an der Universität Stuttgart und schloss dort 1994 sein Magisterstudium ab. Im selben Jahr begann die freie Mitarbeit bei dem Magazin „der blaue reiter – Journal für Philosophie“. Im Jahr 1999 folgte die Anstellung als Redakteur, die eine Karriere bei dem blauen reiter begünstigte und schließlich 2002 zur Ernennung als stellvertretender Chefredakteur führte. 2009 fand zusammen mit Wolfram Bernhardt und Nazim Cetin die Gründung des philosophischen Wirtschaftsmagazins agora42 statt, dessen Chefredakteur Frank Augustin seit der Gründung ist. ';
 	$referent->setVortrag(Vortrag::get('wirtschaftliche-grenzen'));
 	
 	$referent = Referent::get('kevinkuhn');

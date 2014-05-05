@@ -88,4 +88,11 @@ $sponsor->link = 'http://www.henkel.de/';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
+$sponsor = new Sponsor ();
+$sponsor->name = 'Landesbank Baden-Württemberg';
+$sponsor->logo = 'Logo_LBBW.png';
+$sponsor->link = 'http://www.lbbw.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
 ?>

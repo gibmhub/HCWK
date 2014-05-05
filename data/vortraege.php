@@ -164,7 +164,9 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 	$vortrag->day = 2;
 	$vortrag->slot = 1;
 	$vortrag->title = 'Ärzte ohne Grenzen';
-	$vortrag->desc = '<p></p>';
+	$vortrag->desc = '<p>1971 begannen die Médecins Sans Frontièrs ihre Tätigkeiten und stellen heute die größte internationale Organisation zur medizinischen Nothilfe dar. Dafür wurden den Ärzten ohne Grenzen 1999 der Friedensnobelpreis verliehen. Die Gründung geht auf den Biafra-Krieg (1967-1970) zurück, indessen Zuge die Region Biafra vom nigerianischen Militär belagert wurde, die von Großbritannien, der USA und der Sowjetunion unterstützt wurden. Nur Frankreich unterstütze die Bevölkerung von Biafra. Darunter waren eine Reihe französischer Ärzte, die in Anbetracht der verschiedenen politischen Interessen nicht uneingeschränkt medizinische Hilfe leisten konnten. Nach Beendigung des Einsatzes forderten sie daher die Gründung einer unabhängigen Hilfsorganisation um dem Wohlergehen der Opfer von Kriegen Vorrang gegenüber politischen und religiösen Interessen einzuräumen. Heute umfasst die Organisation 27650 Angestellte, wovon 91 Prozent lokale Mitarbeiter sind. <br />
+Herr Dr. Villalobos war an einigen Projekten beteiligt und wird über seine Arbeit in verschiedenen Ländern in Afrika berichten. 
+</p>';
 	
 	$vortrag = Vortrag::get('lesung');
 	$vortrag->day = 1;
@@ -179,7 +181,7 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 	$vortrag->day = 3;
 	$vortrag->slot = 4;
 	$vortrag->title = 'Kriegsfotografie: Bilder und ihre Grenzen';
-	$vortrag->desc = '';
+	$vortrag->desc = '<p>Christoph Bangert kann die Frage, ob er sich selbst als Künstler oder als Journalist betrachtet, nicht ohne weiteres beantworten. Schließlich lässt sich das Gebiet, das der Begriff Kunst umfasst, auch nur schwer eingrenzen. Ist Kriegsfotografie Kunst? Und wo liegen Grenzen des Kriegsjournalismus? In seinem Buch „War Porn“ widmet Bangert sich der Frage, inwieweit seine Fotos aus Krisengebieten wie dem Irak, Afghanistan, Indonesien, dem Libanon oder Gaza als “Kriegs-Pornographie” kritisiert werden können. Werden durch ihre Veröffentlichung moralische Grenzen überschritten, nutzt Bangert mit ästhetischen Fotos vom grausamen Krieg diejenigen, die er fotografiert, sogar aus? Oder trägt der junge Kriegsfotograf dazu bei, dass Menschen weltweit hinschauen und das durch geographische Grenzen weit von ihnen entfernte Leid, nicht einfach ausblenden? Bangert wird während seines Vortrages einige seiner Fotos zeigen und die Grenzen beschreiben, die er selbst in ihnen sieht. Somit wird er anknüpfen können an die Grenzen dessen, was Bilder allein uns erzählen können.</p>';
 	
 
 ?>

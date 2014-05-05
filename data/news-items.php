@@ -4,6 +4,13 @@
     require_once(__DIR__.'/referenten.php');
     require_once(__DIR__.'/vortraege.php');
 
+	$item = VINewsManager::addItem('05-05-2014', 'Der Countdown läuft');
+	$item->content ='<p>Die Symposiumswoche ist angebrochen!<br />
+	Voller Vorfreude möchten wir daher auf eine ganz besondere Veranstaltung hinweisen: Am Freitag, den 9.5., bekommen 120 Teilnehmer die einmalige Chance, das Musical "The Black Rider" ab 19 Uhr 30 im Alten Saal des Theaters Heidelberg zu einem sehr günstigen Preis von 7,50€ zu erleben. In einer anschließenden exklusiven Diskussionsrunde stellen sich die Dramaturgin Sonja Winkel und mehrere am Stück beteiligte SchauspielerInnen Ihren Fragen. Lassen Sie sich dieses Event nicht entgehen! Die Karten sind begrenzt! Erhältlich sind sie bei der Abholung Ihrer Teilnehmertasche und Ihres Namensschildes im Festzelt.</p>
+	<p>Desweiteren freuen wir uns sehr über die Zusage von Dr. Christopher Daase, seines Zeichens Professor für Internationale Organisationen an der Goethe-Universität Frankfurt, der an der Podiumsdiskussion zum Völkerrecht teilnehmen wird.</p>'.Referent::get('christopherdaase')->getReferentBox().'
+	<p>Zudem wird es <a href="/tickets">Tickets</a> zum Vorverkaufspreis nur noch bis Mittwoch geben, es lohnt sich daher schnell zuzuschlagen</p>';
+
+	
 	$item = VINewsManager::addItem('16-04-2014', 'Start des Ticketvorverkaufs');
 	$item->content ='
 	<p>Das Symposium rückt in greifbare Nähe, daher freuen wir uns dass der <a href="/tickets">Online-Ticketverkauf</a> nun zugänglich ist.
