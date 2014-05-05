@@ -142,8 +142,19 @@
 	
 </form>
 
+<h2>Vorverkaufsstellen</h2>
 
-<h1>Häufig gestellte Fragen</h1>
+Neben dem Online-Verkauf erhalten Sie Tickets zum Vorverkaufspreis Montags bis Freitags an folgenden Vorverkaufsstellen:
+<ul>
+	<li><strong>Marstallhof</strong> 12:00 - 14:00 Uhr</li>
+	<li><strong>Campus Bergheim</strong> 11:30 - 14:00 Uhr</li>
+	<li><strong>Zentralmensa</strong> 12:00 - 14:30 Uhr</li>
+	<li><strong>Triplexmensa</strong> 12:00 - 14:00 Uhr</li>
+	<li><strong><a href="http://www.lehmanns.de/buchhandlung/420-heidelberg">Lehmanns Media</a></strong> 14:00 - 16:00 Uhr (auch 3.05)</li>
+</ul>
+
+
+<h2>Häufig gestellte Fragen</h2>
 
 <div class="row">
 
