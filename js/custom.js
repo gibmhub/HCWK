@@ -12,7 +12,7 @@ $(function() {
 
     // Countdown
 
-    var ts = new Date(2014, 4, 8, 1, 0, 0);
+    var ts = new Date(2014, 4, 8, 9, 0, 0);
     var in_future = true;
 
     if((new Date()) > ts){
