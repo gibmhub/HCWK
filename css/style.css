@@ -6730,6 +6730,10 @@ ul.desc li small:before {
 .faq dt small:before {
   content: '// ';
 }
+/* Programm */
+.vortrag-table-item {
+  margin-bottom: 15px;
+}
 /* Forms */
 .form-col-label {
   position: relative;

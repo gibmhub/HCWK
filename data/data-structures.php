@@ -76,6 +76,7 @@ class Vortrag {
 	public $title;
 	public $desc;
 	public $raum;
+	public $raum_link;
 	public $day;
 	public $slot;
 	protected $referenten = array();	
@@ -122,9 +123,20 @@ class Vortrag {
 		}
 		$html = '
 			<div class="vortrag-table-item">
-				<b><a href="/vortrag/'.$this->id.'">'.$this->title.'</a></b><br>
-				<i>'.implode(', ', $referentenLinks).'</i>
-				</a>
+				<b><a href="/vortrag/'.$this->id.'">'.$this->title.'</a></b><br>';
+		if (count($referentenLinks)>0) {
+			$html .= '<i>mit '.implode(', ', $referentenLinks).'</i><br>';
+		}
+		if (isset($this->raum)&&$this->raum!='') {
+			if (isset($this->raum_link)&&$this->raum_link!='') {
+				$html .= '<a href="'.$this->raum_link.'" target="_blank">';
+			}
+			$html .= $this->raum;
+			if (isset($this->raum_link)&&$this->raum_link!='') {
+				$html .= '</a>';
+			}
+		}
+		$html .= '</a>
 			</div>
 		';
 		return $html;
@@ -132,10 +144,10 @@ class Vortrag {
 	
 	static public function day_string($day) {
 		switch ($day) {
-			case 0: return 'Mittwoch, 7.5.';
-			case 1: return 'Donnerstag, 8.5.';
-			case 2: return 'Freitag, 9.5.';
-			case 3: return 'Samstag, 10.5.';
+			case 0: return 'Mittwoch 7.5.';
+			case 1: return 'Donnerstag 8.5.';
+			case 2: return 'Freitag 9.5.';
+			case 3: return 'Samstag 10.5.';
 		}
 		return NULL;
 	}
@@ -153,11 +165,21 @@ class Vortrag {
 	}
 	static public function timeslot_string($day, $slot) {
 		return self::day_string($day).', '.self::slot_string($slot);
-
 	}
 
 	public function get_timeslot_string() {
-		return self::timeslot_string($this->day, $this->slot);
+		$str = self::timeslot_string($this->day, $this->slot);
+		if (isset($this->raum)&&$this->raum!='') {
+			$str .= ', ';
+			if (isset($this->raum_link)&&$this->raum_link!='') {
+				$str .= '<a href="'.$this->raum_link.'" target="_blank">';
+			}
+			$str .= $this->raum;
+			if (isset($this->raum_link)&&$this->raum_link!='') {
+				$str .= '</a>';
+			}
+		}
+		return $str;
 	}
 	
 	static public function vortraege_in_timeslot($day, $slot) {
