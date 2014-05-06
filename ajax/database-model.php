@@ -16,18 +16,21 @@
 		public $name;
 		public $email;
 		public $timestamp;
+		public $txn_id;
+		public $txn_type;
+		public $use_online;
+		public $tickettype;
 				
 		static public function get($ticketcode) {
 		
 			global $database;
 			
-			if ($result = $database->query('SELECT name, email, timestamp FROM ticketliste WHERE ticketcode = "'.$ticketcode.'"')) {
-				if ($row = $result->fetch_object()) {
+			if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype FROM ticketliste WHERE ticketcode = "'.$ticketcode.'" LIMIT 1')) {
+				if ($row = $result->fetch_assoc()) {
 					$ticket = new Ticket();
-					$ticket->ticketcode = $ticketcode;
-					$ticket->name = $row->name;
-					$ticket->email = $row->email;
-					$ticket->timestamp = $row->timestamp;
+					foreach ($row as $key => $value) {
+						$ticket->{$key} = $value;
+					}
 					return $ticket;
 				} else {
 					throw new NotFoundException();					
@@ -99,7 +102,19 @@
 				return false;
 			}
 		}
-					
+			
+		static public function getCompanionTicket($ticket) {
+			global $database;
+			if ($result = $database->query('SELECT ticketcode FROM ticketliste WHERE txn_id = "'.$ticket->txn_id.'" AND ticketcode != "'.$ticket->ticketcode.'" LIMIT 1')) {
+				if ($row = $result->fetch_assoc()) {
+					return self::get($row['ticketcode']);
+				} else {
+					return null;					
+				}
+			} else {
+				return null;
+			}
+		}		
 	}
 	
 function process_payment($payment_status, $txn_type, $txn_id, $name, $email, $type) {
@@ -136,6 +151,23 @@ function ticketsLeftCount() {
 		if ($row = $result->fetch_row()) {
 			return $row[0];
 		}
+	}
+}
+
+function allRegisteredTickets() {
+	global $database;
+	if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype FROM ticketliste WHERE timestamp IS NOT NULL')) 	{
+		$tickets = array();
+		while ($row = $result->fetch_assoc()) {
+			$ticket = new Ticket();
+			foreach ($row as $key => $value) {
+				$ticket->{$key} = $value;
+			}
+			$tickets[] = $ticket;
+		}
+		return $tickets;
+	} else {
+		throw new NotFoundException();
 	}
 }
 
