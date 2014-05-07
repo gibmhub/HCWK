@@ -38,7 +38,7 @@
 
 	foreach ($registeredTickets as $ticket) {
 	
-		if (isset($ticket->name)&&$ticket->name!='') {
+		if (isset($ticket->name)&&$ticket->name!=''&&!(isset($ticket->need_correction)&&$ticket->need_correction==true)&&!(isset($ticket->printed)&&$ticket->printed==true)) {
 
 			// TODO: convert charset in database
 			$ticket->name = str_replace('Ã„', 'Ä', $ticket->name);
@@ -47,17 +47,19 @@
 			$ticket->name = str_replace('Ã¶', 'ö', $ticket->name);
 			$ticket->name = str_replace('Ãœ', 'Ü', $ticket->name);
 			$ticket->name = str_replace('Ã1⁄4', 'ü', $ticket->name);
+			$ticket->name = str_replace('ÃŸ', 'ß', $ticket->name);
 
-			echo '<div class="namensschild">';
+			//echo '<div class="namensschild">';
 			
-			echo '<span class="name">'.$ticket->name.'</div>';
+			//echo '<span class="name">'.$ticket->name.'</div>';
 			
-			echo '</div>';
+			//echo '</div>';
+			
+			echo $ticket->name.'<br>';
 		}
 
 	}
 
 ?>
-		</div>
 	</body>
 </html>

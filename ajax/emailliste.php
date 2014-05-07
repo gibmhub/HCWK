@@ -7,6 +7,12 @@
 		die('invalid key');
 	}
 	
+	$mode = 'zweitticket';
+	
+	if (isset($_GET['mode'])) {
+		$mode = $_GET['mode'];
+	}
+	
 	include_once(__DIR__.'/database-model.php');
 	
 	$registeredTickets = allRegisteredTickets();
@@ -28,9 +34,15 @@
 
 	foreach ($registeredTickets as $ticket) {
 	
-		if (!(isset($ticket->name)&&$ticket->name!='')&&$ticket->tickettype=='reduced-double') {
-			$companion_ticket = Ticket::getCompanionTicket($ticket);
-			echo $companion_ticket->email.', ';
+		if ($mode=='zweitticket') {
+			if (!(isset($ticket->name)&&$ticket->name!='')&&$ticket->tickettype=='reduced-double') {
+				$companion_ticket = Ticket::getCompanionTicket($ticket);
+				echo $companion_ticket->email.', ';
+			}
+		} else if ($mode=='correction') {
+			if (isset($ticket->need_correction)&&$ticket->need_correction==true) {
+				echo $ticket->email.', ';
+			}
 		}
 
 	}

@@ -30,7 +30,7 @@
 		</style>
 	</head>
 	<body>
-	
+		<p><strong><?=count($registeredTickets)?></strong> registrierte Tickets</p>
 		<table>
 			<thead>
 				<tr>
@@ -50,8 +50,18 @@
 		$ticket->name = str_replace('Ã¶', 'ö', $ticket->name);
 		$ticket->name = str_replace('Ãœ', 'Ü', $ticket->name);
 		$ticket->name = str_replace('Ã1⁄4', 'ü', $ticket->name);
+		$ticket->name = str_replace('ÃŸ', 'ß', $ticket->name);
+		
+		$name_str = $ticket->name;
+		
+		if (!isset($name_str)||$name_str=='') {
+			$companion_ticket = Ticket::getCompanionTicket($ticket);
+			if (isset($companion_ticket)) {
+				$name_str = '<i>bezahlt von '.$companion_ticket->name.' ('.$companion_ticket->ticketcode.')</i>';
+			}
+		}
 
-		echo '<tr><td>'.$ticket->ticketcode.'</td><td>'.$ticket->name.'</td></tr>';
+		echo '<tr><td>'.$ticket->ticketcode.'</td><td>'.$name_str.'</td></tr>';
 
 	}
 

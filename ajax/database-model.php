@@ -20,12 +20,14 @@
 		public $txn_type;
 		public $use_online;
 		public $tickettype;
+		public $printed;
+		public $need_correction;
 				
 		static public function get($ticketcode) {
 		
 			global $database;
 			
-			if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype FROM ticketliste WHERE ticketcode = "'.$ticketcode.'" LIMIT 1')) {
+			if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype, printed, need_correction FROM ticketliste WHERE ticketcode = "'.$ticketcode.'" LIMIT 1')) {
 				if ($row = $result->fetch_assoc()) {
 					$ticket = new Ticket();
 					foreach ($row as $key => $value) {
@@ -156,7 +158,7 @@ function ticketsLeftCount() {
 
 function allRegisteredTickets() {
 	global $database;
-	if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype FROM ticketliste WHERE timestamp IS NOT NULL')) 	{
+	if ($result = $database->query('SELECT ticketcode, name, email, timestamp, txn_id, txn_type, use_online, tickettype, printed, need_correction FROM ticketliste WHERE timestamp IS NOT NULL')) 	{
 		$tickets = array();
 		while ($row = $result->fetch_assoc()) {
 			$ticket = new Ticket();
