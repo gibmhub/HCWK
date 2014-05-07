@@ -1,7 +1,7 @@
 
 			<div class="alert alert-info"><strong>Das Symposium steht vor der Tür!</strong> Wir bitten alle, die bereits ein Ticket besitzen, sich <strong>bis spätestens Mittwochabend um 24.00 Uhr</strong> auf der <a href="/tickets">Tickets</a> Seite zu registrieren. So können Sie bei der Namensschildvergabe eventuell längere Wartezeiten vermeiden. Haben Sie noch kein Ticket, erhalten Sie im <a href="/tickets">Online Verkauf</a> nur noch bis zum gleichen Termin Tickets zum Vorverkaufspreis!</div>
 			
-			<!--<div class="alert alert-info"><strong>Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</strong> Hier können Sie sich jederzeit über das aktuelle <a href="/programm">Programm</a> informieren.</div>-->
+			<!--<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Hier können Sie sich jederzeit über das aktuelle <a href="/programm">Programm</a> informieren. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>-->
 
 	<div class="row">
 	

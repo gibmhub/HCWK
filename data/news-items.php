@@ -7,10 +7,10 @@
 	$item = VINewsManager::addItem('07-05-2014', 'Das Zelt steht');
 	$item->content ='
 		<p>Nach <em>grenzenloser</em> Aufbauarbeit steht endlich das Zelt am Uniplatz und einem gelungenen Symposium damit nichts mehr im Wege.</p>
-		<p>Das Preopening, das dieses Jahr zum ersten Mal die Veranstaltung einläutet, wird bereits am Mittwoch, den 07.05 stattfinden: Im Hörsaal 13 in der Neuen Universität wird ab 20.00 Uhr (Einlass ab 19.30 Uhr) der Film <a href="https://www.youtube.com/watch?v=uc_oaYgdl_k">"Die Wand"</a> gezeigt. Die Vorstellung kann sowohl von Symposiums Besuchern, als auch von Interessierten ohne Karte kostenfrei besucht werden und bietet damit auch die letzte Gelegenheit sich eine Karte im Vorverkauf zu sichern.</p>
-		<p>Die <a href="/tickets">Online Registrierung</a> ist noch bis Mittwoch 07.05 um 24.00 Uhr möglich, danach erfolgt die Anmeldung direkt am Counter und ist eventuell mit längeren Wartezeiten verbunden</p>
+		<p>Das <a href="/vortrag/preopening">Preopening</a>, das dieses Jahr zum ersten Mal die Veranstaltung einläutet, wird bereits am Mittwoch, den 07.05 stattfinden: Im Hörsaal 13 in der Neuen Universität wird ab 20.00 Uhr (Einlass ab 19.30 Uhr) der Film <a href="https://www.youtube.com/watch?v=uc_oaYgdl_k">"Die Wand"</a> gezeigt. Die Vorstellung kann sowohl von Besuchern des Symposiums, als auch von Interessierten ohne Karte kostenfrei besucht werden und bietet damit auch die letzte Gelegenheit, sich eine Karte im Vorverkauf zu sichern.</p>
+		<p>Die <a href="/tickets">Online Registrierung</a> ist noch bis Mittwoch 07.05 um 24.00 Uhr möglich, danach erfolgt die Anmeldung direkt am Counter und ist eventuell mit längeren Wartezeiten verbunden.</p>
 		<p>Wir danken euch für eure Unterstützung und freuen uns auf ein <em>grenzenlos</em> mitreißendes Heidelberger Symposium 2014!<br />
-		<p>Euer Organisationsteam</p>
+		<p><i>Euer Organisationsteam</i></p>
 		';
 		
 
