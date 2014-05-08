@@ -1,3 +1,5 @@
+<div class="current-box">
+
 <?php
 	include_once(__DIR__.'/../data/vortraege.php');
 	
@@ -44,8 +46,12 @@
 			echo $vortrag->tableItem();
 		}
 		
-		echo '<a class="pull-right" href="/programm">Zum Programm >></a><div>&nbsp</div>';
+		if (!isset($current_page)||$current_page->getID()!='programm') {
+			echo '<a class="pull-right" href="/programm">Zum Programm >></a><div>&nbsp</div>';		
+		}
 		
 	}
 	
 ?>
+
+</div>

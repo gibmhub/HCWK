@@ -83,7 +83,13 @@
 	<?php include(__DIR__.'/mainnav.php'); ?>
 	
 		    <div id="main">
+
+	    		<div class="visible-xs" style="margin-bottom: 15px">
+	    			<?php include(__DIR__.'/content/current-box.php'); ?>
+	    		</div>
+		    		
 		    	<div class="row">
+		    	
 		    		<?php
 		    			if (isset($current_page->options['hide_sidebar'])&&$current_page->options['hide_sidebar']==true) {
 		    				echo '<div class="content full-width">';

@@ -17,7 +17,9 @@
 	
 		<div class="col-sm-4">
 		
-			<?php include(__DIR__.'/current-box.php'); ?>
+			<div class="hidden-xs">
+				<?php include(__DIR__.'/current-box.php'); ?>
+			</div>
 
 			<?php
 		        include_once(__DIR__.'/../data/news-items.php');
