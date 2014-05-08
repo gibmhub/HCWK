@@ -5,14 +5,15 @@
 		<div class="date"><i>8. – 10. Mai 2014</i></div>
 	</div>
 	
-	<div class="tickets-left-counter-box">
+	<!--<div class="tickets-left-counter-box">
 <?php
 		// include_once(__DIR__.'/ajax/database-model.php');
 		// echo 'Nur noch <strong>'.ticketsLeftCount().'</strong> Tickets verfügbar.';
 ?>
 		<a href="/tickets" class="btn btn-primary">Tickets registrieren<br>oder kaufen</a><br>
-	</div>
+	</div>-->
 
+<?php include(__DIR__.'/content/current-box.php'); ?>
 	
 	<?php
 	

@@ -1,5 +1,7 @@
 <h1>Tickets registrieren oder kaufen</h1>
 
+<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>
+
 <p><div id="success">
 <?php
 	if (isset($_GET['payment-success'])) {
@@ -21,13 +23,13 @@
 	<div class="form-group control-group">
     	<label for="tickets-name" class="form-col-label control-label">Name</label>
     	<div class="form-col-input controls">
-    		<input id="tickets-name" type="text" class="form-control validate-registrierung validate-ticketverkauf" placeholder="Name" required data-validation-required-message="Bitte geben Sie Ihren Namen ein">
+    		<input disabled id="tickets-name" type="text" class="form-control validate-registrierung validate-ticketverkauf" placeholder="Name" required data-validation-required-message="Bitte geben Sie Ihren Namen ein">
     	</div>
 	</div>
 	<div class="form-group control-group">		
 		<label for="tickets-email" class="form-col-label control-label">Email</label>
 		<div class="form-col-input controls">
-			<input id="tickets-email" type="email" class="form-control validate-registrierung validate-ticketverkauf" placeholder="Email" required data-validation-required-message="Bitte geben Sie Ihre Email-Adresse ein" data-validation-email-message="Bitte geben Sie eine gültige Email-Adresse ein">
+			<input disabled id="tickets-email" type="email" class="form-control validate-registrierung validate-ticketverkauf" placeholder="Email" required data-validation-required-message="Bitte geben Sie Ihre Email-Adresse ein" data-validation-email-message="Bitte geben Sie eine gültige Email-Adresse ein">
 		</div>
 	</div>
 	
@@ -42,10 +44,10 @@
 			<form id="registrierung-form">
 				<div class="form-group control-group">		
 					<div class="controls">
-			    		<input id="tickets-code" type="text" class="form-control validate-registrierung" placeholder="Ticket-Code" required data-validation-required-message="Bitte geben Sie Ihren Ticket-Code ein" minlength="6" maxlength="6" data-validation-maxlength-message="Bitte geben Sie einen gültigen Ticket-Code ein" data-validation-minlength-message="Bitte geben Sie einen gültigen Ticket-Code ein">
+			    		<input disabled id="tickets-code" type="text" class="form-control validate-registrierung" placeholder="Ticket-Code" required data-validation-required-message="Bitte geben Sie Ihren Ticket-Code ein" minlength="6" maxlength="6" data-validation-maxlength-message="Bitte geben Sie einen gültigen Ticket-Code ein" data-validation-minlength-message="Bitte geben Sie einen gültigen Ticket-Code ein">
 					</div>
 				</div>
-				<button id="registrierung-submit" type="submit" class="btn btn-primary pull-right">Registrieren!</button>
+				<button disabled id="registrierung-submit" type="submit" class="btn btn-primary pull-right">Registrieren!</button>
 			</form>		
 		</div>
 		
@@ -67,21 +69,21 @@
 					<div class="controls">
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced" value="reduced" data-price="15" required data-validation-required-message="Bitte wählen Sie eine Ticketart">
+								<input disabled type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced" value="reduced" data-price="15" required data-validation-required-message="Bitte wählen Sie eine Ticketart">
 								Ermäßigt 15€<br>
 								<small>für Schüler, Studenten, Auszubildende und Menschen mit Behinderung</small>
 							</label>
 						</div>
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced-double" value="reduced-double" data-price="26">
+								<input disabled type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-reduced-double" value="reduced-double" data-price="26">
 								2 Ermäßigte Tickets für 26€<br>
 								<small>Ticketspecial zum 26. Heidelberger Symposium</small>
 							</label>
 						</div>
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-normal" value="normal" data-price="30">
+								<input disabled type="radio" class="validate-ticketverkauf" name="tickets-type" id="type-normal" value="normal" data-price="30">
 								Normalpreis 30€
 							</label>
 						</div>
@@ -93,20 +95,20 @@
 					<div class="controls">
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-paypal" value="paypal" required data-validation-required-message="Bitte wählen Sie eine Zahlungsart">
+								<input disabled type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-paypal" value="paypal" required data-validation-required-message="Bitte wählen Sie eine Zahlungsart">
 								Paypal
 							</label>
 						</div>
 						<div class="radio">
 							<label>
-								<input type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
+								<input disabled type="radio" class="validate-ticketverkauf" name="tickets-zahlungsart" id="zahlungsart-sofortueberweisung" value="sofortueberweisung">
 								Sofortüberweisung<br>
 							</label>
 						</div>
 					</div>
 				</div>
 				</div></div>
-				<div class="pull-right"><small><span id="ticketverkauf-submit-desc" data-content="Keine Zahlungsart ausgewählt"></span></small><button id="ticketverkauf-submit" type="submit" class="btn btn-primary">Weiter zur Bezahlung…</button></div>
+				<div class="pull-right"><small><span id="ticketverkauf-submit-desc" data-content="Keine Zahlungsart ausgewählt"></span></small><button disabled id="ticketverkauf-submit" type="submit" class="btn btn-primary">Weiter zur Bezahlung…</button></div>
 			</form>
 			<div id="paypal">
 				<script src="/js/paypal/paypal-button.min.js?merchant=<? if ($paypal_use_sandbox) { echo $paypal_merchant_id_sandbox; } else { echo $paypal_merchant_id; }?>"

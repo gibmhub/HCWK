@@ -38,7 +38,7 @@
 
 	foreach ($registeredTickets as $ticket) {
 	
-		if (isset($ticket->name)&&$ticket->name!=''&&!(isset($ticket->need_correction)&&$ticket->need_correction==true)&&!(isset($ticket->printed)&&$ticket->printed==true)) {
+		if (!empty($ticket->name)&&!(isset($ticket->printed)&&$ticket->printed==true)) {
 
 			// TODO: convert charset in database
 			$ticket->name = str_replace('Ã„', 'Ä', $ticket->name);

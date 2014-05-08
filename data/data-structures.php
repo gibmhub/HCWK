@@ -117,6 +117,7 @@ class Vortrag {
 	}
 
 	public function tableItem() {
+		include_once(__DIR__.'/referenten.php');
 		$referentenLinks = array();
 		foreach ($this->referenten as $referent) {
 			$referentenLinks[] = '<a href="/referent/'.$referent->getID().'">'.$referent->name.'</a>';

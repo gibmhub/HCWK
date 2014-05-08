@@ -6666,6 +6666,13 @@ ul.desc li small:before {
 .programm-box th:first-child {
   width: 80px;
 }
+@media (max-width: 767px) {
+  .programm-box .vortrag-table-item {
+    width: 300px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+}
 .portrait-thumb {
   max-height: 200px;
   max-width: 200px;

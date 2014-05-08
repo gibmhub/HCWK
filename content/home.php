@@ -1,7 +1,7 @@
 
-			<div class="alert alert-info"><strong>Das Symposium steht vor der Tür!</strong> Wir bitten alle, die bereits ein Ticket besitzen, sich <strong>bis spätestens Mittwochabend um 24.00 Uhr</strong> auf der <a href="/tickets">Tickets</a> Seite zu registrieren. So können Sie bei der Namensschildvergabe eventuell längere Wartezeiten vermeiden. Haben Sie noch kein Ticket, erhalten Sie im <a href="/tickets">Online Verkauf</a> nur noch bis zum gleichen Termin Tickets zum Vorverkaufspreis!</div>
+			<!--<div class="alert alert-info"><strong>Das Symposium steht vor der Tür!</strong> Wir bitten alle, die bereits ein Ticket besitzen, sich <strong>bis spätestens Mittwochabend um 24.00 Uhr</strong> auf der <a href="/tickets">Tickets</a> Seite zu registrieren. So können Sie bei der Namensschildvergabe eventuell längere Wartezeiten vermeiden. Haben Sie noch kein Ticket, erhalten Sie im <a href="/tickets">Online Verkauf</a> nur noch bis zum gleichen Termin Tickets zum Vorverkaufspreis!</div>-->
 			
-			<!--<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Hier können Sie sich jederzeit über das aktuelle <a href="/programm">Programm</a> informieren. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>-->
+			<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>
 
 	<div class="row">
 	
@@ -16,6 +16,9 @@
 		</div>
 	
 		<div class="col-sm-4">
+		
+			<?php include(__DIR__.'/current-box.php'); ?>
+
 			<?php
 		        include_once(__DIR__.'/../data/news-items.php');
 
