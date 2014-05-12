@@ -6630,11 +6630,11 @@ ul.desc li small:before {
 .brand-box .date {
   text-align: center;
 }
-.tickets-left-counter-box {
+.tickets-box {
   text-align: center;
   margin: 10px 0 10px 0;
 }
-.tickets-left-counter-box .btn {
+.tickets-box .btn {
   margin-top: 10px;
 }
 .submenu-box {

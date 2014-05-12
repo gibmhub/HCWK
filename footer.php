@@ -46,7 +46,7 @@
 			</div>
 					
 			<div id="bottom-line">
-				<div id="copyright" class="vertical-center"><div class="vertical-center-inner">&copy; 2013 HCWK | <a href="/impressum">Impressum</a><br>Erstellt von <a href="http://www.viwid.com" target="_blank">Nils Fischer</a> und Jonas Ott</div></div>
+				<div id="copyright" class="vertical-center"><div class="vertical-center-inner">&copy; 2013 HCWK | <a href="/impressum">Impressum</a><br>Erstellt von Jonas Ott und <a href="http://www.viwid.com" target="_blank">Nils Fischer</a><br>Plakatdesign von Stefan Apfel</div></div>
 				<div id="silhouetten" class="vertical-center"><div class="vertical-center-inner">
 <?php
 					include_once(__DIR__.'/data/silhouetten.php');

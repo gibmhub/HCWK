@@ -1,5 +1,8 @@
 <?php
 
+	die('Invalid timeframe.');
+
+
 	if (!(isset($_GET['key'])&&$_GET['key']=='tVH8z6')) {
 		die('invalid key');
 	}

@@ -85,7 +85,7 @@
 		    <div id="main">
 
 	    		<div class="visible-xs" style="margin-bottom: 15px">
-	    			<?php include(__DIR__.'/content/current-box.php'); ?>
+	    			<?php // include(__DIR__.'/content/current-box.php'); ?>
 	    		</div>
 		    		
 		    	<div class="row">

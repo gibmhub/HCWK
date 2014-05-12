@@ -1,5 +1,8 @@
 <?php
 
+	die('Invalid timeframe.');
+
+
 	$name = $_GET['name'];
 	$email = $_GET['email'];
 	$ticketcode = $_GET['ticketcode'];

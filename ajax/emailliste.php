@@ -1,5 +1,8 @@
 <?php
 
+	die('Invalid timeframe.');
+
+
 	include_once(__DIR__.'/../VIWebFramework/VILogger.php');
 	VILogger::get('default')->configureErrorReporting();
 

@@ -1,6 +1,8 @@
-<h1>Tickets registrieren oder kaufen</h1>
+<!--<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>-->
 
-<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>
+<div class="alert alert-info"><strong>Das Symposium ist beendet.</strong> Tickets für das 27. Heidelberger Symposium 2015 werden erst zu einem späteren Zeitpunkt verfügbar sein.</div>
+
+<h1>Tickets registrieren oder kaufen</h1>
 
 <p><div id="success">
 <?php

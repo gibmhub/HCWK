@@ -23,7 +23,7 @@
 			<p id="brand-constrained-inner-right"><a href="/">grenz</a></p>
 		</div>
 		
-		<div id="countdown-wrapper" class="navbar-right"><div id="countdown"></div></div>
+		<!--<div id="countdown-wrapper" class="navbar-right"><div id="countdown"></div></div>-->
 		
 	    <div id="navbar-wrapper" class="collapse navbar-collapse">
 			<?php

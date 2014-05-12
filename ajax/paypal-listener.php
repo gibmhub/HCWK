@@ -1,5 +1,8 @@
 <?php
 
+	die('Invalid timeframe.');
+	
+
 	require_once(__DIR__.'/../config-secret.php');
 
 	require_once(__DIR__.'/../VIWebFramework/VILogger.php');

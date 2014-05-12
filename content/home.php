@@ -1,7 +1,9 @@
 
 			<!--<div class="alert alert-info"><strong>Das Symposium steht vor der Tür!</strong> Wir bitten alle, die bereits ein Ticket besitzen, sich <strong>bis spätestens Mittwochabend um 24.00 Uhr</strong> auf der <a href="/tickets">Tickets</a> Seite zu registrieren. So können Sie bei der Namensschildvergabe eventuell längere Wartezeiten vermeiden. Haben Sie noch kein Ticket, erhalten Sie im <a href="/tickets">Online Verkauf</a> nur noch bis zum gleichen Termin Tickets zum Vorverkaufspreis!</div>-->
 			
-			<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>
+			<!--<div class="alert alert-info"><strong>Das Symposium ist eröffnet!</strong> Sie erhalten Ihr Namensschild am <a href="/anfahrt">Veranstaltungszelt auf dem Uniplatz</a>, wenn Sie bereits ein Ticket erworben und sich online registriert haben. Andernfalls können Sie sich dort persönlich anmelden oder noch ein Ticket erwerben. Das Organisationsteam wünscht viel Spaß beim 26. Heidelberger Symposium!</div>-->
+			
+			<div class="alert alert-info"><strong>Das Symposium ist beendet.</strong> Vielen Dank für das Engagement aller Teilnehmer, Referenten und Organisatoren, die dazu beigetragen haben, dass auch das diesjährige 26. Heidelberger Symposium zu einem so denkwürdigen und inspirierenden Ereignis wurde. Wir würden uns freuen, Sie auch im nächsten Jahr wieder begrüßen zu dürfen!<br>Da das Symposium jedes Jahr von einem völlig neuen Team organisiert wird können sich interessierte Studenten aller Studiengänge, sowie Schülerinnen und Schüler daher bei Interesse unter <a href="/mitmachen">Mitmachen</a> informieren.</div>
 
 	<div class="row">
 	
