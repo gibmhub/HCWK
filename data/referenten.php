@@ -22,6 +22,13 @@
 	$referent->vita = '<p>Fabian Trau studiert seit 2010 an der Ruprecht-Karls-Universität Heidelberg Slavistik und Geschichte. Parallel zum Studium absolvierte er Praktika in verschiedenen Redaktion bei Print, Radio und Fernsehen. Sein Schwerpunkt liegt auf Osteuropa, wo er unter anderem im ARD-Studio Warschau und dem Studio der Deutschen Welle in Moskau hospitierte. Während der Europameisterschaft 2012 in Polen und der Ukraine und den Olympischen Winterspielen 2014 in Sochi war er für den ARD-Hörfunk vor Ort tätig. Seit Herbst 2013 ist er Stipendiat der studienbegleitenden Journalistenausbildung des Instituts zur Förderung des publizistischen Nachwuchses in München.</p>';
 	$referent->setVortrag(Vortrag::get('gespraechsrunde-mit-frank-plasberg'));
 	
+	$referent = Referent::get('johannschmier');
+	$referent->name = 'Dr. med. Johann-Wilhelm Schmier';
+	$referent->desc = 'Geschäftsführender Oberarzt';
+	$referent->vita = '<p>Dr. Schmier ist seit 1994 als Arzt an der Medizinischen Klinik Heidelberg und Poliklinik V angestellt. Seit dem 01.01.2004 ist er als Oberarzt für die Tagesklinik zuständig.
+Die Schwerpunkte seiner klinischen Arbeit sind insbesondere ambulante Therapien, solide Tumore und Non-Hodgkin-Lymphome.</p>';
+	$referent->setVortrag(Vortrag::get('medizinethik'));
+	
 	$referent = Referent::get('annabernzen');
 	$referent->name = 'Anna Bernzen';
 	$referent->desc = 'Studentin';
@@ -162,11 +169,6 @@ Ebeling war in der Zeit von 2008 bis 2011 Gleichstellungsbeauftragte der Stadt G
 	$referent->vita = '<p>Dr. Christopher Daase studierte Germanistik, Philosophie, Kunstgeschichte und Politikwissenschaften an den Universitäten Hamburg, Freiburg und Berlin. 1990 bis 1991 folgte ein Aufbaustudium an der Harvard Universität. 1996 promovierte er an der Freien Universität Berlin mit einer Arbeit über unkonventionelle Kriegsführung, die 1997 mit dem Ernst-Reuter-Preis ausgezeichnet wurde. Seit 2005 ist er geschäftsführender Herausgeber der Zeitschrift für Internationale Beziehungen. 2009 erhielt er die Professur für Internationale Organisationen an der Goethe-Universität Frankfurt. Im selben Jahr wurde Daase Vorstandsmitglied und Leiter des Programmbereichs „Internationale Organisationen und Völkerrecht“ an der Hessischen Stiftung für Friedens- und Konfliktforschung. </p>';
 	$referent->setVortrag(Vortrag::get('voelkerrecht'));
 	
-	$referent = Referent::get('evawinkler');
-	$referent->name = 'PD Dr. med. Dr. phil. Eva Winkler';
-	$referent->desc = 'Ärztin';
-	$referent->vita = '<p>Während ihrer ärztlichen Ausbildung nutzte Winkler ein zweijähriges Stipendium an der Harvard University für Forschungsprojekte zur medizinischen Ethik. Neben der medizinischen erlangte sie die philosophische Doktorwürde mit einer Promotion zur Einbeziehung von Patienten und Angehörigen in Entscheidungen zur Therapiebegrenzung. Sie habilitierte sich mit dem Thema "Bedeutung individueller und institutioneller ethischer Verantwortung am Beispiel von Behandlungsentscheidungen am Lebensende". Als Oberärztin der Medizinischen Onkologie am NCT Heidelberg leitete sie den Forschungsschwerpunkt  "Ethik und Patientenorientierung in der Onkologie". Sie leitet u.a. in der  Deutschen Gesellschaft für Hämatologie und Onkologie die AG „Medizin und Ethik“ und ist Projektsprecherin für das Marsilius-Projekt „Ethische und rechtliche Aspekte der Totalgenomsequenzierung“ in Heidelberg. </p>';
-	$referent->setVortrag(Vortrag::get('medizinethik'));
 	
 	$referent = Referent::get('stefansohm');
 	$referent->name = 'Stefan Sohm';

@@ -4,6 +4,18 @@
     require_once(__DIR__.'/referenten.php');
     require_once(__DIR__.'/vortraege.php');
 	
+	$item = VINewsManager::addItem('11-05-2014', 'Aller guten Dinge sind drei');
+	$item->content ='
+<p>Der letzte Tag des Symposiums ist angebrochen. Auch heute warten noch spannende Vortäge und Diskussionen auf alle Teilnehmer. Als letzter offizieller Programmpunkt findet heute Abend um 20:00 Uhr in der Neuen Aula ein <em>grenzenloser</em> Poetry-Slam statt der sehr unterhaltsam zu sein verspricht. Als krönendes Finale findet dann ab 23:00 Uhr eine große <a href="https://www.facebook.com/events/1486741098221989/?ref_dashboard_filter=upcoming">Abschlussparty</a> im Klub_K am Karlstorbahnhof mit tollen DJs und Getränkespecials statt. Symposiumsbesucher erhalten freien Eintritt </p>
+		';
+		
+	$item = VINewsManager::addItem('09-05-2014', 'Der Startschuss ist gefallen');
+	$item->content ='
+<p>Das 26. Heidelberger Symposium ist offiziell eröffnet, die ersten Referenten sind angekommen und die Teilnehmer strömen in das Zelt. Es sind noch wenige Tickets übrig, wer also noch keine Karte besitzt und am Symposium teilnehmen möchte, sollte sich schleunigst zum Counter begeben.</p>
+	<p>Wer die Onlineregistrierung verpasst hat kann sich direkt mit seinem Ticket am Counter anmelden. Die registrierten Namensschilder können gegen Vorlage des Personalausweises während des gesamten Symposiums abgeholt werden.</p>
+	<p>Wir freuen uns auf drei <em>grenzenlose</em> Tage voller spannender Vorträge, Diskussionen, Kultur und leckerer Verpflegung am Uniplatz</p>
+		';
+		
 	$item = VINewsManager::addItem('07-05-2014', 'Das Zelt steht');
 	$item->content ='
 		<p>Nach <em>grenzenloser</em> Aufbauarbeit steht endlich das Zelt am Uniplatz und einem gelungenen Symposium damit nichts mehr im Wege.</p>

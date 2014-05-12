@@ -33,7 +33,7 @@ Doch Samuel Koch gibt nicht auf, nutzt seine Bekanntheit, schreibt ein Buch übe
 	$vortrag = Vortrag::get('grenzen-der-moral');
 	$vortrag->day = 3;
 	$vortrag->slot = 1;
-	$vortrag->raum = 'HS 13';
+	$vortrag->raum = 'HS 01';
 	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Grenzenlos gut? Offene Moralkonzepte in der zeitgenössischen Diskussion um das Verhältnis von Literatur und Ethik';
 	$vortrag->desc = '<p>Die feindlichen Verwandten Literatur und Philosophie stehen seit jeher in einem spannungsreichen Verhältnis, innerhalb dessen die Literatur lange Zeit als Medium für die Reflexion, Veranschaulichung und Verbreitung philosophischer und theologischer Gedanken fungierte. Besonders zentral war dabei die Frage nach der gesellschaftlichen und das hieß immer auch moralischen Funktion von Literatur. Die zunehmende Individualisierung, Privatisierung und Autonomisierung traditioneller Werte im Zuge der Moderne hat zur Suspendierung dogmatischer Vorgaben und zur Entwicklung offener Moralkonzepte geführt. Parallel etablierte sich unter den Kunstproduzenten die Forderung nach grenzenloser künstlerischer Freiheit. Anstatt jedoch Ethik und Literatur streng voneinander zu separieren, hat diese Entwicklung dazu geführt, dass ästhetische Moralisten heutzutage auch in den Ambivalenzen und amoralischen Tendenzen von Kunstwerken unser ethisches Selbstverständnis berührt sehen. Anhand ausgewählter Beispiele der Literatur der zweiten Hälfte des 20. und beginnenden 21. Jahrhunderts gilt es daher die Frage zu diskutieren: Ist Literatur in ihrer Wirkung aus ethischer Sicht als <i>grenzenlos gut</i> zu bewerten?</p>';
@@ -50,7 +50,7 @@ In diesem Kolloquium steht die Begegnung mit Personen im Vordergrund, deren Lebe
 	$vortrag = Vortrag::get('25-jahre-mauerfall');
 	$vortrag->day = 2;
 	$vortrag->slot = 1;
-	$vortrag->raum = 'Neue Aula';
+	$vortrag->raum = 'HS 10';
 	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Leben mit der Mauer: Innerdeutsche Grenzgeschichten';
 	$vortrag->desc = '<p>Eine Grenze, die Deutschland durchschneidet.<br />
@@ -65,7 +65,7 @@ Das 25. Jubiläum des Mauerfalls gibt Anlass zu einem besonderen Kolloqium: Ein 
 	$vortrag = Vortrag::get('sportliche-grenzen');
 	$vortrag->day = 2;
 	$vortrag->slot = 1;
-	$vortrag->raum = 'HS 01';
+	$vortrag->raum = 'Neue Aula';
 	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Grenzen der physischen und psychischen Belastbarkeit';
 	$vortrag->desc = '<p>Es gibt Menschen, die lieber die Treppe nehmen als den Fahrstuhl. Solche, die ab und an einen Spaziergang durch den Park machen oder eine Fahrradtour entlang des Neckars, und deren sportlicher Ehrgeiz damit erschöpft ist.</ br>
@@ -104,8 +104,8 @@ Sind wir also gespannt auf eine lebhafte Diskussion, die es garantiert in sich h
 	$vortrag = Vortrag::get('feminismus');
 	$vortrag->day = 2;
 	$vortrag->slot = 3;
-	$vortrag->raum = 'Heuscheuer II';
-	$vortrag->raum_link = 'http://www.uni-heidelberg.de/universitaet/besucher/karten/2050.html';
+	$vortrag->raum = 'HS 10';
+	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = '<i>Assez!?</i> Chancen und Grenzen des modernen Feminismus';
 	$vortrag->desc = '<p>Der Einfluss, den die feministische Bewegung seit Generationen auf unsere Gesellschaft ausübt, ist heute kaum mehr wegzudenken. Vom Frauenwahlrecht über feministische Sprachkritik bis hin zu sexueller Selbstbestimmung finden sich in vielen Facetten unseres Lebens die breit aufgestellten Themen des Feminismus.<br />
 Trotz aller bereits erreichten Gleichberechtigung ist die Bewegung auch heute weiterhin lebendig und vertritt zahlreiche streitbare Anliegen. Themen wie Lohndiskriminierung und Frauenquote werden breit diskutiert und die Frage nach der Legalität von Prostitution bewegt die Gemüter. Im Rahmen des #Aufschrei-Protests (in Frankreich unter dem Hashtag #assez) ist die feministische Bewegung im letzten Jahr verstärkt ins Licht der Öffentlichkeit gerückt.<br />
@@ -115,11 +115,19 @@ Inwiefern stößt der Feminismus heute an seine Grenzen? Wo lässt sich die Gren
 	$vortrag = Vortrag::get('medizinethik');
 	$vortrag->day = 3;
 	$vortrag->slot = 3;
-	$vortrag->raum = 'HS 13';
+	$vortrag->raum = 'Neue Aula';
 	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Das Lebensende als Grenzsetzung? Diskussion ethischer Grenzen in der Medizin';
 	$vortrag->desc = '<p>Welche Aufgabe haben Humanmediziner? Die Heilung von Patienten – so die idealtypische Antwort. Eine Antwort, die übersieht, das eine vollständige Heilung selten möglich ist. Viel öfter mindern Ärzte Leid, verlängern Leben. </ br>
 Dabei sind sie den Wünschen ihrer Patienten verpflichtet. Doch wer entscheidet über die Behandlung unzurechnungsfähiger Menschen? Ärzte können heute auf immer mehr Diagnosemethoden und Therapieformen zurückzugreifen, woraus nicht selten Entscheidungsdilemmata erwachsen. Das Lebensende scheint zeitlich immer weiter nach hinten verschiebbar, erscheint als Konstrukt, als Grenze, die Ärzte auf Grundlage geltenden Rechts setzen können. Der Tod bleibt eine unumgängliche Grenze. Doch wann kann sein Eintreten akzeptiert werden? Durch welche künstlichen Maßnahmen der Lebenserhaltung wird zu sehr in die Natur eingegriffen? Sollte die Aufgabe von Humanmedizinern Erhaltung von Leben um jeden Preis sein? Muss Leben solange verlängert werden, wie aus technischer Sicht möglich? Oder ist die Aufgabe der Medizin nicht vielmehr, ein Leben in Würde zu ermöglichen und somit auch ein Sterben in Würde?</p>';
+	
+	$vortrag = Vortrag::get('sektempfang');
+	$vortrag->day = 3;
+	$vortrag->slot = 5;
+	$vortrag->raum = 'Foyer Neue Universität';
+	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
+	$vortrag->title = 'Sektempfang und Verleihung des Heidelberger Kunst- und Kulturpreises';
+	$vortrag->desc = '<p>Auch zum 26. Syposium wurde mit freundlicher Unterstützung der Deutschen Bank erneut der Heidelberger Kunst- und Kulturpreis zur Gestaltung des Plakats ausgeschrieben. Zur feierlichen Siegerehrung wird zum Abschluss des Symposiums ein Sektempfang im Foyer der Neuen Universität veranstaltet zu dem alle Symposiumsgäste herzlich eingeladen sind. </p>';
 	
 	$vortrag = Vortrag::get('voelkerrecht');
 	$vortrag->day = 2;
@@ -187,8 +195,8 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 	$vortrag = Vortrag::get('poetryslam');
 	$vortrag->day = 3;
 	$vortrag->slot = 6;
-	$vortrag->raum = 'Karlstorbahnhof KlubK';
-	$vortrag->raum_link = 'https://www.google.com/maps/place/Kulturhaus+Karlstorbahnhof+e.V./@49.414782,8.719019,17z/data=!3m1!4b1!4m2!3m1!1s0x4797c1a61534f8fb:0x629ade4c66e0eabd?hl=de-DE';
+	$vortrag->raum = 'Neue Aula';
+	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Grenzenlose Wortkunst - Poetry Slam';
 	$vortrag->desc = '<p>Dichterwettstreite gab es ja schon einige in Heidelberg. Überall geht dieses Gespenst um, das Gespenst namens Poetry Slam. Doch das Publikum schreit „Mehr!“. Auch wir veranstalten zum Abschluss des Symposiums einen Slam, der unter dem Thema „Grenzenlos“ stehen wird. Grenzenlose Beiträge und grenzenlos witzige oder nachdenkliche Anekdoten werden von neun Poeten einem Publikum vorgetragen, worauf dieses mittels Applausstärke entscheiden kann, welche drei Beiträge ins Finale kommen dürfen. Möge der beste Wortathlet gewinnen und einen würdigen Preis abstauben! Mit dabei sein werden unter anderem Mario Henn, Caro Kübler und Dominique Crisand.</p>';
 	
@@ -208,7 +216,7 @@ Spätestens wenn wir unser eigenes Internetverhalten reflektieren, wird uns meis
 	$vortrag = Vortrag::get('aerzte-ohne-grenzen');
 	$vortrag->day = 2;
 	$vortrag->slot = 1;
-	$vortrag->raum = '';
+	$vortrag->raum = 'HS 01';
 	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
 	$vortrag->title = 'Ärzte ohne Grenzen';
 	$vortrag->desc = '<p>1971 begannen die Médecins Sans Frontièrs ihre Tätigkeiten und stellen heute die größte internationale Organisation zur medizinischen Nothilfe dar. Dafür wurden den Ärzten ohne Grenzen 1999 der Friedensnobelpreis verliehen. Die Gründung geht auf den Biafra-Krieg (1967-1970) zurück, indessen Zuge die Region Biafra vom nigerianischen Militär belagert wurde, die von Großbritannien, der USA und der Sowjetunion unterstützt wurden. Nur Frankreich unterstütze die Bevölkerung von Biafra. Darunter waren eine Reihe französischer Ärzte, die in Anbetracht der verschiedenen politischen Interessen nicht uneingeschränkt medizinische Hilfe leisten konnten. Nach Beendigung des Einsatzes forderten sie daher die Gründung einer unabhängigen Hilfsorganisation um dem Wohlergehen der Opfer von Kriegen Vorrang gegenüber politischen und religiösen Interessen einzuräumen. Heute umfasst die Organisation 27650 Angestellte, wovon 91 Prozent lokale Mitarbeiter sind. <br />
@@ -218,8 +226,8 @@ Herr Dr. Villalobos war an einigen Projekten beteiligt und wird über seine Arbe
 	$vortrag = Vortrag::get('lesung');
 	$vortrag->day = 1;
 	$vortrag->slot = 6;
-	$vortrag->raum = '';
-	$vortrag->raum_link = 'https://www.google.com/maps/place/Neue+Universit%C3%A4t/@49.4103428,8.7064567,18z/data=!4m2!3m1!1s0x4797c106a12ae4bb:0xe7f407f66788c8ac?hl=de-DE';
+	$vortrag->raum = 'Bibliothek des DAI';
+	$vortrag->raum_link = 'https://www.google.de/maps/place/Deutsch+Amerikanisches+Institut+Heidelberg/@49.40777,8.69382,17z/data=!3m1!4b1!4m2!3m1!1s0x4797c11c34dd8a83:0x818a8fe8afd9ddee';
 	$vortrag->title = 'Lesung: Kevin Kuhn - Hikikomori';
 	$vortrag->desc = '<p>Hikikomori (jap. für „sich einschließen; gesellschaftlicher Rückzug")</p>
 <p>Ein Zimmer und ein Entschluss: die Tür schließen, sich endlich ausklinken, nicht für immer, aber für Tage, für Wochen, Monate, Jahre vielleicht.</p>

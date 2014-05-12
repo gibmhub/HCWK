@@ -32,4 +32,10 @@
 	</table>
 </div>
 
+<p>Am 10.05 findet ab 23.00 Uhr eine Abschlussparty für alle Teilnehmer im KlubK am Karlstorbahnhof statt. Line-up:</p>
+<li><a href="https://soundcloud.com/fraukreis">Frau Kreis</a></li>
+<li><a href="https://soundcloud.com/himjim">himjim</a></li>
+<li><a href="https://soundcloud.com/houseundgarten">la fetè</a></li>
+<p><em>Der Eintritt ist für alle Symposiumsteilnehmer frei</em></p>
 <p>Eine Übersicht als PDF finden Sie Sie hier als <a href="download/programm_symposium2014.pdf" target="_blank">Download</a>.</p>
+
