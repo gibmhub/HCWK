@@ -95,4 +95,11 @@ $sponsor->link = 'http://www.lbbw.de';
 $sponsor->klasse = 'make-border';
 $sponsoren[] = $sponsor;
 
+$sponsor = new Sponsor ();
+$sponsor->name = 'Obstbau Hauck';
+$sponsor->logo = 'Logo_Obstbau_Hauck.png';
+$sponsor->link = 'http://www.obstbau-hauck.de';
+$sponsor->klasse = 'make-border';
+$sponsoren[] = $sponsor;
+
 ?>
