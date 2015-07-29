@@ -4,6 +4,17 @@
     require_once(__DIR__.'/referenten.php');
     require_once(__DIR__.'/vortraege.php');
 	
+	$item = VINewsManager::addItem('18-05-2014', 'Das war das 26. Heidelberger Symposium');
+	$item->content ='
+		<p>Wie im Fluge sind die drei Tage Symposium vergangen und wir können voller Zufriedenheit auf ein erfolgreiches Symposium mit fast 1000 Besuchern zurückblicken. Wir möchten uns in dieser Hinsicht auch noch einmal bei allen Referenten, Sponsoren, Helfern und natürlich auch bei allen Teilnehmern bedanken, die dieses unvergessliche Event möglich gemacht haben. Wer am Symposium noch nicht genug gekriegt hat kann sich ausgewählte Vorträge vom Symposium beim Internetradio <a href="http://www.movingman.de">mmi.fm</a> anhören, die jeweiligen Sendezeiten sind:</p>
+	<p><li>So, 18.05., 19h (mit Überlänge), <em>Der Talk EXTRA</em>, 
+Völkerrecht (Eine Diskussion mit Dr. Christopher Daase, Stefan Sohm, Dr. Michael-Lysander Fremuth und Jörg Armbruster)</li>
+	<li>So, 25.05., 19h, <em>Der Talk EXTRA</em>, Grenzen! Persönliche Ansichten von Samuel Koch</li>
+	<li>So, 01.06., 19h, <em>Der Talk EXTRA</em>, mit Christoph Bangert</li></p>
+	<p>Ihr habt Blut geleckt und möchtet das kommende Jahr ebenfalls selbst ein Symposium der extraklasse organisieren? Dann laden wir euch ganz herzlich zu einem unverbindlichen Infotreffen am 26. und 27. Mai in die Luisenstraße 3 ein, wo ihr euch dann über die Organisationsarbeit informieren und andere interessierte Studenten kennenlernen könnt.</p>
+	<p>Euer Organisationsteam</p>
+		';
+		
 	$item = VINewsManager::addItem('11-05-2014', 'Aller guten Dinge sind drei');
 	$item->content ='
 <p>Der letzte Tag des Symposiums ist angebrochen. Auch heute warten noch spannende Vortäge und Diskussionen auf alle Teilnehmer. Als letzter offizieller Programmpunkt findet heute Abend um 20:00 Uhr in der Neuen Aula ein <em>grenzenloser</em> Poetry-Slam statt der sehr unterhaltsam zu sein verspricht. Als krönendes Finale findet dann ab 23:00 Uhr eine große <a href="https://www.facebook.com/events/1486741098221989/?ref_dashboard_filter=upcoming">Abschlussparty</a> im Klub_K am Karlstorbahnhof mit tollen DJs und Getränkespecials statt. Symposiumsbesucher erhalten freien Eintritt </p>
