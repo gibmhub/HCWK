@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "homepage": "https://github.com/knly/HCWK",
   "authors": [
-    "Nils Fischer <n.fischer@viwid.com>"
+    "Nils Fischer <aconeo79@gmail.com>"
   ],
-  "description": "Webseite des Heidelberger Symposiums",
+  "description": "Webseite Redox Symposium",
   "private": true,
   "dependencies": {
     "bootstrap": "~3.1.1",

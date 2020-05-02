@@ -1,15 +1,15 @@
       	</div>
       </div>
     </div>
-	
+
 	<div id="footer">
-	
+
 		<div class="container">
 			<div id="extra">
-			
+
 				<div id="fb">
 					<h3>Das Symposium auf Facebook</h3>
-			
+
 					<div id="fb-root"></div>
 					<script>(function(d, s, id) {
 					  var js, fjs = d.getElementsByTagName(s)[0];
@@ -18,10 +18,10 @@
 					  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=214796535250344";
 					  fjs.parentNode.insertBefore(js, fjs);
 					}(document, 'script', 'facebook-jssdk'));</script>
-					
+
 					<div class="fb-like-box" data-href="http://www.facebook.com/HeidelbergerSymposium" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
 				</div>
-				
+
 				<div id="sponsoren">
 				    <h3>Unsere Sponsoren</h3>
 				    <div class="sponsoren-container">
@@ -44,9 +44,9 @@
 				</div>
 
 			</div>
-					
+
 			<div id="bottom-line">
-				<div id="copyright" class="vertical-center"><div class="vertical-center-inner">&copy; 2013 HCWK | <a href="/impressum">Impressum</a><br>Erstellt von Jonas Ott und <a href="http://www.viwid.com" target="_blank">Nils Fischer</a><br>Plakatdesign von Stefan Apfel</div></div>
+				<div id="copyright" class="vertical-center"><div class="vertical-center-inner">&copy; 2020 Redox | <a href="/impressum">Impressum</a><br>Erstellt von Jonas Ott und <a href="http://www.viwid.com" target="_blank">Nils Fischer</a><br>Plakatdesign von Stefan Apfel</div></div>
 				<div id="silhouetten" class="vertical-center"><div class="vertical-center-inner">
 <?php
 					include_once(__DIR__.'/data/silhouetten.php');
@@ -58,6 +58,6 @@
 			</div>
 		</div>
 	</div>
-    
+
   </body>
 </html>

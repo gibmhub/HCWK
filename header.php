@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 	<head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 		<!-- Title -->
 		<title>
 			<?=VIPagemap::$main_title.' | '.$current_page->title?>
 		</title>
-	
+
 		<!-- Favicon -->
 		<link rel="icon" type="image/x-icon" href="/img/icon/favicon.ico">
 		<link rel="apple-touch-icon" href="/img/icon/apple-touch-icon-precomposed.png">
-	
+
   		<!-- Stylesheets -->
   		<link rel="stylesheet" href="/css/style.css" type="text/css" />
 
@@ -23,22 +23,22 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
-	    
+
 	    <!-- jQuery -->
 	    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-		
+
 	    <!-- Bootstrap Plugins :: Include all compiled plugins (below), or include individual files as needed :: //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js -->
 	    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	    <!-- jqBootstrapValidation -->
 	    <script src="/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
-	    
+
 	    <!-- Modernizr -->
 	    <script src="/bower_components/sprockets-modernizr/modernizr.js"></script>
 
 		<!-- Countdown -->
 		<link rel="stylesheet" href="/js/jQuery-Countdown/countdown/jquery.countdown.css" type="text/css" />
 		<script type="text/javascript" src="/js/jQuery-Countdown/countdown/jquery.countdown.js"></script>
-		
+
 <?php
 	if (VIConstants::$env==VI_ENV_RELEASE) {
 ?>
@@ -60,36 +60,36 @@
 		<script type="text/javascript" src="/js/min/custom-ck.js"></script>
 
 	</head>
-	
+
 	<?php
 		if (isset($current_page->options['show_banner'])&&$current_page->options['show_banner']==true) {
 	?>
-	
+
 	<body>
-		<div id="banner">	
+		<div id="banner">
 			<div class="container-fluid"><div class="row">
 				<div class="hand hand-left"></div>
 				<div class="logo"></div>
 				<div class="hand hand-right"></div>
 			</div></div>
 		</div>
-			
+
 	<?php } else { ?>
-			
+
 	<body class="mainnav-fixed-top">
-		
+
 	<?php } ?>
-	
+
 	<?php include(__DIR__.'/mainnav.php'); ?>
-	
+
 		    <div id="main">
 
 	    		<div class="visible-xs" style="margin-bottom: 15px">
 	    			<?php // include(__DIR__.'/content/current-box.php'); ?>
 	    		</div>
-		    		
+
 		    	<div class="row">
-		    	
+
 		    		<?php
 		    			if (isset($current_page->options['hide_sidebar'])&&$current_page->options['hide_sidebar']==true) {
 		    				echo '<div class="content full-width">';
