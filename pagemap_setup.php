@@ -3,7 +3,7 @@
     require_once(__DIR__.'/config-secret.php');
     require_once(__DIR__.'/VIWebFramework/VIPagemap.php');
 
-    VIPagemap::$main_title = '26. Heidelberger Symposium';
+    VIPagemap::$main_title = 'Redox Simposio';
 
 
     // Error Document
